@@ -1,0 +1,18 @@
+ 
+****************************************
+Report : insert_dft configuration
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 21:15:33 2023
+****************************************
+
+Options                                Status
+-------                                --------
+Map_effort                             Medium
+Preserve_design_name                   True
+Route_scan_enable                      True
+Route_scan_clock                       True
+Route_scan_serial                      True
+Synthesis_optimization                 None
+Unscan                                 False
+1

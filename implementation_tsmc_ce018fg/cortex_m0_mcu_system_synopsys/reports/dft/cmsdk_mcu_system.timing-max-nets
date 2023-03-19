@@ -1,0 +1,1747 @@
+ 
+        -delay max
+        -nets
+
+ * Some/all delay information is back-annotated.
+
+
+  Startpoint: u_ahb_gpio_0/u_iop_gpio/reg_inttype_padded_reg_0_
+  Endpoint: u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_last_datain_reg_0/latch
+            (gating element for clock FCLK)
+  Path Group: FCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_ahb_gpio_0/u_iop_gpio/reg_inttype_padded_0_ (net)     5        0.000      2.728 f
+  u_ahb_gpio_0/u_iop_gpio/N295 (net)            1                  0.000      4.417 f
+  u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_last_datain_reg_0/EN (net)    0.000    4.417 f
+  data arrival time                                                           4.417
+
+  clock FCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.597     20.603
+  data required time                                                         20.603
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.603
+  data arrival time                                                          -4.417
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                16.185
+
+
+  Startpoint: u_ahb_gpio_1/u_iop_gpio/reg_inttype_padded_reg_12_
+  Endpoint: u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_last_datain_reg_0/latch
+            (gating element for clock FCLK)
+  Path Group: FCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_ahb_gpio_1/u_iop_gpio/reg_inttype_padded_12_ (net)     5       0.000      2.709 f
+  u_ahb_gpio_1/u_iop_gpio/N304 (net)            1                  0.000      4.382 f
+  u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_last_datain_reg_0/EN (net)    0.000    4.382 f
+  data arrival time                                                           4.382
+
+  clock FCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.613     20.587
+  data required time                                                         20.587
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.587
+  data arrival time                                                          -4.382
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                16.205
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dqcl85_reg/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/net14230 (net)     2    0.000     16.093 f
+  u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dqcl85_reg/EN (net)    0.000   17.650 f
+  data arrival time                                                          17.650
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.612     20.588
+  data required time                                                         20.588
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.588
+  data arrival time                                                         -17.650
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 2.938
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Pe4l85_reg_0/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/net14230 (net)     2    0.000     16.093 f
+  u_cortexm0integration/u_cortexm0/u_logic/net14267 (net)     1    0.000     17.162 f
+  u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Pe4l85_reg_0/EN (net)    0.000   17.162 f
+  data arrival time                                                          17.162
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.503     20.697
+  data required time                                                         20.697
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.697
+  data arrival time                                                         -17.162
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 3.535
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Afgl85_reg
+  Endpoint: u_apb_subsystem/u_ahb_to_apb/clk_gate_wr_reg_reg_0/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Iw1l85[2] (net)     7    0.000     2.616 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[24] (net)     4    0.000   10.005 f
+  u_cortexm0integration/u_cortexm0/HADDR[24] (net)                 0.000     10.005 f
+  u_cortexm0integration/HADDR[24] (net)                            0.000     10.005 f
+  n531 (net)                                                       0.000     10.005 f
+  u_addr_decode/haddr[24] (net)                                    0.000     10.005 f
+  u_addr_decode/apbsys_hsel (net)               3                  0.000     12.267 r
+  apbsys_hsel (net)                                                0.000     12.267 r
+  u_apb_subsystem/HSEL (net)                                       0.000     12.267 r
+  u_apb_subsystem/u_ahb_to_apb/HSEL (net)                          0.000     12.267 r
+  u_apb_subsystem/u_ahb_to_apb/apb_select (net)     3              0.000     13.114 r
+  u_apb_subsystem/u_ahb_to_apb/clk_gate_wr_reg_reg_0/EN (net)      0.000     13.114 r
+  data arrival time                                                          13.115
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.527     20.673
+  data required time                                                         20.673
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.673
+  data arrival time                                                         -13.115
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 7.559
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/W8gl85_reg
+  Endpoint: u_system_rom_table/clk_gate_haddr_reg_reg_1/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/M1i675 (net)     5      0.000      2.591 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[13] (net)     6    0.000   10.123 f
+  u_cortexm0integration/u_cortexm0/HADDR[13] (net)                 0.000     10.123 f
+  u_cortexm0integration/HADDR[13] (net)                            0.000     10.123 f
+  n542 (net)                                                       0.000     10.123 f
+  u_addr_decode/haddr[13] (net)                                    0.000     10.123 f
+  u_addr_decode/sysrom_hsel (net)               3                  0.000     12.308 r
+  sysrom_hsel (net)                                                0.000     12.308 r
+  u_system_rom_table/HSEL (net)                                    0.000     12.308 r
+  u_system_rom_table/clk_gate_haddr_reg_reg_1/EN (net)             0.000     12.640 r
+  data arrival time                                                          12.640
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.391     20.809
+  data required time                                                         20.809
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.809
+  data arrival time                                                         -12.640
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 8.169
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Afgl85_reg
+  Endpoint: u_cmsdk_mcu_sysctrl/clk_gate_reg_addr_reg_1/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Iw1l85[2] (net)     7    0.000     2.616 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[24] (net)     4    0.000   10.005 f
+  u_cortexm0integration/u_cortexm0/HADDR[24] (net)                 0.000     10.005 f
+  u_cortexm0integration/HADDR[24] (net)                            0.000     10.005 f
+  n531 (net)                                                       0.000     10.005 f
+  u_addr_decode/haddr[24] (net)                                    0.000     10.005 f
+  u_addr_decode/sysctrl_hsel (net)              2                  0.000     12.053 r
+  sysctrl_hsel (net)                                               0.000     12.053 r
+  u_cmsdk_mcu_sysctrl/HSEL (net)                                   0.000     12.053 r
+  u_cmsdk_mcu_sysctrl/clk_gate_reg_addr_reg_1/EN (net)             0.000     12.408 r
+  data arrival time                                                          12.408
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.403     20.797
+  data required time                                                         20.797
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.797
+  data arrival time                                                         -12.408
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 8.389
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/A4bl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ml6l85_reg/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/lockup_o (net)     5    0.000      8.741 f
+  u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ml6l85_reg/EN (net)    0.000   10.405 r
+  data arrival time                                                          10.406
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.561     20.639
+  data required time                                                         20.639
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.639
+  data arrival time                                                         -10.406
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                10.233
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Va6l85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_Ryrl85_reg/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/X5p675 (net)     8      0.000      2.820 r
+  u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_Ryrl85_reg/EN (net)    0.000    9.279 r
+  data arrival time                                                           9.280
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.530     20.670
+  data required time                                                         20.670
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.670
+  data arrival time                                                          -9.280
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                11.390
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Va6l85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_T68l85_reg/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/X5p675 (net)     8      0.000      2.820 r
+  u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_T68l85_reg/EN (net)    0.000    9.257 r
+  data arrival time                                                           9.258
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.526     20.674
+  data required time                                                         20.674
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.674
+  data arrival time                                                          -9.258
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                11.416
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Va6l85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dunl85_reg_0/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/X5p675 (net)     8      0.000      2.820 r
+  u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dunl85_reg_0/EN (net)    0.000    9.177 r
+  data arrival time                                                           9.177
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.582     20.618
+  data required time                                                         20.618
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.618
+  data arrival time                                                          -9.177
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                11.441
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Va6l85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Q95l85_reg_0/latch
+            (gating element for clock HCLK)
+  Path Group: HCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/X5p675 (net)     8      0.000      2.820 r
+  u_cortexm0integration/u_cortexm0/u_logic/Swe775 (net)     1      0.000      9.165 r
+  u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Q95l85_reg_0/EN (net)    0.000    9.165 r
+  data arrival time                                                           9.165
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.582     20.618
+  data required time                                                         20.618
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.618
+  data arrival time                                                          -9.165
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                11.452
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Mpml85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Xcc775 (net)    16      0.000     20.356 f
+  data arrival time                                                          21.123
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.175
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.175
+  data arrival time                                                         -21.123
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.052
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Zqnl85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Tac775 (net)    16      0.000     20.226 f
+  data arrival time                                                          20.994
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.173
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.173
+  data arrival time                                                         -20.994
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.180
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Qpkl85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Tac775 (net)    16      0.000     20.226 f
+  data arrival time                                                          20.973
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.180
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.180
+  data arrival time                                                         -20.973
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.207
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Uskl85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.161 f
+  data arrival time                                                          20.903
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.173
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.173
+  data arrival time                                                         -20.903
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.270
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Uyol85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.161 f
+  data arrival time                                                          20.901
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.174
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.174
+  data arrival time                                                         -20.901
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.273
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Sxil85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.161 f
+  data arrival time                                                          20.888
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.176
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.176
+  data arrival time                                                         -20.888
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.288
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Pxjl85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.161 f
+  data arrival time                                                          20.881
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.175
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.175
+  data arrival time                                                         -20.881
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.294
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Un5l85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.161 f
+  data arrival time                                                          20.881
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.178
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.178
+  data arrival time                                                         -20.881
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.297
+
+
+  Startpoint: sram_hrdata[31]
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Svnl85_reg
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                            12.000     14.000 f
+  sram_hrdata[31] (net)                         1                  0.000     14.011 f
+  n630 (net)                                    1                  0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA1[31] (net)                        0.000     14.245 f
+  u_ahb_slave_mux_sys_bus/HRDATA[31] (net)      2                  0.000     15.446 f
+  cm0_hrdata[31] (net)                                             0.000     15.446 f
+  u_cortexm0integration/HRDATA[31] (net)                           0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/HRDATA[31] (net)                0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/hrdata_i[31] (net)      0.000     15.446 f
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.161 f
+  data arrival time                                                          20.873
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.180
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.180
+  data arrival time                                                         -20.873
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.307
+
+
+  Startpoint: sram_hreadyout
+  Endpoint: HREADY (output port clocked by VCLK)
+  Path Group: Inputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock network delay (ideal)                                      2.000      2.000
+  input external delay                                             8.000     10.000 r
+  sram_hreadyout (net)                          1                  0.000     10.015 r
+  n629 (net)                                    1                  0.000     10.220 r
+  u_ahb_slave_mux_sys_bus/HREADYOUT1 (net)                         0.000     10.220 r
+  u_ahb_slave_mux_sys_bus/HREADYOUT (net)      18                  0.000     11.886 r
+  n592 (net)                                                       0.000     11.886 r
+  n907 (net)                                    7                  0.000     12.525 r
+  HREADY (net)                                  1                  0.000     13.632 r
+  data arrival time                                                          13.633
+
+  max_delay                                                       18.250     18.250
+  clock network delay (ideal)                                      2.000     20.250
+  clock uncertainty                                               -0.200     20.050
+  output external delay                                           -6.000     14.050
+  data required time                                                         14.050
+  ------------------------------------------------------------------------------------
+  data required time                                                         14.050
+  data arrival time                                                         -13.633
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.417
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Afgl85_reg
+  Endpoint: sram_hsel (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Iw1l85[2] (net)     7    0.000     2.616 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[24] (net)     4    0.000   10.005 f
+  u_cortexm0integration/u_cortexm0/HADDR[24] (net)                 0.000     10.005 f
+  u_cortexm0integration/HADDR[24] (net)                            0.000     10.005 f
+  n531 (net)                                                       0.000     10.005 f
+  u_addr_decode/haddr[24] (net)                                    0.000     10.005 f
+  u_addr_decode/sram_hsel (net)                 2                  0.000     11.557 r
+  n628 (net)                                                       0.000     11.557 r
+  sram_hsel (net)                               1                  0.000     11.782 r
+  data arrival time                                                          11.790
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.790
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.010
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Qicl85_reg
+  Endpoint: HADDR[1] (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/lockup_o (net)     5    0.000      8.921 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[1] (net)     7    0.000   10.985 r
+  u_cortexm0integration/u_cortexm0/HADDR[1] (net)                  0.000     10.985 r
+  u_cortexm0integration/HADDR[1] (net)                             0.000     10.985 r
+  n554 (net)                                                       0.000     10.985 r
+  HADDR[1] (net)                                1                  0.000     11.790 r
+  data arrival time                                                          11.790
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.790
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.010
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Afgl85_reg
+  Endpoint: flash_hsel (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Iw1l85[2] (net)     7    0.000     2.616 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[24] (net)     4    0.000   10.005 f
+  u_cortexm0integration/u_cortexm0/HADDR[24] (net)                 0.000     10.005 f
+  u_cortexm0integration/HADDR[24] (net)                            0.000     10.005 f
+  n531 (net)                                                       0.000     10.005 f
+  u_addr_decode/haddr[24] (net)                                    0.000     10.005 f
+  u_addr_decode/flash_hsel (net)                2                  0.000     11.556 r
+  n593 (net)                                                       0.000     11.556 r
+  flash_hsel (net)                              1                  0.000     11.781 r
+  data arrival time                                                          11.789
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.789
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.011
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Dhcl85_reg
+  Endpoint: HTRANS[1] (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Lrh675 (net)    24      0.000      3.072 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[31] (net)     6    0.000   10.634 r
+  u_cortexm0integration/u_cortexm0/u_logic/htrans_o[1] (net)     7    0.000   11.486 f
+  u_cortexm0integration/u_cortexm0/HTRANS[1] (net)                 0.000     11.486 f
+  u_cortexm0integration/HTRANS[1] (net)                            0.000     11.486 f
+  n556 (net)                                                       0.000     11.486 f
+  HTRANS[1] (net)                               1                  0.000     11.758 f
+  data arrival time                                                          11.758
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.758
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.042
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Dhcl85_reg
+  Endpoint: HADDR[31] (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Lrh675 (net)    24      0.000      3.072 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[31] (net)     6    0.000   10.634 r
+  u_cortexm0integration/u_cortexm0/HADDR[31] (net)                 0.000     10.634 r
+  u_cortexm0integration/HADDR[31] (net)                            0.000     10.634 r
+  n524 (net)                                                       0.000     10.634 r
+  HADDR[31] (net)                               1                  0.000     11.723 r
+  data arrival time                                                          11.723
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.723
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.077
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Qicl85_reg
+  Endpoint: HSIZE[0] (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/lockup_o (net)     5    0.000      8.921 r
+  u_cortexm0integration/u_cortexm0/u_logic/hsize_o[0] (net)     6    0.000   10.762 r
+  u_cortexm0integration/u_cortexm0/HSIZE[0] (net)                  0.000     10.762 r
+  u_cortexm0integration/HSIZE[0] (net)                             0.000     10.762 r
+  n558 (net)                                                       0.000     10.762 r
+  HSIZE[0] (net)                                1                  0.000     11.706 r
+  data arrival time                                                          11.706
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.706
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.094
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Qicl85_reg
+  Endpoint: HADDR[0] (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/lockup_o (net)     5    0.000      8.921 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[0] (net)     6    0.000   10.749 r
+  u_cortexm0integration/u_cortexm0/HADDR[0] (net)                  0.000     10.749 r
+  u_cortexm0integration/HADDR[0] (net)                             0.000     10.749 r
+  n555 (net)                                                       0.000     10.749 r
+  HADDR[0] (net)                                1                  0.000     11.690 r
+  data arrival time                                                          11.690
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.690
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.110
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Afgl85_reg
+  Endpoint: APBACTIVE (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Iw1l85[2] (net)     7    0.000     2.616 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[24] (net)     4    0.000   10.005 f
+  u_cortexm0integration/u_cortexm0/HADDR[24] (net)                 0.000     10.005 f
+  u_cortexm0integration/HADDR[24] (net)                            0.000     10.005 f
+  n531 (net)                                                       0.000     10.005 f
+  u_addr_decode/haddr[24] (net)                                    0.000     10.005 f
+  u_addr_decode/apbsys_hsel (net)               3                  0.000     12.267 r
+  apbsys_hsel (net)                                                0.000     12.267 r
+  u_apb_subsystem/HSEL (net)                                       0.000     12.267 r
+  u_apb_subsystem/u_ahb_to_apb/HSEL (net)                          0.000     12.267 r
+  u_apb_subsystem/u_ahb_to_apb/APBACTIVE (net)     1               0.000     12.849 r
+  u_apb_subsystem/APBACTIVE (net)                                  0.000     12.849 r
+  n663 (net)                                                       0.000     12.849 r
+  APBACTIVE (net)                               1                  0.000     13.637 r
+  data arrival time                                                          13.637
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                           -8.000     13.800
+  data required time                                                         13.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         13.800
+  data arrival time                                                         -13.637
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.163
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/W15l85_reg
+  Endpoint: HADDR[28] (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Iw1l85[0] (net)     6    0.000     2.785 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[28] (net)     6    0.000   10.414 f
+  u_cortexm0integration/u_cortexm0/HADDR[28] (net)                 0.000     10.414 f
+  u_cortexm0integration/HADDR[28] (net)                            0.000     10.414 f
+  n527 (net)                                                       0.000     10.414 f
+  HADDR[28] (net)                               1                  0.000     11.578 f
+  data arrival time                                                          11.578
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.578
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.222
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/W15l85_reg
+  Endpoint: HADDR[29] (output port clocked by VCLK)
+  Path Group: Outputs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Iw1l85[0] (net)     6    0.000     2.785 r
+  u_cortexm0integration/u_cortexm0/u_logic/haddr_o[29] (net)     8    0.000   10.402 f
+  u_cortexm0integration/u_cortexm0/HADDR[29] (net)                 0.000     10.402 f
+  u_cortexm0integration/HADDR[29] (net)                            0.000     10.402 f
+  n526 (net)                                                       0.000     10.402 f
+  HADDR[29] (net)                               1                  0.000     11.550 f
+  data arrival time                                                          11.550
+
+  clock VCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  output external delay                                          -10.000     11.800
+  data required time                                                         11.800
+  ------------------------------------------------------------------------------------
+  data required time                                                         11.800
+  data arrival time                                                         -11.550
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.250
+
+
+  Startpoint: u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/reg_baud_tick_reg
+  Endpoint: u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_shift_buf_reg_0/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock PCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/N206 (net)     1     0.000      8.678 r
+  u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_shift_buf_reg_0/EN (net)    0.000    8.678 r
+  data arrival time                                                           8.683
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.596     20.604
+  data required time                                                         20.604
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.604
+  data arrival time                                                          -8.683
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                11.921
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_curr_val_reg_0/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/OUT0 (net)     6                 0.000      5.000 f
+  u_apb_subsystem/u_apb_slave_mux/PSEL1 (net)     3                0.000      5.663 r
+  u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/PSEL (net)         0.000      5.663 r
+  u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/N199 (net)     1    0.000     7.824 r
+  u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_curr_val_reg_0/EN (net)    0.000    7.824 r
+  data arrival time                                                           7.824
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.393     20.807
+  data required time                                                         20.807
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.807
+  data arrival time                                                          -7.824
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.983
+
+
+  Startpoint: u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/reg_baud_tick_reg
+  Endpoint: u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_shift_buf_reg_0/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock PCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/N206 (net)     1     0.000      7.328 r
+  u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_shift_buf_reg_0/EN (net)    0.000    7.328 r
+  data arrival time                                                           7.328
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.514     20.686
+  data required time                                                         20.686
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.686
+  data arrival time                                                          -7.328
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                13.358
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_curr_val_reg_0/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/OUT0 (net)     6                 0.000      5.000 f
+  u_apb_subsystem/u_apb_slave_mux/PSEL0 (net)     2                0.000      5.447 r
+  u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/PSEL (net)         0.000      5.775 r
+  u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/N199 (net)     1    0.000     7.359 r
+  u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_curr_val_reg_0/EN (net)    0.000    7.359 r
+  data arrival time                                                           7.359
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.424     20.776
+  data required time                                                         20.776
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.776
+  data arrival time                                                          -7.359
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                13.417
+
+
+  Startpoint: u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/tx_state_reg_0_
+  Endpoint: u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_shift_buf_reg_0/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock PCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/tx_state[0] (net)    10    0.000    2.818 r
+  u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/N206 (net)     1     0.000      7.241 r
+  u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_shift_buf_reg_0/EN (net)    0.000    7.241 r
+  data arrival time                                                           7.241
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.512     20.688
+  data required time                                                         20.688
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.688
+  data arrival time                                                          -7.241
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                13.447
+
+
+  Startpoint: u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/reg_baud_tick_reg
+  Endpoint: u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock PCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/rx_state_inc (net)     6    0.000    4.684 r
+  u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/EN (net)    0.000    6.472 r
+  data arrival time                                                           6.472
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.469     20.731
+  data required time                                                         20.731
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.731
+  data arrival time                                                          -6.472
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                14.259
+
+
+  Startpoint: u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/load_req_tog_t_reg
+  Endpoint: u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock PCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/load_req_tog_t (net)     3    0.000    2.820 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/EN (net)    0.000    6.382 r
+  data arrival time                                                           6.382
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.556     20.644
+  data required time                                                         20.644
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.644
+  data arrival time                                                          -6.382
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                14.261
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_ext_in_sync1_reg/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/OUT0 (net)     6                 0.000      5.000 f
+  u_apb_subsystem/u_apb_slave_mux/PSEL1 (net)     3                0.000      5.663 r
+  u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/PSEL (net)         0.000      5.663 r
+  u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/ext_in_enable (net)     1    0.000    6.304 r
+  u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_ext_in_sync1_reg/EN (net)    0.000    6.304 r
+  data arrival time                                                           6.304
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.419     20.781
+  data required time                                                         20.781
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.781
+  data arrival time                                                          -6.304
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                14.477
+
+
+  Startpoint: u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/reg_baud_tick_reg
+  Endpoint: u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock PCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/rx_state_inc (net)     6    0.000    4.552 r
+  u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/EN (net)    0.000    6.166 r
+  data arrival time                                                           6.166
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.456     20.744
+  data required time                                                         20.744
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.744
+  data arrival time                                                          -6.166
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                14.578
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_ext_in_sync1_reg/latch
+            (gating element for clock PCLK)
+  Path Group: PCLK
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/OUT0 (net)     6                 0.000      5.000 f
+  u_apb_subsystem/u_apb_slave_mux/PSEL0 (net)     2                0.000      5.447 r
+  u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/PSEL (net)         0.000      5.775 r
+  u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/ext_in_enable (net)     1    0.000    6.012 r
+  u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_ext_in_sync1_reg/EN (net)    0.000    6.012 r
+  data arrival time                                                           6.012
+
+  clock PCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.396     20.804
+  data required time                                                         20.804
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.804
+  data arrival time                                                          -6.012
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                14.792
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/addr_reg_reg_5_
+  Endpoint: u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_tx_buf_reg_1/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/PADDR[7] (net)    21                0.000      3.399 f
+  u_apb_subsystem/n[26] (net)                                      0.000      3.399 f
+  u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/PADDR_7_ (net)       0.000      3.399 f
+  u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_tx_buf_reg_1/EN (net)    0.000    8.486 r
+  data arrival time                                                           8.488
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.527     20.673
+  data required time                                                         20.673
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.673
+  data arrival time                                                          -8.488
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.184
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/addr_reg_reg_5_
+  Endpoint: u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_div_reg_1/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/PADDR[7] (net)    21                0.000      3.399 f
+  u_apb_subsystem/n[26] (net)                                      0.000      3.399 f
+  u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/PADDR_7_ (net)       0.000      3.399 f
+  u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_div_reg_1/EN (net)    0.000    8.129 r
+  data arrival time                                                           8.129
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.468     20.732
+  data required time                                                         20.732
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.732
+  data arrival time                                                          -8.129
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.603
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_tx_buf_reg_1/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL6 (net)    23                0.000      6.493 r
+  u_apb_subsystem/uart2_psel (net)                                 0.000      6.493 r
+  u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/PSEL (net)           0.000      6.493 r
+  u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_tx_buf_reg_1/EN (net)    0.000    7.941 r
+  data arrival time                                                           7.941
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.438     20.762
+  data required time                                                         20.762
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.762
+  data arrival time                                                          -7.941
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.820
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_ctrl_75_reg/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL2 (net)     3                0.000      5.855 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/PSEL (net)    0.000    5.855 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/N29 (net)     3    0.000    6.649 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/frc_sel (net)    0.000    6.649 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_ctrl_75_reg/EN (net)    0.000    7.862 r
+  data arrival time                                                           7.862
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.439     20.761
+  data required time                                                         20.761
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.761
+  data arrival time                                                          -7.862
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.899
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_val_reg_1/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL2 (net)     3                0.000      5.855 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/PSEL (net)    0.000    5.855 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/N29 (net)     3    0.000    6.649 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/frc_sel (net)    0.000    6.649 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_val_reg_1/EN (net)    0.000    7.884 r
+  data arrival time                                                           7.884
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.409     20.791
+  data required time                                                         20.791
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.791
+  data arrival time                                                          -7.884
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.907
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_period_reg_1/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL2 (net)     3                0.000      5.855 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/PSEL (net)    0.000    5.855 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/N29 (net)     3    0.000    6.649 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/frc_sel (net)    0.000    6.649 r
+  u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_period_reg_1/EN (net)    0.000    7.858 r
+  data arrival time                                                           7.858
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.434     20.766
+  data required time                                                         20.766
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.766
+  data arrival time                                                          -7.858
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.908
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/addr_reg_reg_5_
+  Endpoint: u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_div_reg_1/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/PADDR[7] (net)    21                0.000      3.399 f
+  u_apb_subsystem/n[26] (net)                                      0.000      3.399 f
+  u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/PADDR_7_ (net)       0.000      3.399 f
+  u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_div_reg_1/EN (net)    0.000    7.801 r
+  data arrival time                                                           7.801
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.487     20.713
+  data required time                                                         20.713
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.713
+  data arrival time                                                          -7.801
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.913
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/addr_reg_reg_5_
+  Endpoint: u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_div_reg_1/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/PADDR[7] (net)    21                0.000      3.399 f
+  u_apb_subsystem/n[26] (net)                                      0.000      3.399 f
+  u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/PADDR_7_ (net)       0.000      3.399 f
+  u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_div_reg_1/EN (net)    0.000    7.795 r
+  data arrival time                                                           7.795
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.477     20.723
+  data required time                                                         20.723
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.723
+  data arrival time                                                          -7.795
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.928
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_7/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL11_BAR (net)    14           0.000      5.053 f
+  u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/PSEL (net)    0.000     6.240 r
+  u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_7/EN (net)    0.000    7.723 r
+  data arrival time                                                           7.724
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.505     20.695
+  data required time                                                         20.695
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.695
+  data arrival time                                                          -7.724
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.971
+
+
+  Startpoint: u_apb_subsystem/u_ahb_to_apb/state_reg_reg_1_
+  Endpoint: u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_tx_buf_reg_1/latch
+            (gating element for clock PCLKG)
+  Path Group: PCLKG
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_apb_subsystem/u_ahb_to_apb/state_reg_1_ (net)     9            0.000      2.814 r
+  u_apb_subsystem/u_ahb_to_apb/PSEL (net)       6                  0.000      4.062 r
+  u_apb_subsystem/i_psel (net)                                     0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/PSEL (net)                       0.000      4.062 r
+  u_apb_subsystem/u_apb_slave_mux/OUT0 (net)     6                 0.000      5.000 f
+  u_apb_subsystem/u_apb_slave_mux/PSEL5 (net)    23                0.000      6.411 r
+  u_apb_subsystem/uart1_psel (net)                                 0.000      6.411 r
+  u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/PSEL (net)           0.000      6.411 r
+  u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_tx_buf_reg_1/EN (net)    0.000    7.791 r
+  data arrival time                                                           7.791
+
+  clock PCLKG (rise edge)                                         20.000     20.000
+  clock network delay (ideal)                                      1.400     21.400
+  clock uncertainty                                               -0.200     21.200
+  clock gating setup time                                         -0.431     20.769
+  data required time                                                         20.769
+  ------------------------------------------------------------------------------------
+  data required time                                                         20.769
+  data arrival time                                                          -7.791
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                12.978
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Xc8l85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Kx3l85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Rto675 (net)     3      0.000      2.784 f
+  u_cortexm0integration/u_cortexm0/u_logic/net14224 (net)     1    0.000     21.038 f
+  data arrival time                                                          21.038
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.043
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.043
+  data arrival time                                                         -21.038
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.005
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Xc8l85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Oo3l85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Rto675 (net)     3      0.000      2.784 f
+  data arrival time                                                          21.176
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.237
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.237
+  data arrival time                                                         -21.176
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.061
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Mpml85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/Xcc775 (net)    16      0.000     20.288 f
+  data arrival time                                                          21.054
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.175
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.175
+  data arrival time                                                         -21.054
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.120
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Zqnl85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/Tac775 (net)    16      0.000     20.157 f
+  data arrival time                                                          20.925
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.173
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.173
+  data arrival time                                                         -20.925
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.248
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Qpkl85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/Tac775 (net)    16      0.000     20.157 f
+  data arrival time                                                          20.905
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.180
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.180
+  data arrival time                                                         -20.905
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.275
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Uskl85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.093 f
+  data arrival time                                                          20.834
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.173
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.173
+  data arrival time                                                         -20.834
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.338
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Uyol85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.093 f
+  data arrival time                                                          20.833
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.174
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.174
+  data arrival time                                                         -20.833
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.341
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Sxil85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.093 f
+  data arrival time                                                          20.820
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.176
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.176
+  data arrival time                                                         -20.820
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.357
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Pxjl85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.093 f
+  data arrival time                                                          20.813
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.175
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.175
+  data arrival time                                                         -20.813
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.363
+
+
+  Startpoint: u_cortexm0integration/u_cortexm0/u_logic/Bewl85_reg
+  Endpoint: u_cortexm0integration/u_cortexm0/u_logic/Un5l85_reg
+  Path Group: Regs_to_Regs
+
+  Point                                       Fanout     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                           0.000      0.000
+  clock network delay (ideal)                                      2.000      2.000
+  u_cortexm0integration/u_cortexm0/u_logic/Mb2l85[1] (net)     6    0.000     3.280 r
+  u_cortexm0integration/u_cortexm0/u_logic/Dnc775 (net)    16      0.000     20.093 f
+  data arrival time                                                          20.813
+
+  clock HCLK (rise edge)                                          20.000     20.000
+  clock network delay (ideal)                                      2.000     22.000
+  clock uncertainty                                               -0.200     21.800
+  data required time                                                         21.178
+  ------------------------------------------------------------------------------------
+  data required time                                                         21.178
+  data arrival time                                                         -20.813
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                 0.365
+
+

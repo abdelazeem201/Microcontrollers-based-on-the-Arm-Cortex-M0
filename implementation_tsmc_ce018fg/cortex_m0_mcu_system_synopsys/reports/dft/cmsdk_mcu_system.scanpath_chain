@@ -1,0 +1,51 @@
+ 
+****************************************
+Report : Scan path
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 21:19:18 2023
+****************************************
+
+========================================
+TEST MODE: Internal_scan
+VIEW     : Specification
+========================================
+Scan_path          ScanDataIn (h)      ScanDataOut (h)     ScanEnable (h)
+---------------    ---------------     ---------------     ---------------
+0                  DFTSI0 (-)          DFTSO0 (-)          -
+1                  DFTSI1 (-)          DFTSO1 (-)          -
+2                  DFTSI2 (-)          DFTSO2 (-)          -
+
+ 
+****************************************
+Report : Scan path
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 21:19:18 2023
+****************************************
+
+========================================
+TEST MODE: Internal_scan
+VIEW     : Existing DFT
+========================================
+
+========================================
+AS SPECIFIED BY USER
+========================================
+
+
+========================================
+AS BUILT BY insert_dft
+========================================
+
+Scan_path    Len   ScanDataIn  ScanDataOut ScanEnable  MasterClock SlaveClock
+-----------  ----- ----------- ----------- ----------- ----------- -----------
+I 0          763   DFTSI0      DFTSO0      DFTSE       FCLK        -
+                                           -           HCLK        -
+                                           -           PCLK        -
+I 1          763   DFTSI1      DFTSO1      DFTSE       HCLK        -
+                                           -           PCLK        -
+I 2          763   DFTSI2      DFTSO2      DFTSE       PCLKG       -
+                                           -           PCLK        -
+
+1

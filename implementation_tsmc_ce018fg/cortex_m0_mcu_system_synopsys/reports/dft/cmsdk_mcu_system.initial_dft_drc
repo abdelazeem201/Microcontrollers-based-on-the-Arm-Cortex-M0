@@ -1,0 +1,49 @@
+In mode: all_dft...
+  Pre-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking pre-dft rules...
+
+-----------------------------------------------------------------
+Begin Pre-DFT violations...
+
+ Warning: Clock SCLK cannot capture data with other clocks off. (D8-1)
+Warning: Clock gating cell clk_gate_reg_byte_strobe_reg has unconnected test pin. (TEST-130)
+Information: There are 112 other cells with the same violation. (TEST-171)
+
+Pre-DFT violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 114
+
+-----------------------------------------------------------------
+
+114 PRE-DFT VIOLATIONS
+     1 Clock not able to capture violation (D8)
+   113 Test pin of clock gating cell is unconnected violations (TEST-130)
+
+
+Warning: Violations occurred during test design rule checking. (TEST-124)
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  113 out of 2402 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITH VIOLATIONS
+      * 113 cells are clock gating cells
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      *2229 cells are valid scan cells
+      *  60 cells are non-scan shift-register cells
+
+Information: Test design rule checking completed. (TEST-123)
+1

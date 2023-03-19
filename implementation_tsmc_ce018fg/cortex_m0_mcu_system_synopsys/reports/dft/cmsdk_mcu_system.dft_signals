@@ -1,0 +1,227 @@
+ 
+****************************************
+Report : DFT signals
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 21:19:05 2023
+****************************************
+
+========================================
+TEST MODE: all_dft
+VIEW     : Specification
+========================================
+Port               SignalType          Active    Hookup    Timing    Usage
+----------         ----------          ------    ------    ------    -----
+DFTSE              ScanEnable          1         -         -         -
+DFTSI0             ScanDataIn          -         -         Delay 0.0 -
+DFTSI1             ScanDataIn          -         -         Delay 0.0 -
+DFTSI2             ScanDataIn          -         -         Delay 0.0 -
+DFTSO0             ScanDataOut         -         -         -         -
+DFTSO1             ScanDataOut         -         -         -         -
+DFTSO2             ScanDataOut         -         -         -         -
+
+========================================
+TEST MODE: Internal_scan
+VIEW     : Specification
+========================================
+Port               SignalType          Active    Hookup    Timing    Usage
+----------         ----------          ------    ------    ------    -----
+DFTSE              ScanEnable          1         -         -         -
+DFTSI0             ScanDataIn          -         -         Delay 0.0 -
+DFTSI1             ScanDataIn          -         -         Delay 0.0 -
+DFTSI2             ScanDataIn          -         -         Delay 0.0 -
+DFTSO0             ScanDataOut         -         -         -         -
+DFTSO1             ScanDataOut         -         -         -         -
+DFTSO2             ScanDataOut         -         -         -         -
+
+========================================
+TEST MODE: Mission_mode
+VIEW     : Specification
+========================================
+Port               SignalType          Active    Hookup    Timing    Usage
+----------         ----------          ------    ------    ------    -----
+DFTSE              ScanEnable          1         -         -         -
+DFTSI0             ScanDataIn          -         -         Delay 0.0 -
+DFTSI1             ScanDataIn          -         -         Delay 0.0 -
+DFTSI2             ScanDataIn          -         -         Delay 0.0 -
+DFTSO0             ScanDataOut         -         -         -         -
+DFTSO1             ScanDataOut         -         -         -         -
+DFTSO2             ScanDataOut         -         -         -         -
+
+ 
+****************************************
+Report : DFT signals
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 21:19:05 2023
+****************************************
+
+========================================
+TEST MODE: all_dft
+VIEW     : Existing DFT
+========================================
+Port               SignalType          Active    Hookup    Timing    Usage
+----------         ----------          ------    ------    ------    -----
+DFTSE              ScanEnable          1         -
+SCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+SCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PCLKG              ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+PCLKG              MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+PCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+HCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+HCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+FCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+FCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PRESETn            Reset               0         -         P 100.0 R 55.0 F 45.0
+PORESETn           Reset               0         -         P 100.0 R 55.0 F 45.0
+HRESETn            Reset               0         -         P 100.0 R 55.0 F 45.0
+========================================
+TEST MODE: Internal_scan
+VIEW     : Existing DFT
+========================================
+Port               SignalType          Active    Hookup    Timing    Usage
+----------         ----------          ------    ------    ------    -----
+SCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+SCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PCLKG              ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+PCLKG              MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+PCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+HCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+HCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+FCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+FCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PRESETn            Reset               0         -         P 100.0 R 55.0 F 45.0
+PORESETn           Reset               0         -         P 100.0 R 55.0 F 45.0
+HRESETn            Reset               0         -         P 100.0 R 55.0 F 45.0
+p1_altfunc[9]      Constant            -         -
+p1_altfunc[8]      Constant            -         -
+p1_altfunc[7]      Constant            -         -
+p1_altfunc[6]      Constant            -         -
+p1_altfunc[4]      Constant            -         -
+p1_altfunc[2]      Constant            -         -
+p1_altfunc[15]     Constant            -         -
+p1_altfunc[14]     Constant            -         -
+p1_altfunc[13]     Constant            -         -
+p1_altfunc[12]     Constant            -         -
+p1_altfunc[11]     Constant            -         -
+p1_altfunc[10]     Constant            -         -
+p1_altfunc[0]      Constant            -         -
+p0_altfunc[9]      Constant            -         -
+p0_altfunc[8]      Constant            -         -
+p0_altfunc[7]      Constant            -         -
+p0_altfunc[6]      Constant            -         -
+p0_altfunc[5]      Constant            -         -
+p0_altfunc[4]      Constant            -         -
+p0_altfunc[3]      Constant            -         -
+p0_altfunc[2]      Constant            -         -
+p0_altfunc[1]      Constant            -         -
+p0_altfunc[15]     Constant            -         -
+p0_altfunc[14]     Constant            -         -
+p0_altfunc[13]     Constant            -         -
+p0_altfunc[12]     Constant            -         -
+p0_altfunc[11]     Constant            -         -
+p0_altfunc[10]     Constant            -         -
+p0_altfunc[0]      Constant            -         -
+boot_hsel          Constant            -         -
+SLEEPDEEP          Constant            -         -
+PMUENABLE          Constant            -         -
+HTRANS[0]          Constant            -         -
+HSIZE[2]           Constant            -         -
+DFTSO2             ScanDataOut         -         -
+DFTSO1             ScanDataOut         -         -
+DFTSO0             ScanDataOut         -         -
+DFTSI2             ScanDataIn          -         -
+DFTSI1             ScanDataIn          -         -
+DFTSI0             ScanDataIn          -         -
+DFTSE              ScanEnable          1         -
+========================================
+TEST MODE: Mission_mode
+VIEW     : Existing DFT
+========================================
+Port               SignalType          Active    Hookup    Timing    Usage
+----------         ----------          ------    ------    ------    -----
+SCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+SCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PCLKG              ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+PCLKG              MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+PCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+HCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+HCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+FCLK               ScanMasterClock     1         -         P 100.0 R 45.0 F 55.0
+FCLK               MasterClock         1         -         P 100.0 R 45.0 F 55.0
+PRESETn            Reset               0         -         P 100.0 R 55.0 F 45.0
+PORESETn           Reset               0         -         P 100.0 R 55.0 F 45.0
+HRESETn            Reset               0         -         P 100.0 R 55.0 F 45.0
+p1_altfunc[9]      Constant            -         -
+p1_altfunc[9]      Functional          -         -
+p1_altfunc[8]      Constant            -         -
+p1_altfunc[8]      Functional          -         -
+p1_altfunc[7]      Constant            -         -
+p1_altfunc[7]      Functional          -         -
+p1_altfunc[6]      Constant            -         -
+p1_altfunc[6]      Functional          -         -
+p1_altfunc[4]      Constant            -         -
+p1_altfunc[4]      Functional          -         -
+p1_altfunc[2]      Constant            -         -
+p1_altfunc[2]      Functional          -         -
+p1_altfunc[15]     Constant            -         -
+p1_altfunc[15]     Functional          -         -
+p1_altfunc[14]     Constant            -         -
+p1_altfunc[14]     Functional          -         -
+p1_altfunc[13]     Constant            -         -
+p1_altfunc[13]     Functional          -         -
+p1_altfunc[12]     Constant            -         -
+p1_altfunc[12]     Functional          -         -
+p1_altfunc[11]     Constant            -         -
+p1_altfunc[11]     Functional          -         -
+p1_altfunc[10]     Constant            -         -
+p1_altfunc[10]     Functional          -         -
+p1_altfunc[0]      Constant            -         -
+p1_altfunc[0]      Functional          -         -
+p0_altfunc[9]      Constant            -         -
+p0_altfunc[9]      Functional          -         -
+p0_altfunc[8]      Constant            -         -
+p0_altfunc[8]      Functional          -         -
+p0_altfunc[7]      Constant            -         -
+p0_altfunc[7]      Functional          -         -
+p0_altfunc[6]      Constant            -         -
+p0_altfunc[6]      Functional          -         -
+p0_altfunc[5]      Constant            -         -
+p0_altfunc[5]      Functional          -         -
+p0_altfunc[4]      Constant            -         -
+p0_altfunc[4]      Functional          -         -
+p0_altfunc[3]      Constant            -         -
+p0_altfunc[3]      Functional          -         -
+p0_altfunc[2]      Constant            -         -
+p0_altfunc[2]      Functional          -         -
+p0_altfunc[1]      Constant            -         -
+p0_altfunc[1]      Functional          -         -
+p0_altfunc[15]     Constant            -         -
+p0_altfunc[15]     Functional          -         -
+p0_altfunc[14]     Constant            -         -
+p0_altfunc[14]     Functional          -         -
+p0_altfunc[13]     Constant            -         -
+p0_altfunc[13]     Functional          -         -
+p0_altfunc[12]     Constant            -         -
+p0_altfunc[12]     Functional          -         -
+p0_altfunc[11]     Constant            -         -
+p0_altfunc[11]     Functional          -         -
+p0_altfunc[10]     Constant            -         -
+p0_altfunc[10]     Functional          -         -
+p0_altfunc[0]      Constant            -         -
+p0_altfunc[0]      Functional          -         -
+boot_hsel          Constant            -         -
+boot_hsel          Functional          -         -
+SLEEPDEEP          Constant            -         -
+SLEEPDEEP          Functional          -         -
+PMUENABLE          Constant            -         -
+PMUENABLE          Functional          -         -
+HTRANS[0]          Constant            -         -
+HTRANS[0]          Functional          -         -
+HSIZE[2]           Constant            -         -
+HSIZE[2]           Functional          -         -
+
+1

@@ -1,0 +1,36 @@
+ Checking SCANDEF...
+
+ Checking for duplication in SCANDEF...
+   Checking scan cell correspondence between SCANDEF and netlist...
+   Start scan chain checking...
+  All checks completed.
+
+****************************************
+
+Report : Scan DEF check
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 21:19:05 2023
+
+****************************************
+
+
+ Information from SCANDEF file:
+  Number of SCANCHAINS: 7
+
+ Checking between SCANDEF file and design:
+  Total SCANCHAINS checked: 7
+  VALIDATED :  7
+  FAILED    :  0
+
+Chain name Status  #cells  #bits  PARTITION      Scan IN        Scan OUT
+---------- ------  ------  -----  ---------      -------        --------
+0_SG1      V       149     149    FCLK_45_45     DFTSI0         u_cmsdk_mcu_sysctrl/reg_resetinfo_reg_2_/SI
+0_SG2      V       576     576    HCLK_45_45     u_cmsdk_mcu_sysctrl/reg_resetinfo_reg_2_/Q u_system_rom_table/haddr_reg_reg_0_/SI
+0_SG3      V       36      36     PCLK_45_45     u_system_rom_table/haddr_reg_reg_0_/Q DFTSO0
+1_SG1      V       628     628    HCLK_45_45     DFTSI1         u_system_rom_table/haddr_reg_reg_9_/SI
+1_SG2      V       134     134    PCLK_45_45     u_system_rom_table/haddr_reg_reg_9_/Q DFTSO1
+2_SG1      V       255     255    PCLK_45_45     DFTSI2         u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/wdog_ris_reg/SI
+2_SG2      V       507     507    PCLKG_45_45    u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/wdog_ris_reg/Q DFTSO2
+
+1

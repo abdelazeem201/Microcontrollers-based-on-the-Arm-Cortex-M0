@@ -1,0 +1,80 @@
+Information: Base Cell (com): cell XNOR2_XL_A7TULL, w=5040, h=3920 (npin=3)
+Information: Base Cell (seq): cell SDFFR_X2_A7TULL, w=16800, h=3920 (npin=6)
+Information: Layer METAL6 is ignored for resistance and capacitance computation. (RCEX-019)
+
+TLU+ File = /home/IC/Desktop/Abdelazeem/ARM/arm/scratch/arm/tsmc/ce018fg/arm_tech/r5p1/synopsys_tluplus/6lm/typical.tluplus
+TLU+ File = /home/IC/Desktop/Abdelazeem/ARM/arm/scratch/arm/tsmc/ce018fg/arm_tech/r5p1/synopsys_tluplus/6lm/typical.tluplus
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer METAL1 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer METAL1 : 0.00045 0.00026 (RCEX-011)
+Information: Library Derived Cap for layer METAL2 : 0.00024 0.00024 (RCEX-011)
+Information: Library Derived Res for layer METAL2 : 0.00037 0.00022 (RCEX-011)
+Information: Library Derived Cap for layer METAL3 : 0.00024 0.00024 (RCEX-011)
+Information: Library Derived Res for layer METAL3 : 0.00037 0.00022 (RCEX-011)
+Information: Library Derived Cap for layer METAL4 : 0.00024 0.00024 (RCEX-011)
+Information: Library Derived Res for layer METAL4 : 0.00037 0.00022 (RCEX-011)
+Information: Library Derived Cap for layer METAL5 : 0.0002 0.0002 (RCEX-011)
+Information: Library Derived Res for layer METAL5 : 0.00037 0.00022 (RCEX-011)
+Information: Library Derived Cap for layer METAL6 : 0.00027 0.00027 (RCEX-011)
+Information: Library Derived Res for layer METAL6 : 0.00011 6.3e-05 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Horizontal Res : 0.0004 0.00023 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.00024 0.00024 (RCEX-011)
+Information: Library Derived Vertical Res : 0.00037 0.00022 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 0.0064 0.0064 (RCEX-011)
+
+Running DFT insertion in topographical mode.
+  Information: Using test design rule information from previous dft_drc run.
+  Architecting Scan Chains
+
+****************************************
+Preview_dft report
+For    : 'Insert_dft' command
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 21:15:35 2023
+****************************************
+
+Number of chains: 3
+Scan methodology: full_scan
+Scan style: multiplexed_flip_flop
+Clock domain: mix_clocks
+Scan enable: DFTSE (no hookup pin)
+
+
+Scan chain '0' (DFTSI0 --> DFTSO0) contains 763 cells
+
+
+Scan chain '1' (DFTSI1 --> DFTSO1) contains 763 cells
+
+
+Scan chain '2' (DFTSI2 --> DFTSO2) contains 763 cells
+
+
+
+************ Test Point Plan Report ************
+Total number of test points  : 0
+Number of Autofix test points: 0
+Number of Wrapper test points: 0
+Number of test modes         : 0
+Number of test point enables : 0
+Number of data sources       : 0
+Number of data sinks         : 0
+**************************************************
+
+1
