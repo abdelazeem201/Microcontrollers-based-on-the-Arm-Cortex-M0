@@ -1,0 +1,266 @@
+**************************************************
+Report         : unmatched_points
+
+Reference      : r:/WORK/cmsdk_mcu_system
+Implementation : i:/WORK/cmsdk_mcu_system
+Version        : L-2016.03-SP1
+Date           : Sun Mar 19 21:28:04 2023
+**************************************************
+
+113 Unmatched points (0 reference, 113 implementation):
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/clk_gate_reg_byte_strobe_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/clk_gate_reg_byte_strobe_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/clk_gate_ml_clk_gate_reg_dout_padded_reg_5/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/clk_gate_ml_clk_gate_reg_dout_padded_reg_6/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/clk_gate_ml_clk_gate_reg_inten_padded_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/clk_gate_ml_clk_gate_reg_inttype_padded_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_last_datain_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/clk_gate_ml_clk_gate_reg_dout_padded_reg_5/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/clk_gate_ml_clk_gate_reg_dout_padded_reg_6/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/clk_gate_ml_clk_gate_reg_inten_padded_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/clk_gate_ml_clk_gate_reg_inttype_padded_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_last_datain_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/clk_gate_ml/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/clk_gate_ml_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/clk_gate_wdog_itop_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_ctrl_75_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_load_period_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_load_val_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_ctrl_75_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_period_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_val_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_4/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_5/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_6/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_7/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_ext_in_sync1_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_read_mux_byte0_reg_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_ctrl_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_curr_val_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_reload_val_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_ext_in_sync1_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_read_mux_byte0_reg_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_ctrl_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_curr_val_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_reload_val_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_read_mux_byte0_reg_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_cntr_f_reg_3/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_div_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_ctrl_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_tx_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_shift_buf_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_tick_cnt_reg_4/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_read_mux_byte0_reg_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_cntr_f_reg_3/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_div_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_ctrl_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_tx_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_shift_buf_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_tick_cnt_reg_4/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_read_mux_byte0_reg_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_cntr_f_reg_3/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_div_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_ctrl_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_tx_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_rx_shift_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_shift_buf_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_tick_cnt_reg_4/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_reg_carry_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_reg_carry_reg_1_clk_gate_reg_count_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_wdog_load_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/u_ahb_to_apb/clk_gate_rwdata_reg_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_apb_subsystem/u_ahb_to_apb/clk_gate_wr_reg_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cmsdk_mcu_sysctrl/clk_gate_reg_addr_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dqcl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dunl85_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ml6l85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Pe4l85_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Q95l85_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Rn0m85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Xedl85_reg_0/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Y17m85_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_H0ql85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_I88l85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_J07m85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_Rb7m85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_Ryrl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_T68l85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_Znll85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Ayzl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Gx9l85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Izwl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Mgel85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Ocxl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Veel85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Y9el85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_Dmwl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_E9wl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_F9ul85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_Tuzl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_Upxl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_Zcvl85_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Afgl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Bktl85_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Ca7m85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Fxol85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_J3rl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Mdgl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_N3nl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_N87m85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Ps5l85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Qugl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Sxhl85_reg/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_X98l85_reg_1/latch
+
+  Impl LATCG      i:/WORK/cmsdk_mcu_system/u_system_rom_table/clk_gate_haddr_reg_reg_1/latch
+
+ [BBNet: multiply-driven net
+  BBox:  black-box
+  BBPin: black-box pin
+  Block: hierarchical block
+  BlPin: hierarchical block pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Net:   matchable net
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

@@ -1,0 +1,139 @@
+**************************************************
+Report         : unmatched_points
+                 -status unread 
+
+Reference      : r:/WORK/cmsdk_mcu_system
+Implementation : i:/WORK/cmsdk_mcu_system
+Version        : L-2016.03-SP1
+Date           : Sun Mar 19 21:28:04 2023
+**************************************************
+
+49 Unmatched points (46 reference, 3 implementation):
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[0]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[10]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[11]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[12]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[13]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[14]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[15]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[1]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[2]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[3]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[4]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[5]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[6]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[7]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[8]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_0/u_iop_gpio/reg_altfunc_padded_reg[9]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[0]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[10]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[11]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[12]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[13]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[14]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[15]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[2]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[4]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[6]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[7]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[8]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_ahb_gpio_1/u_iop_gpio/reg_altfunc_padded_reg[9]
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_ahb_slave_mux_sys_bus/reg_hsel_reg[2]
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_ahb_slave_mux_sys_bus/reg_hsel_reg[9]
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_apb_subsystem/reg_be_swap_ctrl_reg[0]
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_apb_subsystem/reg_be_swap_ctrl_reg[1]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_apb_subsystem/u_ahb_to_apb/pprot_reg_reg[0]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_apb_subsystem/u_ahb_to_apb/pprot_reg_reg[1]
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_apb_subsystem/u_ahb_to_apb/sample_wdata_reg_reg
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_cmsdk_mcu_sysctrl/reg_byte_strobe_reg[1]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_cmsdk_mcu_sysctrl/reg_byte_strobe_reg[2]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_cmsdk_mcu_sysctrl/reg_byte_strobe_reg[3]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_cmsdk_mcu_sysctrl/reg_hsize_reg[0]
+
+  Ref  DFF        r:/WORK/cmsdk_mcu_system/u_cmsdk_mcu_sysctrl/reg_hsize_reg[1]
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/L5bl85_reg
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_cortexm0/u_logic/Qgyl85_reg
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_dpreset_sync/rst_sync0_reg
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_dpreset_sync/rst_sync1_reg
+
+  Ref  DFF0X      r:/WORK/cmsdk_mcu_system/u_cortexm0integration/u_dpreset_sync/rst_sync2_reg
+
+  Impl Port       i:/WORK/cmsdk_mcu_system/DFTSI0
+
+  Impl Port       i:/WORK/cmsdk_mcu_system/DFTSI1
+
+  Impl Port       i:/WORK/cmsdk_mcu_system/DFTSI2
+
+ [BBNet: multiply-driven net
+  BBox:  black-box
+  BBPin: black-box pin
+  Block: hierarchical block
+  BlPin: hierarchical block pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Net:   matchable net
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

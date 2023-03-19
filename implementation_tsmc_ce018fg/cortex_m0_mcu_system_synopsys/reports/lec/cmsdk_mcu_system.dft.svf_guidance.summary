@@ -1,0 +1,33 @@
+**************************************************
+Report         : guidance
+                 -summary 
+
+Reference      : r:/WORK/cmsdk_mcu_system
+Implementation : i:/WORK/cmsdk_mcu_system
+Version        : L-2016.03-SP1
+Date           : Sun Mar 19 21:30:27 2023
+**************************************************
+                                         Status
+Command                 Accepted   Rejected  Unsupported  Unprocessed  Total
+----------------------------------------------------------------------------
+architecture_netlist:          2          0          0          0          2
+change_names        :         57         15          0          0         72
+environment         :          9          0          0          0          9
+instance_map        :         27          0          0          0         27
+mark                :         34          0          0          0         34
+multiplier          :          2          0          0          0          2
+replace             :          2          0          0          0          2
+scan_input          :          0          1          0          0          1
+ungroup             :          3          0          0          0          3
+uniquify            :          5          0          0          0          5
+
+Note: If verification succeeds you can safely ignore unaccepted guidance commands.
+
+SVF files read:
+      ../data/cmsdk_mcu_system.synthesis.svf
+      ../data/cmsdk_mcu_system.dft.svf
+
+SVF files produced:
+  /home/IC/Desktop/Abdelazeem/ARM/cortexm0ds/implementation_tsmc_ce018fg/cortex_m0_mcu_system_synopsys/work/formality_cmsdk_mcu_system.dft_svf/
+    svf.txt
+1
