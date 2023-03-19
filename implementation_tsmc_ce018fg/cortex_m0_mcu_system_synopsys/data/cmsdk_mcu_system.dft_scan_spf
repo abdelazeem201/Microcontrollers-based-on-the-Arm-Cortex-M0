@@ -1,0 +1,1171 @@
+STIL 1.0 {
+    Design 2005;
+}
+Header {
+    Title "Minimal STIL for design `cmsdk_mcu_system'";
+    Date "Sun Mar 19 18:08:33 2023";
+    Source "DFT Compiler K-2015.06";
+}
+Signals {
+    "DFTSE" In;
+    "DFTSI0" In;
+    "DFTSI1" In;
+    "DFTSI2" In;
+    "FCLK" In;
+    "HCLK" In;
+    "HRESETn" In;
+    "PCLK" In;
+    "PCLKEN" In;
+    "PCLKG" In;
+    "PORESETn" In;
+    "PRESETn" In;
+    "SCLK" In;
+    "boot_hrdata[0]" In;
+    "boot_hrdata[10]" In;
+    "boot_hrdata[11]" In;
+    "boot_hrdata[12]" In;
+    "boot_hrdata[13]" In;
+    "boot_hrdata[14]" In;
+    "boot_hrdata[15]" In;
+    "boot_hrdata[16]" In;
+    "boot_hrdata[17]" In;
+    "boot_hrdata[18]" In;
+    "boot_hrdata[19]" In;
+    "boot_hrdata[1]" In;
+    "boot_hrdata[20]" In;
+    "boot_hrdata[21]" In;
+    "boot_hrdata[22]" In;
+    "boot_hrdata[23]" In;
+    "boot_hrdata[24]" In;
+    "boot_hrdata[25]" In;
+    "boot_hrdata[26]" In;
+    "boot_hrdata[27]" In;
+    "boot_hrdata[28]" In;
+    "boot_hrdata[29]" In;
+    "boot_hrdata[2]" In;
+    "boot_hrdata[30]" In;
+    "boot_hrdata[31]" In;
+    "boot_hrdata[3]" In;
+    "boot_hrdata[4]" In;
+    "boot_hrdata[5]" In;
+    "boot_hrdata[6]" In;
+    "boot_hrdata[7]" In;
+    "boot_hrdata[8]" In;
+    "boot_hrdata[9]" In;
+    "boot_hreadyout" In;
+    "boot_hresp" In;
+    "flash_hrdata[0]" In;
+    "flash_hrdata[10]" In;
+    "flash_hrdata[11]" In;
+    "flash_hrdata[12]" In;
+    "flash_hrdata[13]" In;
+    "flash_hrdata[14]" In;
+    "flash_hrdata[15]" In;
+    "flash_hrdata[16]" In;
+    "flash_hrdata[17]" In;
+    "flash_hrdata[18]" In;
+    "flash_hrdata[19]" In;
+    "flash_hrdata[1]" In;
+    "flash_hrdata[20]" In;
+    "flash_hrdata[21]" In;
+    "flash_hrdata[22]" In;
+    "flash_hrdata[23]" In;
+    "flash_hrdata[24]" In;
+    "flash_hrdata[25]" In;
+    "flash_hrdata[26]" In;
+    "flash_hrdata[27]" In;
+    "flash_hrdata[28]" In;
+    "flash_hrdata[29]" In;
+    "flash_hrdata[2]" In;
+    "flash_hrdata[30]" In;
+    "flash_hrdata[31]" In;
+    "flash_hrdata[3]" In;
+    "flash_hrdata[4]" In;
+    "flash_hrdata[5]" In;
+    "flash_hrdata[6]" In;
+    "flash_hrdata[7]" In;
+    "flash_hrdata[8]" In;
+    "flash_hrdata[9]" In;
+    "flash_hreadyout" In;
+    "flash_hresp" In;
+    "p0_in[0]" In;
+    "p0_in[10]" In;
+    "p0_in[11]" In;
+    "p0_in[12]" In;
+    "p0_in[13]" In;
+    "p0_in[14]" In;
+    "p0_in[15]" In;
+    "p0_in[1]" In;
+    "p0_in[2]" In;
+    "p0_in[3]" In;
+    "p0_in[4]" In;
+    "p0_in[5]" In;
+    "p0_in[6]" In;
+    "p0_in[7]" In;
+    "p0_in[8]" In;
+    "p0_in[9]" In;
+    "p1_in[0]" In;
+    "p1_in[10]" In;
+    "p1_in[11]" In;
+    "p1_in[12]" In;
+    "p1_in[13]" In;
+    "p1_in[14]" In;
+    "p1_in[15]" In;
+    "p1_in[1]" In;
+    "p1_in[2]" In;
+    "p1_in[3]" In;
+    "p1_in[4]" In;
+    "p1_in[5]" In;
+    "p1_in[6]" In;
+    "p1_in[7]" In;
+    "p1_in[8]" In;
+    "p1_in[9]" In;
+    "sram_hrdata[0]" In;
+    "sram_hrdata[10]" In;
+    "sram_hrdata[11]" In;
+    "sram_hrdata[12]" In;
+    "sram_hrdata[13]" In;
+    "sram_hrdata[14]" In;
+    "sram_hrdata[15]" In;
+    "sram_hrdata[16]" In;
+    "sram_hrdata[17]" In;
+    "sram_hrdata[18]" In;
+    "sram_hrdata[19]" In;
+    "sram_hrdata[1]" In;
+    "sram_hrdata[20]" In;
+    "sram_hrdata[21]" In;
+    "sram_hrdata[22]" In;
+    "sram_hrdata[23]" In;
+    "sram_hrdata[24]" In;
+    "sram_hrdata[25]" In;
+    "sram_hrdata[26]" In;
+    "sram_hrdata[27]" In;
+    "sram_hrdata[28]" In;
+    "sram_hrdata[29]" In;
+    "sram_hrdata[2]" In;
+    "sram_hrdata[30]" In;
+    "sram_hrdata[31]" In;
+    "sram_hrdata[3]" In;
+    "sram_hrdata[4]" In;
+    "sram_hrdata[5]" In;
+    "sram_hrdata[6]" In;
+    "sram_hrdata[7]" In;
+    "sram_hrdata[8]" In;
+    "sram_hrdata[9]" In;
+    "sram_hreadyout" In;
+    "sram_hresp" In;
+    "timer0_extin" In;
+    "timer1_extin" In;
+    "uart0_rxd" In;
+    "uart1_rxd" In;
+    "uart2_rxd" In;
+    "APBACTIVE" Out;
+    "DFTSO0" Out;
+    "DFTSO1" Out;
+    "DFTSO2" Out;
+    "HADDR[0]" Out;
+    "HADDR[10]" Out;
+    "HADDR[11]" Out;
+    "HADDR[12]" Out;
+    "HADDR[13]" Out;
+    "HADDR[14]" Out;
+    "HADDR[15]" Out;
+    "HADDR[16]" Out;
+    "HADDR[17]" Out;
+    "HADDR[18]" Out;
+    "HADDR[19]" Out;
+    "HADDR[1]" Out;
+    "HADDR[20]" Out;
+    "HADDR[21]" Out;
+    "HADDR[22]" Out;
+    "HADDR[23]" Out;
+    "HADDR[24]" Out;
+    "HADDR[25]" Out;
+    "HADDR[26]" Out;
+    "HADDR[27]" Out;
+    "HADDR[28]" Out;
+    "HADDR[29]" Out;
+    "HADDR[2]" Out;
+    "HADDR[30]" Out;
+    "HADDR[31]" Out;
+    "HADDR[3]" Out;
+    "HADDR[4]" Out;
+    "HADDR[5]" Out;
+    "HADDR[6]" Out;
+    "HADDR[7]" Out;
+    "HADDR[8]" Out;
+    "HADDR[9]" Out;
+    "HREADY" Out;
+    "HSIZE[0]" Out;
+    "HSIZE[1]" Out;
+    "HSIZE[2]" Out;
+    "HTRANS[0]" Out;
+    "HTRANS[1]" Out;
+    "HWDATA[0]" Out;
+    "HWDATA[10]" Out;
+    "HWDATA[11]" Out;
+    "HWDATA[12]" Out;
+    "HWDATA[13]" Out;
+    "HWDATA[14]" Out;
+    "HWDATA[15]" Out;
+    "HWDATA[16]" Out;
+    "HWDATA[17]" Out;
+    "HWDATA[18]" Out;
+    "HWDATA[19]" Out;
+    "HWDATA[1]" Out;
+    "HWDATA[20]" Out;
+    "HWDATA[21]" Out;
+    "HWDATA[22]" Out;
+    "HWDATA[23]" Out;
+    "HWDATA[24]" Out;
+    "HWDATA[25]" Out;
+    "HWDATA[26]" Out;
+    "HWDATA[27]" Out;
+    "HWDATA[28]" Out;
+    "HWDATA[29]" Out;
+    "HWDATA[2]" Out;
+    "HWDATA[30]" Out;
+    "HWDATA[31]" Out;
+    "HWDATA[3]" Out;
+    "HWDATA[4]" Out;
+    "HWDATA[5]" Out;
+    "HWDATA[6]" Out;
+    "HWDATA[7]" Out;
+    "HWDATA[8]" Out;
+    "HWDATA[9]" Out;
+    "HWRITE" Out;
+    "LOCKUP" Out;
+    "LOCKUPRESET" Out;
+    "PMUENABLE" Out;
+    "SLEEPDEEP" Out;
+    "SLEEPING" Out;
+    "SYSRESETREQ" Out;
+    "WDOGRESETREQ" Out;
+    "boot_hsel" Out;
+    "flash_hsel" Out;
+    "p0_altfunc[0]" Out;
+    "p0_altfunc[10]" Out;
+    "p0_altfunc[11]" Out;
+    "p0_altfunc[12]" Out;
+    "p0_altfunc[13]" Out;
+    "p0_altfunc[14]" Out;
+    "p0_altfunc[15]" Out;
+    "p0_altfunc[1]" Out;
+    "p0_altfunc[2]" Out;
+    "p0_altfunc[3]" Out;
+    "p0_altfunc[4]" Out;
+    "p0_altfunc[5]" Out;
+    "p0_altfunc[6]" Out;
+    "p0_altfunc[7]" Out;
+    "p0_altfunc[8]" Out;
+    "p0_altfunc[9]" Out;
+    "p0_out[0]" Out;
+    "p0_out[10]" Out;
+    "p0_out[11]" Out;
+    "p0_out[12]" Out;
+    "p0_out[13]" Out;
+    "p0_out[14]" Out;
+    "p0_out[15]" Out;
+    "p0_out[1]" Out;
+    "p0_out[2]" Out;
+    "p0_out[3]" Out;
+    "p0_out[4]" Out;
+    "p0_out[5]" Out;
+    "p0_out[6]" Out;
+    "p0_out[7]" Out;
+    "p0_out[8]" Out;
+    "p0_out[9]" Out;
+    "p0_outen[0]" Out;
+    "p0_outen[10]" Out;
+    "p0_outen[11]" Out;
+    "p0_outen[12]" Out;
+    "p0_outen[13]" Out;
+    "p0_outen[14]" Out;
+    "p0_outen[15]" Out;
+    "p0_outen[1]" Out;
+    "p0_outen[2]" Out;
+    "p0_outen[3]" Out;
+    "p0_outen[4]" Out;
+    "p0_outen[5]" Out;
+    "p0_outen[6]" Out;
+    "p0_outen[7]" Out;
+    "p0_outen[8]" Out;
+    "p0_outen[9]" Out;
+    "p1_altfunc[0]" Out;
+    "p1_altfunc[10]" Out;
+    "p1_altfunc[11]" Out;
+    "p1_altfunc[12]" Out;
+    "p1_altfunc[13]" Out;
+    "p1_altfunc[14]" Out;
+    "p1_altfunc[15]" Out;
+    "p1_altfunc[1]" Out;
+    "p1_altfunc[2]" Out;
+    "p1_altfunc[3]" Out;
+    "p1_altfunc[4]" Out;
+    "p1_altfunc[5]" Out;
+    "p1_altfunc[6]" Out;
+    "p1_altfunc[7]" Out;
+    "p1_altfunc[8]" Out;
+    "p1_altfunc[9]" Out;
+    "p1_out[0]" Out;
+    "p1_out[10]" Out;
+    "p1_out[11]" Out;
+    "p1_out[12]" Out;
+    "p1_out[13]" Out;
+    "p1_out[14]" Out;
+    "p1_out[15]" Out;
+    "p1_out[1]" Out;
+    "p1_out[2]" Out;
+    "p1_out[3]" Out;
+    "p1_out[4]" Out;
+    "p1_out[5]" Out;
+    "p1_out[6]" Out;
+    "p1_out[7]" Out;
+    "p1_out[8]" Out;
+    "p1_out[9]" Out;
+    "p1_outen[0]" Out;
+    "p1_outen[10]" Out;
+    "p1_outen[11]" Out;
+    "p1_outen[12]" Out;
+    "p1_outen[13]" Out;
+    "p1_outen[14]" Out;
+    "p1_outen[15]" Out;
+    "p1_outen[1]" Out;
+    "p1_outen[2]" Out;
+    "p1_outen[3]" Out;
+    "p1_outen[4]" Out;
+    "p1_outen[5]" Out;
+    "p1_outen[6]" Out;
+    "p1_outen[7]" Out;
+    "p1_outen[8]" Out;
+    "p1_outen[9]" Out;
+    "sram_hsel" Out;
+    "uart0_txd" Out;
+    "uart0_txen" Out;
+    "uart1_txd" Out;
+    "uart1_txen" Out;
+    "uart2_txd" Out;
+    "uart2_txen" Out;
+}
+SignalGroups {
+    "_si" = '"DFTSI0" + "DFTSI1" + "DFTSI2"' {
+        ScanIn;
+    }
+    "_so" = '"DFTSO0" + "DFTSO1" + "DFTSO2"' {
+        ScanOut;
+    }
+    "_clk" = '"FCLK" + "HCLK" + "HRESETn" + "PCLK" + "PCLKG" + "PORESETn" + 
+    "PRESETn" + "SCLK"';
+    "all_inputs" = '"DFTSE" + "DFTSI0" + "DFTSI1" + "DFTSI2" + "FCLK" + "HCLK" + 
+    "HRESETn" + "PCLK" + "PCLKEN" + "PCLKG" + "PORESETn" + "PRESETn" + "SCLK" + 
+    "boot_hrdata[0]" + "boot_hrdata[10]" + "boot_hrdata[11]" + "boot_hrdata[12]" 
+    + "boot_hrdata[13]" + "boot_hrdata[14]" + "boot_hrdata[15]" + 
+    "boot_hrdata[16]" + "boot_hrdata[17]" + "boot_hrdata[18]" + 
+    "boot_hrdata[19]" + "boot_hrdata[1]" + "boot_hrdata[20]" + "boot_hrdata[21]" 
+    + "boot_hrdata[22]" + "boot_hrdata[23]" + "boot_hrdata[24]" + 
+    "boot_hrdata[25]" + "boot_hrdata[26]" + "boot_hrdata[27]" + 
+    "boot_hrdata[28]" + "boot_hrdata[29]" + "boot_hrdata[2]" + "boot_hrdata[30]" 
+    + "boot_hrdata[31]" + "boot_hrdata[3]" + "boot_hrdata[4]" + "boot_hrdata[5]" 
+    + "boot_hrdata[6]" + "boot_hrdata[7]" + "boot_hrdata[8]" + "boot_hrdata[9]" 
+    + "boot_hreadyout" + "boot_hresp" + "flash_hrdata[0]" + "flash_hrdata[10]" + 
+    "flash_hrdata[11]" + "flash_hrdata[12]" + "flash_hrdata[13]" + 
+    "flash_hrdata[14]" + "flash_hrdata[15]" + "flash_hrdata[16]" + 
+    "flash_hrdata[17]" + "flash_hrdata[18]" + "flash_hrdata[19]" + 
+    "flash_hrdata[1]" + "flash_hrdata[20]" + "flash_hrdata[21]" + 
+    "flash_hrdata[22]" + "flash_hrdata[23]" + "flash_hrdata[24]" + 
+    "flash_hrdata[25]" + "flash_hrdata[26]" + "flash_hrdata[27]" + 
+    "flash_hrdata[28]" + "flash_hrdata[29]" + "flash_hrdata[2]" + 
+    "flash_hrdata[30]" + "flash_hrdata[31]" + "flash_hrdata[3]" + 
+    "flash_hrdata[4]" + "flash_hrdata[5]" + "flash_hrdata[6]" + 
+    "flash_hrdata[7]" + "flash_hrdata[8]" + "flash_hrdata[9]" + 
+    "flash_hreadyout" + "flash_hresp" + "p0_in[0]" + "p0_in[10]" + "p0_in[11]" + 
+    "p0_in[12]" + "p0_in[13]" + "p0_in[14]" + "p0_in[15]" + "p0_in[1]" + 
+    "p0_in[2]" + "p0_in[3]" + "p0_in[4]" + "p0_in[5]" + "p0_in[6]" + "p0_in[7]" 
+    + "p0_in[8]" + "p0_in[9]" + "p1_in[0]" + "p1_in[10]" + "p1_in[11]" + 
+    "p1_in[12]" + "p1_in[13]" + "p1_in[14]" + "p1_in[15]" + "p1_in[1]" + 
+    "p1_in[2]" + "p1_in[3]" + "p1_in[4]" + "p1_in[5]" + "p1_in[6]" + "p1_in[7]" 
+    + "p1_in[8]" + "p1_in[9]" + "sram_hrdata[0]" + "sram_hrdata[10]" + 
+    "sram_hrdata[11]" + "sram_hrdata[12]" + "sram_hrdata[13]" + 
+    "sram_hrdata[14]" + "sram_hrdata[15]" + "sram_hrdata[16]" + 
+    "sram_hrdata[17]" + "sram_hrdata[18]" + "sram_hrdata[19]" + "sram_hrdata[1]" 
+    + "sram_hrdata[20]" + "sram_hrdata[21]" + "sram_hrdata[22]" + 
+    "sram_hrdata[23]" + "sram_hrdata[24]" + "sram_hrdata[25]" + 
+    "sram_hrdata[26]" + "sram_hrdata[27]" + "sram_hrdata[28]" + 
+    "sram_hrdata[29]" + "sram_hrdata[2]" + "sram_hrdata[30]" + "sram_hrdata[31]" 
+    + "sram_hrdata[3]" + "sram_hrdata[4]" + "sram_hrdata[5]" + "sram_hrdata[6]" 
+    + "sram_hrdata[7]" + "sram_hrdata[8]" + "sram_hrdata[9]" + "sram_hreadyout" 
+    + "sram_hresp" + "timer0_extin" + "timer1_extin" + "uart0_rxd" + "uart1_rxd" 
+    + "uart2_rxd"';
+    "all_outputs" = '"APBACTIVE" + "DFTSO0" + "DFTSO1" + "DFTSO2" + "HADDR[0]" + 
+    "HADDR[10]" + "HADDR[11]" + "HADDR[12]" + "HADDR[13]" + "HADDR[14]" + 
+    "HADDR[15]" + "HADDR[16]" + "HADDR[17]" + "HADDR[18]" + "HADDR[19]" + 
+    "HADDR[1]" + "HADDR[20]" + "HADDR[21]" + "HADDR[22]" + "HADDR[23]" + 
+    "HADDR[24]" + "HADDR[25]" + "HADDR[26]" + "HADDR[27]" + "HADDR[28]" + 
+    "HADDR[29]" + "HADDR[2]" + "HADDR[30]" + "HADDR[31]" + "HADDR[3]" + 
+    "HADDR[4]" + "HADDR[5]" + "HADDR[6]" + "HADDR[7]" + "HADDR[8]" + "HADDR[9]" 
+    + "HREADY" + "HSIZE[0]" + "HSIZE[1]" + "HSIZE[2]" + "HTRANS[0]" + 
+    "HTRANS[1]" + "HWDATA[0]" + "HWDATA[10]" + "HWDATA[11]" + "HWDATA[12]" + 
+    "HWDATA[13]" + "HWDATA[14]" + "HWDATA[15]" + "HWDATA[16]" + "HWDATA[17]" + 
+    "HWDATA[18]" + "HWDATA[19]" + "HWDATA[1]" + "HWDATA[20]" + "HWDATA[21]" + 
+    "HWDATA[22]" + "HWDATA[23]" + "HWDATA[24]" + "HWDATA[25]" + "HWDATA[26]" + 
+    "HWDATA[27]" + "HWDATA[28]" + "HWDATA[29]" + "HWDATA[2]" + "HWDATA[30]" + 
+    "HWDATA[31]" + "HWDATA[3]" + "HWDATA[4]" + "HWDATA[5]" + "HWDATA[6]" + 
+    "HWDATA[7]" + "HWDATA[8]" + "HWDATA[9]" + "HWRITE" + "LOCKUP" + 
+    "LOCKUPRESET" + "PMUENABLE" + "SLEEPDEEP" + "SLEEPING" + "SYSRESETREQ" + 
+    "WDOGRESETREQ" + "boot_hsel" + "flash_hsel" + "p0_altfunc[0]" + 
+    "p0_altfunc[10]" + "p0_altfunc[11]" + "p0_altfunc[12]" + "p0_altfunc[13]" + 
+    "p0_altfunc[14]" + "p0_altfunc[15]" + "p0_altfunc[1]" + "p0_altfunc[2]" + 
+    "p0_altfunc[3]" + "p0_altfunc[4]" + "p0_altfunc[5]" + "p0_altfunc[6]" + 
+    "p0_altfunc[7]" + "p0_altfunc[8]" + "p0_altfunc[9]" + "p0_out[0]" + 
+    "p0_out[10]" + "p0_out[11]" + "p0_out[12]" + "p0_out[13]" + "p0_out[14]" + 
+    "p0_out[15]" + "p0_out[1]" + "p0_out[2]" + "p0_out[3]" + "p0_out[4]" + 
+    "p0_out[5]" + "p0_out[6]" + "p0_out[7]" + "p0_out[8]" + "p0_out[9]" + 
+    "p0_outen[0]" + "p0_outen[10]" + "p0_outen[11]" + "p0_outen[12]" + 
+    "p0_outen[13]" + "p0_outen[14]" + "p0_outen[15]" + "p0_outen[1]" + 
+    "p0_outen[2]" + "p0_outen[3]" + "p0_outen[4]" + "p0_outen[5]" + 
+    "p0_outen[6]" + "p0_outen[7]" + "p0_outen[8]" + "p0_outen[9]" + 
+    "p1_altfunc[0]" + "p1_altfunc[10]" + "p1_altfunc[11]" + "p1_altfunc[12]" + 
+    "p1_altfunc[13]" + "p1_altfunc[14]" + "p1_altfunc[15]" + "p1_altfunc[1]" + 
+    "p1_altfunc[2]" + "p1_altfunc[3]" + "p1_altfunc[4]" + "p1_altfunc[5]" + 
+    "p1_altfunc[6]" + "p1_altfunc[7]" + "p1_altfunc[8]" + "p1_altfunc[9]" + 
+    "p1_out[0]" + "p1_out[10]" + "p1_out[11]" + "p1_out[12]" + "p1_out[13]" + 
+    "p1_out[14]" + "p1_out[15]" + "p1_out[1]" + "p1_out[2]" + "p1_out[3]" + 
+    "p1_out[4]" + "p1_out[5]" + "p1_out[6]" + "p1_out[7]" + "p1_out[8]" + 
+    "p1_out[9]" + "p1_outen[0]" + "p1_outen[10]" + "p1_outen[11]" + 
+    "p1_outen[12]" + "p1_outen[13]" + "p1_outen[14]" + "p1_outen[15]" + 
+    "p1_outen[1]" + "p1_outen[2]" + "p1_outen[3]" + "p1_outen[4]" + 
+    "p1_outen[5]" + "p1_outen[6]" + "p1_outen[7]" + "p1_outen[8]" + 
+    "p1_outen[9]" + "sram_hsel" + "uart0_txd" + "uart0_txen" + "uart1_txd" + 
+    "uart1_txen" + "uart2_txd" + "uart2_txen"';
+    "all_ports" = '"all_inputs" + "all_outputs"';
+    "_pi" = '"DFTSE" + "DFTSI0" + "DFTSI1" + "DFTSI2" + "FCLK" + "HCLK" + 
+    "HRESETn" + "PCLK" + "PCLKEN" + "PCLKG" + "PORESETn" + "PRESETn" + "SCLK" + 
+    "boot_hrdata[0]" + "boot_hrdata[10]" + "boot_hrdata[11]" + "boot_hrdata[12]" 
+    + "boot_hrdata[13]" + "boot_hrdata[14]" + "boot_hrdata[15]" + 
+    "boot_hrdata[16]" + "boot_hrdata[17]" + "boot_hrdata[18]" + 
+    "boot_hrdata[19]" + "boot_hrdata[1]" + "boot_hrdata[20]" + "boot_hrdata[21]" 
+    + "boot_hrdata[22]" + "boot_hrdata[23]" + "boot_hrdata[24]" + 
+    "boot_hrdata[25]" + "boot_hrdata[26]" + "boot_hrdata[27]" + 
+    "boot_hrdata[28]" + "boot_hrdata[29]" + "boot_hrdata[2]" + "boot_hrdata[30]" 
+    + "boot_hrdata[31]" + "boot_hrdata[3]" + "boot_hrdata[4]" + "boot_hrdata[5]" 
+    + "boot_hrdata[6]" + "boot_hrdata[7]" + "boot_hrdata[8]" + "boot_hrdata[9]" 
+    + "boot_hreadyout" + "boot_hresp" + "flash_hrdata[0]" + "flash_hrdata[10]" + 
+    "flash_hrdata[11]" + "flash_hrdata[12]" + "flash_hrdata[13]" + 
+    "flash_hrdata[14]" + "flash_hrdata[15]" + "flash_hrdata[16]" + 
+    "flash_hrdata[17]" + "flash_hrdata[18]" + "flash_hrdata[19]" + 
+    "flash_hrdata[1]" + "flash_hrdata[20]" + "flash_hrdata[21]" + 
+    "flash_hrdata[22]" + "flash_hrdata[23]" + "flash_hrdata[24]" + 
+    "flash_hrdata[25]" + "flash_hrdata[26]" + "flash_hrdata[27]" + 
+    "flash_hrdata[28]" + "flash_hrdata[29]" + "flash_hrdata[2]" + 
+    "flash_hrdata[30]" + "flash_hrdata[31]" + "flash_hrdata[3]" + 
+    "flash_hrdata[4]" + "flash_hrdata[5]" + "flash_hrdata[6]" + 
+    "flash_hrdata[7]" + "flash_hrdata[8]" + "flash_hrdata[9]" + 
+    "flash_hreadyout" + "flash_hresp" + "p0_in[0]" + "p0_in[10]" + "p0_in[11]" + 
+    "p0_in[12]" + "p0_in[13]" + "p0_in[14]" + "p0_in[15]" + "p0_in[1]" + 
+    "p0_in[2]" + "p0_in[3]" + "p0_in[4]" + "p0_in[5]" + "p0_in[6]" + "p0_in[7]" 
+    + "p0_in[8]" + "p0_in[9]" + "p1_in[0]" + "p1_in[10]" + "p1_in[11]" + 
+    "p1_in[12]" + "p1_in[13]" + "p1_in[14]" + "p1_in[15]" + "p1_in[1]" + 
+    "p1_in[2]" + "p1_in[3]" + "p1_in[4]" + "p1_in[5]" + "p1_in[6]" + "p1_in[7]" 
+    + "p1_in[8]" + "p1_in[9]" + "sram_hrdata[0]" + "sram_hrdata[10]" + 
+    "sram_hrdata[11]" + "sram_hrdata[12]" + "sram_hrdata[13]" + 
+    "sram_hrdata[14]" + "sram_hrdata[15]" + "sram_hrdata[16]" + 
+    "sram_hrdata[17]" + "sram_hrdata[18]" + "sram_hrdata[19]" + "sram_hrdata[1]" 
+    + "sram_hrdata[20]" + "sram_hrdata[21]" + "sram_hrdata[22]" + 
+    "sram_hrdata[23]" + "sram_hrdata[24]" + "sram_hrdata[25]" + 
+    "sram_hrdata[26]" + "sram_hrdata[27]" + "sram_hrdata[28]" + 
+    "sram_hrdata[29]" + "sram_hrdata[2]" + "sram_hrdata[30]" + "sram_hrdata[31]" 
+    + "sram_hrdata[3]" + "sram_hrdata[4]" + "sram_hrdata[5]" + "sram_hrdata[6]" 
+    + "sram_hrdata[7]" + "sram_hrdata[8]" + "sram_hrdata[9]" + "sram_hreadyout" 
+    + "sram_hresp" + "timer0_extin" + "timer1_extin" + "uart0_rxd" + "uart1_rxd" 
+    + "uart2_rxd"';
+    "_po" = '"APBACTIVE" + "DFTSO0" + "DFTSO1" + "DFTSO2" + "HADDR[0]" + 
+    "HADDR[10]" + "HADDR[11]" + "HADDR[12]" + "HADDR[13]" + "HADDR[14]" + 
+    "HADDR[15]" + "HADDR[16]" + "HADDR[17]" + "HADDR[18]" + "HADDR[19]" + 
+    "HADDR[1]" + "HADDR[20]" + "HADDR[21]" + "HADDR[22]" + "HADDR[23]" + 
+    "HADDR[24]" + "HADDR[25]" + "HADDR[26]" + "HADDR[27]" + "HADDR[28]" + 
+    "HADDR[29]" + "HADDR[2]" + "HADDR[30]" + "HADDR[31]" + "HADDR[3]" + 
+    "HADDR[4]" + "HADDR[5]" + "HADDR[6]" + "HADDR[7]" + "HADDR[8]" + "HADDR[9]" 
+    + "HREADY" + "HSIZE[0]" + "HSIZE[1]" + "HSIZE[2]" + "HTRANS[0]" + 
+    "HTRANS[1]" + "HWDATA[0]" + "HWDATA[10]" + "HWDATA[11]" + "HWDATA[12]" + 
+    "HWDATA[13]" + "HWDATA[14]" + "HWDATA[15]" + "HWDATA[16]" + "HWDATA[17]" + 
+    "HWDATA[18]" + "HWDATA[19]" + "HWDATA[1]" + "HWDATA[20]" + "HWDATA[21]" + 
+    "HWDATA[22]" + "HWDATA[23]" + "HWDATA[24]" + "HWDATA[25]" + "HWDATA[26]" + 
+    "HWDATA[27]" + "HWDATA[28]" + "HWDATA[29]" + "HWDATA[2]" + "HWDATA[30]" + 
+    "HWDATA[31]" + "HWDATA[3]" + "HWDATA[4]" + "HWDATA[5]" + "HWDATA[6]" + 
+    "HWDATA[7]" + "HWDATA[8]" + "HWDATA[9]" + "HWRITE" + "LOCKUP" + 
+    "LOCKUPRESET" + "PMUENABLE" + "SLEEPDEEP" + "SLEEPING" + "SYSRESETREQ" + 
+    "WDOGRESETREQ" + "boot_hsel" + "flash_hsel" + "p0_altfunc[0]" + 
+    "p0_altfunc[10]" + "p0_altfunc[11]" + "p0_altfunc[12]" + "p0_altfunc[13]" + 
+    "p0_altfunc[14]" + "p0_altfunc[15]" + "p0_altfunc[1]" + "p0_altfunc[2]" + 
+    "p0_altfunc[3]" + "p0_altfunc[4]" + "p0_altfunc[5]" + "p0_altfunc[6]" + 
+    "p0_altfunc[7]" + "p0_altfunc[8]" + "p0_altfunc[9]" + "p0_out[0]" + 
+    "p0_out[10]" + "p0_out[11]" + "p0_out[12]" + "p0_out[13]" + "p0_out[14]" + 
+    "p0_out[15]" + "p0_out[1]" + "p0_out[2]" + "p0_out[3]" + "p0_out[4]" + 
+    "p0_out[5]" + "p0_out[6]" + "p0_out[7]" + "p0_out[8]" + "p0_out[9]" + 
+    "p0_outen[0]" + "p0_outen[10]" + "p0_outen[11]" + "p0_outen[12]" + 
+    "p0_outen[13]" + "p0_outen[14]" + "p0_outen[15]" + "p0_outen[1]" + 
+    "p0_outen[2]" + "p0_outen[3]" + "p0_outen[4]" + "p0_outen[5]" + 
+    "p0_outen[6]" + "p0_outen[7]" + "p0_outen[8]" + "p0_outen[9]" + 
+    "p1_altfunc[0]" + "p1_altfunc[10]" + "p1_altfunc[11]" + "p1_altfunc[12]" + 
+    "p1_altfunc[13]" + "p1_altfunc[14]" + "p1_altfunc[15]" + "p1_altfunc[1]" + 
+    "p1_altfunc[2]" + "p1_altfunc[3]" + "p1_altfunc[4]" + "p1_altfunc[5]" + 
+    "p1_altfunc[6]" + "p1_altfunc[7]" + "p1_altfunc[8]" + "p1_altfunc[9]" + 
+    "p1_out[0]" + "p1_out[10]" + "p1_out[11]" + "p1_out[12]" + "p1_out[13]" + 
+    "p1_out[14]" + "p1_out[15]" + "p1_out[1]" + "p1_out[2]" + "p1_out[3]" + 
+    "p1_out[4]" + "p1_out[5]" + "p1_out[6]" + "p1_out[7]" + "p1_out[8]" + 
+    "p1_out[9]" + "p1_outen[0]" + "p1_outen[10]" + "p1_outen[11]" + 
+    "p1_outen[12]" + "p1_outen[13]" + "p1_outen[14]" + "p1_outen[15]" + 
+    "p1_outen[1]" + "p1_outen[2]" + "p1_outen[3]" + "p1_outen[4]" + 
+    "p1_outen[5]" + "p1_outen[6]" + "p1_outen[7]" + "p1_outen[8]" + 
+    "p1_outen[9]" + "sram_hsel" + "uart0_txd" + "uart0_txen" + "uart1_txd" + 
+    "uart1_txen" + "uart2_txd" + "uart2_txen"';
+}
+ScanStructures {
+    ScanChain "0" {
+        ScanLength 763;
+        ScanIn "DFTSI0";
+        ScanOut "DFTSO0";
+        ScanEnable "DFTSE";
+        ScanMasterClock "FCLK" "HCLK" "PCLK";
+    }
+    ScanChain "1" {
+        ScanLength 763;
+        ScanIn "DFTSI1";
+        ScanOut "DFTSO1";
+        ScanEnable "DFTSE";
+        ScanMasterClock "HCLK" "PCLK";
+    }
+    ScanChain "2" {
+        ScanLength 763;
+        ScanIn "DFTSI2";
+        ScanOut "DFTSO2";
+        ScanEnable "DFTSE";
+        ScanMasterClock "PCLK" "PCLKG";
+    }
+}
+Timing {
+    WaveformTable "_default_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "PORESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "HRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "FCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "SCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLKG" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_multiclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "FCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "SCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLKG" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PORESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "FCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "SCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLKG" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PORESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "FCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "SCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLKG" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PORESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "FCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "SCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "PCLKG" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "HRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PORESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+            "PRESETn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+}
+Procedures {
+    "multiclock_capture" {
+        W "_multiclock_capture_WFT_";
+        C {
+            "all_inputs" = NNNN0010N0110 \r139 N;
+            "all_outputs" = \r187 X;
+        }
+        V {
+            "_pi" = \r152 #;
+            "_po" = \r187 #;
+        }
+    }
+    "allclock_capture" {
+        W "_allclock_capture_WFT_";
+        C {
+            "all_inputs" = NNNN0010N0110 \r139 N;
+            "all_outputs" = \r187 X;
+        }
+        V {
+            "_pi" = \r152 #;
+            "_po" = \r187 #;
+        }
+    }
+    "allclock_launch" {
+        W "_allclock_launch_WFT_";
+        C {
+            "all_inputs" = NNNN0010N0110 \r139 N;
+            "all_outputs" = \r187 X;
+        }
+        V {
+            "_pi" = \r152 #;
+            "_po" = \r187 #;
+        }
+    }
+    "allclock_launch_capture" {
+        W "_allclock_launch_capture_WFT_";
+        C {
+            "all_inputs" = NNNN0010N0110 \r139 N;
+            "all_outputs" = \r187 X;
+        }
+        V {
+            "_pi" = \r152 #;
+            "_po" = \r187 #;
+        }
+    }
+    "load_unload" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = NNNN0010N0110 \r139 N;
+            "all_outputs" = \r187 X;
+        }
+        "Internal_scan_pre_shift" : V {
+            "DFTSE" = 1;
+        }
+        Shift {
+            V {
+                "_clk" = PP1PP110;
+                "_si" = ###;
+                "_so" = ###;
+            }
+        }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = \r152 N;
+            "all_outputs" = \r187 X;
+        }
+        V {
+            "FCLK" = 0;
+            "HCLK" = 0;
+            "HRESETn" = 1;
+            "PCLK" = 0;
+            "PCLKG" = 0;
+            "PORESETn" = 1;
+            "PRESETn" = 1;
+            "SCLK" = 0;
+        }
+        V {
+        }
+        V {
+            "FCLK" = P;
+            "HCLK" = P;
+            "PCLK" = P;
+            "PCLKG" = P;
+            "SCLK" = P;
+        }
+        V {
+            "FCLK" = 0;
+            "HCLK" = 0;
+            "PCLK" = 0;
+            "PCLKG" = 0;
+            "SCLK" = 0;
+        }
+    }
+}
+
