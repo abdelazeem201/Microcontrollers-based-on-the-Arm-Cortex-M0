@@ -1,0 +1,165 @@
+ 
+****************************************
+Report : qor
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:32 2023
+****************************************
+
+
+  Timing Path Group 'FCLK'
+  -----------------------------------
+  Levels of Logic:              2.000
+  Critical Path Length:         1.846
+  Critical Path Slack:         16.760
+  Critical Path Clk Period:    20.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+  Timing Path Group 'HCLK'
+  -----------------------------------
+  Levels of Logic:             41.000
+  Critical Path Length:        14.847
+  Critical Path Slack:          3.694
+  Critical Path Clk Period:    20.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+  Timing Path Group 'Inputs'
+  -----------------------------------
+  Levels of Logic:             11.000
+  Critical Path Length:         5.726
+  Critical Path Slack:          1.255
+  Critical Path Clk Period:    20.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:        -0.170
+  Total Hold Violation:        -0.944
+  No. of Hold Violations:      34.000
+  -----------------------------------
+
+  Timing Path Group 'Outputs'
+  -----------------------------------
+  Levels of Logic:             32.000
+  Critical Path Length:         9.769
+  Critical Path Slack:          0.031
+  Critical Path Clk Period:    20.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+  Timing Path Group 'PCLK'
+  -----------------------------------
+  Levels of Logic:             11.000
+  Critical Path Length:         6.848
+  Critical Path Slack:         11.755
+  Critical Path Clk Period:    20.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+  Timing Path Group 'PCLKG'
+  -----------------------------------
+  Levels of Logic:              8.000
+  Critical Path Length:         6.347
+  Critical Path Slack:         12.328
+  Critical Path Clk Period:    20.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+  Timing Path Group 'Regs_to_Regs'
+  -----------------------------------
+  Levels of Logic:             50.000
+  Critical Path Length:        18.905
+  Critical Path Slack:          0.337
+  Critical Path Clk Period:    20.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:        -0.063
+  Total Hold Violation:        -0.088
+  No. of Hold Violations:       2.000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:        142
+  Hierarchical Port Count:       5901
+  Leaf Cell Count:              14578
+  Buf/Inv Cell Count:            2207
+  Buf Cell Count:                 492
+  Inv Cell Count:                1715
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:     12176
+  Sequential Cell Count:         2402
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      151850.763
+  Noncombinational Area:   153161.295
+  Buf/Inv Area:             16883.283
+  Total Buffer Area:         5516.538
+  Total Inverter Area:      11366.745
+  Macro/Black Box Area:         0.000
+  Net Area:                     0.000
+  Net XLength        :     453540.250
+  Net YLength        :     504578.969
+  -----------------------------------
+  Cell Area:               305012.057
+  Design Area:             305012.057
+  Net Length        :      958119.250
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         15681
+  Nets With Violations:            15
+  Max Trans Violations:            11
+  Max Cap Violations:               6
+  Max Fanout Violations:            4
+  -----------------------------------
+
+
+  Hostname: IC
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   3.370
+  Logic Optimization:                15.873
+  Mapping Optimization:              76.461
+  -----------------------------------------
+  Overall Compile Time:             304.959
+  Overall Compile Wall Clock Time:  333.571
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.000  TNS: 0.000  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.170  TNS: 1.032  Number of Violating Paths: 36
+
+  --------------------------------------------------------------------
+
+
+1

@@ -1,0 +1,712 @@
+Information: Base Cell (com): cell XNOR2_XL_A7TULL, w=5040, h=3920 (npin=3)
+Information: Base Cell (seq): cell SDFFR_X2_A7TULL, w=16800, h=3920 (npin=6)
+Information: Layer METAL6 is ignored for resistance and capacitance computation. (RCEX-019)
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer METAL1 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer METAL1 : 0.00045 0.00026 (RCEX-011)
+Information: Library Derived Cap for layer METAL2 : 0.00024 0.00024 (RCEX-011)
+Information: Library Derived Res for layer METAL2 : 0.00037 0.00022 (RCEX-011)
+Information: Library Derived Cap for layer METAL3 : 0.00024 0.00024 (RCEX-011)
+Information: Library Derived Res for layer METAL3 : 0.00037 0.00022 (RCEX-011)
+Information: Library Derived Cap for layer METAL4 : 0.00024 0.00024 (RCEX-011)
+Information: Library Derived Res for layer METAL4 : 0.00037 0.00022 (RCEX-011)
+Information: Library Derived Cap for layer METAL5 : 0.0002 0.0002 (RCEX-011)
+Information: Library Derived Res for layer METAL5 : 0.00037 0.00022 (RCEX-011)
+Information: Library Derived Cap for layer METAL6 : 0.00027 0.00027 (RCEX-011)
+Information: Library Derived Res for layer METAL6 : 0.00011 6.3e-05 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Horizontal Res : 0.0004 0.00023 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.00024 0.00024 (RCEX-011)
+Information: Library Derived Vertical Res : 0.00037 0.00022 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 0.0064 0.0064 (RCEX-011)
+
+Generating congestion map using Zroute global route ...
+Start Global Route ... 
+[Init] Elapsed real time: 0:00:00 
+[Init] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[Init] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[Init] Total (MB): Used    4  Alloctr    4  Proc 1366 
+Printing options for 'set_route_zrt_common_options'
+
+Printing options for 'set_route_zrt_global_options'
+
+Begin global routing.
+Warning: Cell contains tie connections which are not connected to real PG. (MW-349)
+Turn off antenna since no rule is specified
+Cell Min-Routing-Layer = METAL1
+Cell Max-Routing-Layer = METAL5
+Warning: Cannot find a default contact for layer CONT. (ZRT-022)
+Warning: Pin U253/A of net n777 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U253/Y of net p1_altfunc[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U251/A of net n778 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U251/Y of net p1_altfunc[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U269/A of net n772 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U269/Y of net p1_outen[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U266/A of net n775 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U266/Y of net p1_outen[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U267/A of net n774 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U267/Y of net p1_outen[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U255/A of net n776 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U255/Y of net p1_altfunc[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U268/A of net n773 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U268/Y of net p1_outen[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U274/A of net n767 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U274/Y of net p1_outen[8] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U271/A of net n770 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U271/Y of net p1_outen[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U272/A of net n769 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U272/Y of net p1_outen[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U270/A of net n771 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U270/Y of net p1_outen[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U273/A of net n768 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U273/Y of net p1_outen[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U279/A of net n762 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U279/Y of net p1_outen[13] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U276/A of net n765 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U276/Y of net p1_outen[10] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U277/A of net n764 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U277/Y of net p1_outen[11] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U275/A of net n766 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U275/Y of net p1_outen[9] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U278/A of net n763 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U278/Y of net p1_outen[12] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U282/A of net n759 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U282/Y of net p1_out[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U284/A of net n757 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U284/Y of net p1_out[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U281/A of net n760 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U281/Y of net p1_outen[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U280/A of net n761 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U280/Y of net p1_outen[14] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U283/A of net n758 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U283/Y of net p1_out[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U289/A of net n752 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U289/Y of net p1_out[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U286/A of net n755 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U286/Y of net p1_out[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U287/A of net n754 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U287/Y of net p1_out[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U285/A of net n756 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U285/Y of net p1_out[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U288/A of net n753 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U288/Y of net p1_out[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U290/A of net n751 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U290/Y of net p1_out[8] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U293/A of net n748 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U293/Y of net p1_out[11] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U291/A of net n750 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U291/Y of net p1_out[9] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U294/A of net n747 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U294/Y of net p1_out[12] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U292/A of net n749 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U292/Y of net p1_out[10] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U331/A of net n726 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U331/Y of net p0_outen[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U296/A of net n745 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U296/Y of net p1_out[14] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U297/A of net n744 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U297/Y of net p1_out[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U295/A of net n746 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U295/Y of net p1_out[13] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U330/A of net n727 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U330/Y of net p0_outen[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U336/A of net n721 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U336/Y of net p0_outen[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U333/A of net n724 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U333/Y of net p0_outen[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U334/A of net n723 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U334/Y of net p0_outen[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U332/A of net n725 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U332/Y of net p0_outen[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U335/A of net n722 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U335/Y of net p0_outen[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U341/A of net n716 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U341/Y of net p0_outen[11] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U338/A of net n719 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U338/Y of net p0_outen[8] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U339/A of net n718 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U339/Y of net p0_outen[9] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U337/A of net n720 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U337/Y of net p0_outen[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U340/A of net n717 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U340/Y of net p0_outen[10] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U346/A of net n711 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U346/Y of net p0_out[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U345/A of net n712 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U345/Y of net p0_outen[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U343/A of net n714 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U343/Y of net p0_outen[13] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U342/A of net n715 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U342/Y of net p0_outen[12] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U344/A of net n713 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U344/Y of net p0_outen[14] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U351/A of net n706 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U351/Y of net p0_out[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U348/A of net n709 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U348/Y of net p0_out[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U349/A of net n708 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U349/Y of net p0_out[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U347/A of net n710 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U347/Y of net p0_out[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U350/A of net n707 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U350/Y of net p0_out[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U354/A of net n703 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U354/Y of net p0_out[8] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U356/A of net n701 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U356/Y of net p0_out[10] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U353/A of net n704 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U353/Y of net p0_out[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U352/A of net n705 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U352/Y of net p0_out[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U355/A of net n702 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U355/Y of net p0_out[9] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U361/A of net n696 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U361/Y of net p0_out[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U358/A of net n699 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U358/Y of net p0_out[12] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U359/A of net n698 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U359/Y of net p0_out[13] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U357/A of net n700 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U357/Y of net p0_out[11] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U360/A of net n697 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U360/Y of net p0_out[14] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U390/A of net n668 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U390/Y of net LOCKUPRESET has no valid shapes to connect. (ZRT-100)
+Warning: Pin U392/A of net n666 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U392/Y of net WDOGRESETREQ has no valid shapes to connect. (ZRT-100)
+Warning: Pin U393/A of net n320 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U393/Y of net SYSRESETREQ has no valid shapes to connect. (ZRT-100)
+Warning: Pin U500/A of net n321 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U500/Y of net HWRITE has no valid shapes to connect. (ZRT-100)
+Warning: Pin U502/A of net n557 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U502/Y of net HSIZE[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U501/A of net n558 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U501/Y of net HSIZE[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U507/A of net n554 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U507/Y of net HADDR[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U508/A of net n553 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U508/Y of net HADDR[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U509/A of net n552 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U509/Y of net HADDR[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U510/A of net n551 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U510/Y of net HADDR[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U511/A of net n550 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U511/Y of net HADDR[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U512/A of net n549 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U512/Y of net HADDR[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U513/A of net n548 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U513/Y of net HADDR[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U514/A of net n547 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U514/Y of net HADDR[8] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U515/A of net n546 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U515/Y of net HADDR[9] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U516/A of net n545 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U516/Y of net HADDR[10] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U465/A of net flash_hrdata[31] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U465/Y of net n595 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U506/A of net n555 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U506/Y of net HADDR[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U396/A of net n663 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U396/Y of net APBACTIVE has no valid shapes to connect. (ZRT-100)
+Warning: Pin U431/A of net sram_hreadyout has no valid shapes to connect. (ZRT-100)
+Warning: Pin U431/Y of net n629 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U466/A of net flash_hreadyout has no valid shapes to connect. (ZRT-100)
+Warning: Pin U466/Y of net n594 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U540/A of net PORESETn has no valid shapes to connect. (ZRT-100)
+Warning: Pin U540/Y of net n521 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U538/A of net PCLKEN has no valid shapes to connect. (ZRT-100)
+Warning: Pin U538/Y of net n523 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U433/A of net flash_hresp has no valid shapes to connect. (ZRT-100)
+Warning: Pin U433/Y of net n627 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U430/A of net sram_hrdata[31] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U430/Y of net n630 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U429/A of net sram_hrdata[30] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U429/Y of net n631 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U428/A of net sram_hrdata[29] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U428/Y of net n632 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U427/A of net sram_hrdata[28] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U427/Y of net n633 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U426/A of net sram_hrdata[27] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U426/Y of net n634 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U425/A of net sram_hrdata[26] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U425/Y of net n635 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U424/A of net sram_hrdata[25] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U424/Y of net n636 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U423/A of net sram_hrdata[24] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U423/Y of net n637 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U422/A of net sram_hrdata[23] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U422/Y of net n638 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U421/A of net sram_hrdata[22] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U421/Y of net n639 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U420/A of net sram_hrdata[21] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U420/Y of net n640 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U419/A of net sram_hrdata[20] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U419/Y of net n641 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U418/A of net sram_hrdata[19] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U418/Y of net n642 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U417/A of net sram_hrdata[18] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U417/Y of net n643 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U416/A of net sram_hrdata[17] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U416/Y of net n644 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U415/A of net sram_hrdata[16] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U415/Y of net n645 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U414/A of net sram_hrdata[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U414/Y of net n646 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U413/A of net sram_hrdata[14] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U413/Y of net n647 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U298/A of net p1_in[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U298/Y of net n743 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U412/A of net sram_hrdata[13] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U412/Y of net n648 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U411/A of net sram_hrdata[12] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U411/Y of net n649 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U410/A of net sram_hrdata[11] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U410/Y of net n650 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U409/A of net sram_hrdata[10] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U409/Y of net n651 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U408/A of net sram_hrdata[9] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U408/Y of net n652 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U363/A of net p0_in[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U363/Y of net n694 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U407/A of net sram_hrdata[8] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U407/Y of net n653 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U406/A of net sram_hrdata[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U406/Y of net n654 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U405/A of net sram_hrdata[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U405/Y of net n655 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U404/A of net sram_hrdata[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U404/Y of net n656 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U403/A of net sram_hrdata[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U403/Y of net n657 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U402/A of net sram_hrdata[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U402/Y of net n658 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U401/A of net sram_hrdata[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U401/Y of net n659 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U400/A of net sram_hrdata[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U400/Y of net n660 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U399/A of net sram_hrdata[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U399/Y of net n661 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U398/A of net sram_hresp has no valid shapes to connect. (ZRT-100)
+Warning: Pin U398/Y of net n662 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U377/A of net p0_in[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U377/Y of net n680 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U362/A of net p0_in[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U362/Y of net n695 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U464/A of net flash_hrdata[30] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U464/Y of net n596 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U437/A of net flash_hrdata[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U437/Y of net n623 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U463/A of net flash_hrdata[29] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U463/Y of net n597 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U462/A of net flash_hrdata[28] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U462/Y of net n598 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U438/A of net flash_hrdata[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U438/Y of net n622 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U461/A of net flash_hrdata[27] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U461/Y of net n599 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U454/A of net flash_hrdata[20] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U454/Y of net n606 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U458/A of net flash_hrdata[24] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U458/Y of net n602 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U434/A of net flash_hrdata[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U434/Y of net n626 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U460/A of net flash_hrdata[26] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U460/Y of net n600 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U435/A of net flash_hrdata[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U435/Y of net n625 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U453/A of net flash_hrdata[19] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U453/Y of net n607 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U459/A of net flash_hrdata[25] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U459/Y of net n601 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U436/A of net flash_hrdata[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U436/Y of net n624 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U457/A of net flash_hrdata[23] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U457/Y of net n603 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U456/A of net flash_hrdata[22] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U456/Y of net n604 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U448/A of net flash_hrdata[14] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U448/Y of net n612 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U455/A of net flash_hrdata[21] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U455/Y of net n605 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U447/A of net flash_hrdata[13] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U447/Y of net n613 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U443/A of net flash_hrdata[9] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U443/Y of net n617 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U439/A of net flash_hrdata[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U439/Y of net n621 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U452/A of net flash_hrdata[18] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U452/Y of net n608 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U440/A of net flash_hrdata[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U440/Y of net n620 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U451/A of net flash_hrdata[17] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U451/Y of net n609 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U450/A of net flash_hrdata[16] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U450/Y of net n610 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U445/A of net flash_hrdata[11] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U445/Y of net n615 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U441/A of net flash_hrdata[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U441/Y of net n619 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U449/A of net flash_hrdata[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U449/Y of net n611 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U446/A of net flash_hrdata[12] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U446/Y of net n614 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U442/A of net flash_hrdata[8] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U442/Y of net n618 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U444/A of net flash_hrdata[10] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U444/Y of net n616 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U517/A of net n544 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U517/Y of net HADDR[11] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U40/A of net n907 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U40/Y of net HREADY has no valid shapes to connect. (ZRT-100)
+Warning: Pin U44/A of net HRESETn has no valid shapes to connect. (ZRT-100)
+Warning: Pin U44/Y of net n887 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U45/A of net n906 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U45/Y of net HWDATA[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U46/A of net n904 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U46/Y of net HWDATA[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U47/A of net n905 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U47/Y of net HWDATA[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U48/A of net n899 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U48/Y of net HWDATA[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U49/A of net n902 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U49/Y of net HWDATA[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U50/A of net n903 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U50/Y of net HWDATA[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U51/A of net n901 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U51/Y of net HWDATA[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U52/A of net n900 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U52/Y of net HWDATA[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U53/A of net n897 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U53/Y of net HWDATA[9] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U54/A of net n894 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U54/Y of net HWDATA[12] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U55/A of net n895 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U55/Y of net HWDATA[11] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U56/A of net n898 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U56/Y of net HWDATA[8] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U57/A of net n896 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U57/Y of net HWDATA[10] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U58/A of net n893 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U58/Y of net HWDATA[13] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U59/A of net n891 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U59/Y of net HWDATA[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U60/A of net n892 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U60/Y of net HWDATA[14] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U61/A of net n575 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U61/Y of net HWDATA[16] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U62/A of net n574 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U62/Y of net HWDATA[17] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U64/A of net n572 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U64/Y of net HWDATA[19] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U67/A of net n573 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U67/Y of net HWDATA[18] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U68/A of net n566 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U68/Y of net HWDATA[25] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U70/A of net n565 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U70/Y of net HWDATA[26] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U71/A of net n567 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U71/Y of net HWDATA[24] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U74/A of net n563 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U74/Y of net HWDATA[28] has no valid shapes to connect. (ZRT-100)
+Warning: Pin U76/A of net n562 has no valid shapes to connect. (ZRT-100)
+Warning: Pin U76/Y of net HWDATA[29] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_17_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[17] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_16_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[16] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_15_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[15] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_5_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_4_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_1_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_14_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[14] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_2_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_7_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[7] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_cmsdk_mcu_stclkctrl/reg_clk_divider_reg_0_/Q of net u_cmsdk_mcu_stclkctrl/reg_clk_divider[0] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_0/u_iop_gpio/reg_douten_padded_reg_12_/Q of net n715 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_0/u_iop_gpio/reg_dout_padded_reg_3_/Q of net n708 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_0/u_iop_gpio/reg_douten_padded_reg_15_/Q of net n712 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_inten_padded_reg_6_/Q of net u_ahb_gpio_1/u_iop_gpio/reg_inten_padded[6] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_inten_padded_reg_5_/Q of net u_ahb_gpio_1/u_iop_gpio/reg_inten_padded[5] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_inten_padded_reg_4_/Q of net u_ahb_gpio_1/u_iop_gpio/reg_inten_padded[4] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_inten_padded_reg_3_/Q of net u_ahb_gpio_1/u_iop_gpio/reg_inten_padded[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_inten_padded_reg_2_/Q of net u_ahb_gpio_1/u_iop_gpio/reg_inten_padded[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_inten_padded_reg_1_/Q of net u_ahb_gpio_1/u_iop_gpio/reg_inten_padded[1] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_douten_padded_reg_7_/Q of net n768 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_douten_padded_reg_4_/Q of net n771 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_douten_padded_reg_2_/Q of net n773 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_douten_padded_reg_6_/Q of net n769 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_douten_padded_reg_1_/Q of net n774 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_ahb_gpio_1/u_iop_gpio/reg_dout_padded_reg_1_/Q of net n758 has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/tx_tick_cnt_reg_3_/Q of net u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/tx_tick_cnt[3] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/tx_tick_cnt_reg_2_/Q of net u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/tx_tick_cnt[2] has no valid shapes to connect. (ZRT-100)
+Warning: Pin u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/tx_tick_cnt_reg_1_/Q of net u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/tx_tick_cnt[1] has no valid shapes to connect. (ZRT-100)
+Current Stage stats:
+[End of Read DB] Elapsed real time: 0:00:00 
+[End of Read DB] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Read DB] Stage (MB): Used   25  Alloctr   26  Proc   19 
+[End of Read DB] Total (MB): Used   30  Alloctr   31  Proc 1385 
+Constructing data structure ...
+Design statistics:
+Design Bounding Box (0.00,0.00,734.16,736.96)
+Number of routing layers = 6
+layer METAL1, dir Hor, min width = 0.23, min space = 0.23 pitch = 0.56
+layer METAL2, dir Ver, min width = 0.28, min space = 0.28 pitch = 0.56
+layer METAL3, dir Hor, min width = 0.28, min space = 0.28 pitch = 0.56
+layer METAL4, dir Ver, min width = 0.28, min space = 0.28 pitch = 0.56
+layer METAL5, dir Hor, min width = 0.28, min space = 0.28 pitch = 0.66
+layer METAL6, dir Ver, min width = 0.44, min space = 0.46 pitch = 0.95
+Current Stage stats:
+[End of Build Tech Data] Elapsed real time: 0:00:00 
+[End of Build Tech Data] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build Tech Data] Stage (MB): Used    1  Alloctr    1  Proc    0 
+[End of Build Tech Data] Total (MB): Used   32  Alloctr   32  Proc 1385 
+Net statistics:
+Total number of nets     = 14881
+Number of nets to route  = 14409
+Number of single or zero port nets = 264
+208 nets are fully connected,
+ of which 208 are detail routed and 0 are global routed.
+Current Stage stats:
+[End of Build All Nets] Elapsed real time: 0:00:00 
+[End of Build All Nets] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build All Nets] Stage (MB): Used    4  Alloctr    4  Proc    4 
+[End of Build All Nets] Total (MB): Used   36  Alloctr   37  Proc 1390 
+Average gCell capacity  2.05	 on layer (1)	 METAL1
+Average gCell capacity  7.01	 on layer (2)	 METAL2
+Average gCell capacity  6.99	 on layer (3)	 METAL3
+Average gCell capacity  7.00	 on layer (4)	 METAL4
+Average gCell capacity  5.94	 on layer (5)	 METAL5
+Average gCell capacity  4.13	 on layer (6)	 METAL6
+Average number of tracks per gCell 7.01	 on layer (1)	 METAL1
+Average number of tracks per gCell 7.02	 on layer (2)	 METAL2
+Average number of tracks per gCell 7.01	 on layer (3)	 METAL3
+Average number of tracks per gCell 7.02	 on layer (4)	 METAL4
+Average number of tracks per gCell 5.95	 on layer (5)	 METAL5
+Average number of tracks per gCell 4.14	 on layer (6)	 METAL6
+Number of gCells = 210936
+Current Stage stats:
+[End of Build Congestion map] Elapsed real time: 0:00:00 
+[End of Build Congestion map] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Build Congestion map] Stage (MB): Used    0  Alloctr    0  Proc    1 
+[End of Build Congestion map] Total (MB): Used   37  Alloctr   38  Proc 1392 
+Total stats:
+[End of Build Data] Elapsed real time: 0:00:01 
+[End of Build Data] Elapsed cpu  time: sys=0:00:00 usr=0:00:01 total=0:00:01
+[End of Build Data] Stage (MB): Used    6  Alloctr    6  Proc    6 
+[End of Build Data] Total (MB): Used   37  Alloctr   38  Proc 1392 
+Current Stage stats:
+[End of Blocked Pin Detection] Elapsed real time: 0:00:01 
+[End of Blocked Pin Detection] Elapsed cpu  time: sys=0:00:00 usr=0:00:01 total=0:00:01
+[End of Blocked Pin Detection] Stage (MB): Used    0  Alloctr    0  Proc    1 
+[End of Blocked Pin Detection] Total (MB): Used   37  Alloctr   38  Proc 1394 
+Information: Using 1 threads for routing. (ZRT-444)
+multi gcell levels ON
+
+Start GR phase 0
+10% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+20% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+30% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+40% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+50% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+60% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+70% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+80% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+90% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+Current Stage stats:
+[End of Initial Routing] Elapsed real time: 0:00:03 
+[End of Initial Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:03 total=0:00:03
+[End of Initial Routing] Stage (MB): Used   10  Alloctr   10  Proc   14 
+[End of Initial Routing] Total (MB): Used   47  Alloctr   48  Proc 1408 
+Initial. Routing result:
+Initial. Both Dirs: Overflow =  2024 Max = 3 GRCs =  4077 (5.74%)
+Initial. H routing: Overflow =  1140 Max = 3 (GRCs =  2) GRCs =  2406 (6.77%)
+Initial. V routing: Overflow =   884 Max = 3 (GRCs =  5) GRCs =  1671 (4.70%)
+Initial. METAL1     Overflow =    29 Max = 1 (GRCs = 21) GRCs =    38 (0.11%)
+Initial. METAL2     Overflow =   436 Max = 3 (GRCs =  4) GRCs =   702 (1.98%)
+Initial. METAL3     Overflow =   876 Max = 3 (GRCs =  2) GRCs =  2136 (6.01%)
+Initial. METAL4     Overflow =   447 Max = 3 (GRCs =  1) GRCs =   969 (2.73%)
+Initial. METAL5     Overflow =   234 Max = 2 (GRCs =  2) GRCs =   232 (0.65%)
+Initial. METAL6     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+Initial. Total Wire Length = 1056747.34
+Initial. Layer METAL1 wire length = 19782.41
+Initial. Layer METAL2 wire length = 267199.07
+Initial. Layer METAL3 wire length = 385911.37
+Initial. Layer METAL4 wire length = 285720.51
+Initial. Layer METAL5 wire length = 98133.98
+Initial. Layer METAL6 wire length = 0.00
+Initial. Total Number of Contacts = 115672
+Initial. Via VIA12_0_HV count = 56100
+Initial. Via VIA23_0_VH count = 46437
+Initial. Via VIA34_0_HV count = 10162
+Initial. Via VIA45_0_VH count = 2973
+Initial. Via VIA56_0_HV count = 0
+Initial. completed.
+
+Start GR phase 1
+10% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+20% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+30% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+40% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+50% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+60% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+70% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+80% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+90% of nets complete Elapsed cpu time: 0:00:01 Elapsed real time: 0:00:01
+Current Stage stats:
+[End of Phase1 Routing] Elapsed real time: 0:00:01 
+[End of Phase1 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:01 total=0:00:01
+[End of Phase1 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase1 Routing] Total (MB): Used   48  Alloctr   48  Proc 1408 
+phase1. Routing result:
+phase1. Both Dirs: Overflow =   374 Max = 3 GRCs =   770 (1.08%)
+phase1. H routing: Overflow =    64 Max = 1 (GRCs = 33) GRCs =   212 (0.60%)
+phase1. V routing: Overflow =   310 Max = 3 (GRCs =  3) GRCs =   558 (1.57%)
+phase1. METAL1     Overflow =    26 Max = 1 (GRCs = 16) GRCs =    36 (0.10%)
+phase1. METAL2     Overflow =   300 Max = 3 (GRCs =  3) GRCs =   434 (1.22%)
+phase1. METAL3     Overflow =    31 Max = 1 (GRCs = 10) GRCs =   169 (0.48%)
+phase1. METAL4     Overflow =     9 Max = 1 (GRCs =  3) GRCs =   124 (0.35%)
+phase1. METAL5     Overflow =     7 Max = 1 (GRCs =  7) GRCs =     7 (0.02%)
+phase1. METAL6     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase1. Total Wire Length = 1068394.39
+phase1. Layer METAL1 wire length = 21841.74
+phase1. Layer METAL2 wire length = 269511.47
+phase1. Layer METAL3 wire length = 366779.01
+phase1. Layer METAL4 wire length = 290663.34
+phase1. Layer METAL5 wire length = 119598.84
+phase1. Layer METAL6 wire length = 0.00
+phase1. Total Number of Contacts = 117560
+phase1. Via VIA12_0_HV count = 56286
+phase1. Via VIA23_0_VH count = 46269
+phase1. Via VIA34_0_HV count = 10814
+phase1. Via VIA45_0_VH count = 4191
+phase1. Via VIA56_0_HV count = 0
+phase1. completed.
+
+Start GR phase 2
+10% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+20% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+30% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+40% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+50% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+60% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+70% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+80% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+90% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+Current Stage stats:
+[End of Phase2 Routing] Elapsed real time: 0:00:00 
+[End of Phase2 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase2 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase2 Routing] Total (MB): Used   48  Alloctr   48  Proc 1408 
+phase2. Routing result:
+phase2. Both Dirs: Overflow =    62 Max = 2 GRCs =    96 (0.14%)
+phase2. H routing: Overflow =    20 Max = 1 (GRCs = 11) GRCs =    29 (0.08%)
+phase2. V routing: Overflow =    42 Max = 2 (GRCs =  3) GRCs =    67 (0.19%)
+phase2. METAL1     Overflow =    20 Max = 1 (GRCs = 11) GRCs =    29 (0.08%)
+phase2. METAL2     Overflow =    42 Max = 2 (GRCs =  3) GRCs =    67 (0.19%)
+phase2. METAL3     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. METAL4     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. METAL5     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase2. METAL6     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase2. Total Wire Length = 1068648.70
+phase2. Layer METAL1 wire length = 21766.31
+phase2. Layer METAL2 wire length = 269642.35
+phase2. Layer METAL3 wire length = 367212.96
+phase2. Layer METAL4 wire length = 290709.76
+phase2. Layer METAL5 wire length = 119317.32
+phase2. Layer METAL6 wire length = 0.00
+phase2. Total Number of Contacts = 117596
+phase2. Via VIA12_0_HV count = 56250
+phase2. Via VIA23_0_VH count = 46312
+phase2. Via VIA34_0_HV count = 10839
+phase2. Via VIA45_0_VH count = 4195
+phase2. Via VIA56_0_HV count = 0
+phase2. completed.
+
+Start GR phase 3
+10% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+20% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+30% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+40% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+50% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+60% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+70% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+80% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+90% of nets complete Elapsed cpu time: 0:00:00 Elapsed real time: 0:00:00
+Current Stage stats:
+[End of Phase3 Routing] Elapsed real time: 0:00:00 
+[End of Phase3 Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[End of Phase3 Routing] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[End of Phase3 Routing] Total (MB): Used   48  Alloctr   48  Proc 1408 
+phase3. Routing result:
+phase3. Both Dirs: Overflow =    61 Max = 2 GRCs =    93 (0.13%)
+phase3. H routing: Overflow =    20 Max = 1 (GRCs = 11) GRCs =    30 (0.08%)
+phase3. V routing: Overflow =    41 Max = 2 (GRCs =  3) GRCs =    63 (0.18%)
+phase3. METAL1     Overflow =    20 Max = 1 (GRCs = 11) GRCs =    30 (0.08%)
+phase3. METAL2     Overflow =    41 Max = 2 (GRCs =  3) GRCs =    63 (0.18%)
+phase3. METAL3     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. METAL4     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. METAL5     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+phase3. METAL6     Overflow =     0 Max = 0 (GRCs =  0) GRCs =     0 (0.00%)
+
+phase3. Total Wire Length = 1068689.12
+phase3. Layer METAL1 wire length = 21763.69
+phase3. Layer METAL2 wire length = 269639.88
+phase3. Layer METAL3 wire length = 367298.39
+phase3. Layer METAL4 wire length = 290695.86
+phase3. Layer METAL5 wire length = 119291.29
+phase3. Layer METAL6 wire length = 0.00
+phase3. Total Number of Contacts = 117596
+phase3. Via VIA12_0_HV count = 56248
+phase3. Via VIA23_0_VH count = 46318
+phase3. Via VIA34_0_HV count = 10838
+phase3. Via VIA45_0_VH count = 4192
+phase3. Via VIA56_0_HV count = 0
+phase3. completed.
+[End of Whole Chip Routing] Elapsed real time: 0:00:07 
+[End of Whole Chip Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:07 total=0:00:07
+[End of Whole Chip Routing] Stage (MB): Used   17  Alloctr   17  Proc   22 
+[End of Whole Chip Routing] Total (MB): Used   48  Alloctr   48  Proc 1408 
+
+Information: Global Routing terminated early: false (ZRT-103)
+
+Congestion utilization per direction:
+Average vertical track utilization   = 27.86 %
+Peak    vertical track utilization   = 83.33 %
+Average horizontal track utilization = 29.77 %
+Peak    horizontal track utilization = 100.00 %
+
+Current Stage stats:
+[GR: Done] Elapsed real time: 0:00:00 
+[GR: Done] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[GR: Done] Stage (MB): Used   -1  Alloctr   -1  Proc    0 
+[GR: Done] Total (MB): Used   47  Alloctr   48  Proc 1408 
+GR Total stats:
+[GR: Done] Elapsed real time: 0:00:08 
+[GR: Done] Elapsed cpu  time: sys=0:00:00 usr=0:00:08 total=0:00:08
+[GR: Done] Stage (MB): Used   42  Alloctr   43  Proc   41 
+[GR: Done] Total (MB): Used   47  Alloctr   48  Proc 1408 
+Updating congestion ...
+Final total stats:
+[End of Global Routing] Elapsed real time: 0:00:10 
+[End of Global Routing] Elapsed cpu  time: sys=0:00:00 usr=0:00:08 total=0:00:09
+[End of Global Routing] Stage (MB): Used   36  Alloctr   37  Proc   41 
+[End of Global Routing] Total (MB): Used   41  Alloctr   42  Proc 1408 
+ 
+****************************************
+Report : congestion
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:49 2023
+****************************************
+
+Both Dirs: Overflow = 0 Max = 0 (0 GRCs) GRCs = 0 (0.00%)
+H routing: Overflow = 0 Max = 0 (0 GRCs) GRCs = 0  (0.00%)
+V routing: Overflow = 0 Max = 0 (0 GRCs) GRCs = 0  (0.00%)
+1

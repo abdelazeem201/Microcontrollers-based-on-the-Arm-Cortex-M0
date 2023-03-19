@@ -1,0 +1,72 @@
+ 
+****************************************
+Report : design
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:37 2023
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c (File: /home/IC/Desktop/Abdelazeem/ARM/arm/scratch/arm/tsmc/ce018fg/sc7_base_rvt/r9p0-01eac0/db/sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c.db)
+
+Local Link Library:
+
+    {sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : ss_typical_max_1p62v_125c
+    Library : sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c
+    Process :   1.00
+    Temperature : 125.00
+    Voltage :   1.62
+
+Min Operating Conditions:
+
+
+    Operating Condition Name : ff_typical_min_1p98v_m40c
+    Library : sc7_ce018fg_base_rvt_ff_typical_min_1p98v_m40c
+    Process :   1.00
+    Temperature : -40.00
+    Voltage :   1.98
+
+Wire Loading Model:
+
+    No wire loading used.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    None specified.
+1

@@ -1,0 +1,1521 @@
+ 
+****************************************
+Report : port
+        -verbose
+        -significant_digits  3
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:37 2023
+****************************************
+
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+DFTSE          in       0.000    0.000   2.085   0.420   --         
+DFTSI0         in       0.000    0.000   2.085   0.420   --         
+DFTSI1         in       0.000    0.000   2.085   0.420   --         
+DFTSI2         in       0.000    0.000   2.085   0.420   --         
+FCLK           in       0.000    0.000   2.085   0.769   --         
+HCLK           in       0.000    0.000   2.085   0.769   --         
+HRESETn        in       0.000    0.000   2.085   0.420   --         
+PCLK           in       0.000    0.000   2.085   0.769   --         
+PCLKEN         in       0.000    0.000   2.085   0.420   --         
+PCLKG          in       0.000    0.000   2.085   0.769   --         
+PORESETn       in       0.000    0.000   2.085   0.420   --         
+PRESETn        in       0.000    0.000   2.085   0.420   --         
+SCLK           in       0.000    0.000   2.085   0.769   --         
+boot_hrdata[0] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[1] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[2] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[3] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[4] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[5] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[6] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[7] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[8] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[9] in       0.000    0.000   2.085   0.420   --         
+boot_hrdata[10] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[11] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[12] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[13] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[14] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[15] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[16] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[17] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[18] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[19] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[20] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[21] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[22] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[23] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[24] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[25] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[26] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[27] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[28] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[29] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[30] in      0.000    0.000   2.085   0.420   --         
+boot_hrdata[31] in      0.000    0.000   2.085   0.420   --         
+boot_hreadyout in       0.000    0.000   2.085   0.420   --         
+boot_hresp     in       0.000    0.000   2.085   0.420   --         
+flash_hrdata[0] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[1] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[2] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[3] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[4] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[5] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[6] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[7] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[8] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[9] in      0.000    0.000   2.085   0.420   --         
+flash_hrdata[10] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[11] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[12] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[13] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[14] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[15] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[16] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[17] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[18] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[19] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[20] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[21] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[22] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[23] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[24] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[25] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[26] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[27] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[28] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[29] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[30] in     0.000    0.000   2.085   0.420   --         
+flash_hrdata[31] in     0.000    0.000   2.085   0.420   --         
+flash_hreadyout in      0.000    0.000   2.085   0.420   --         
+flash_hresp    in       0.000    0.000   2.085   0.420   --         
+p0_in[0]       in       0.000    0.000   2.085   0.420   --         
+p0_in[1]       in       0.000    0.000   2.085   0.420   --         
+p0_in[2]       in       0.000    0.000   2.085   0.420   --         
+p0_in[3]       in       0.000    0.000   2.085   0.420   --         
+p0_in[4]       in       0.000    0.000   2.085   0.420   --         
+p0_in[5]       in       0.000    0.000   2.085   0.420   --         
+p0_in[6]       in       0.000    0.000   2.085   0.420   --         
+p0_in[7]       in       0.000    0.000   2.085   0.420   --         
+p0_in[8]       in       0.000    0.000   2.085   0.420   --         
+p0_in[9]       in       0.000    0.000   2.085   0.420   --         
+p0_in[10]      in       0.000    0.000   2.085   0.420   --         
+p0_in[11]      in       0.000    0.000   2.085   0.420   --         
+p0_in[12]      in       0.000    0.000   2.085   0.420   --         
+p0_in[13]      in       0.000    0.000   2.085   0.420   --         
+p0_in[14]      in       0.000    0.000   2.085   0.420   --         
+p0_in[15]      in       0.000    0.000   2.085   0.420   --         
+p1_in[0]       in       0.000    0.000   2.085   0.420   --         
+p1_in[1]       in       0.000    0.000   2.085   0.420   --         
+p1_in[2]       in       0.000    0.000   2.085   0.420   --         
+p1_in[3]       in       0.000    0.000   2.085   0.420   --         
+p1_in[4]       in       0.000    0.000   2.085   0.420   --         
+p1_in[5]       in       0.000    0.000   2.085   0.420   --         
+p1_in[6]       in       0.000    0.000   2.085   0.420   --         
+p1_in[7]       in       0.000    0.000   2.085   0.420   --         
+p1_in[8]       in       0.000    0.000   2.085   0.420   --         
+p1_in[9]       in       0.000    0.000   2.085   0.420   --         
+p1_in[10]      in       0.000    0.000   2.085   0.420   --         
+p1_in[11]      in       0.000    0.000   2.085   0.420   --         
+p1_in[12]      in       0.000    0.000   2.085   0.420   --         
+p1_in[13]      in       0.000    0.000   2.085   0.420   --         
+p1_in[14]      in       0.000    0.000   2.085   0.420   --         
+p1_in[15]      in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[0] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[1] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[2] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[3] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[4] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[5] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[6] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[7] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[8] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[9] in       0.000    0.000   2.085   0.420   --         
+sram_hrdata[10] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[11] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[12] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[13] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[14] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[15] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[16] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[17] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[18] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[19] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[20] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[21] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[22] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[23] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[24] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[25] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[26] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[27] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[28] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[29] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[30] in      0.000    0.000   2.085   0.420   --         
+sram_hrdata[31] in      0.000    0.000   2.085   0.420   --         
+sram_hreadyout in       0.000    0.000   2.085   0.420   --         
+sram_hresp     in       0.000    0.000   2.085   0.420   --         
+timer0_extin   in       0.000    0.000   2.085   0.420   --         
+timer1_extin   in       0.000    0.000   2.085   0.420   --         
+uart0_rxd      in       0.000    0.000   2.085   0.420   --         
+uart1_rxd      in       0.000    0.000   2.085   0.420   --         
+uart2_rxd      in       0.000    0.000   2.085   0.420   --         
+APBACTIVE      out      0.150    0.000   --      --      --         
+DFTSO0         out      0.150    0.000   --      --      --         
+DFTSO1         out      0.150    0.000   --      --      --         
+DFTSO2         out      0.150    0.000   --      --      --         
+HADDR[0]       out      0.150    0.000   --      --      --         
+HADDR[1]       out      0.150    0.000   --      --      --         
+HADDR[2]       out      0.150    0.000   --      --      --         
+HADDR[3]       out      0.150    0.000   --      --      --         
+HADDR[4]       out      0.150    0.000   --      --      --         
+HADDR[5]       out      0.150    0.000   --      --      --         
+HADDR[6]       out      0.150    0.000   --      --      --         
+HADDR[7]       out      0.150    0.000   --      --      --         
+HADDR[8]       out      0.150    0.000   --      --      --         
+HADDR[9]       out      0.150    0.000   --      --      --         
+HADDR[10]      out      0.150    0.000   --      --      --         
+HADDR[11]      out      0.150    0.000   --      --      --         
+HADDR[12]      out      0.150    0.000   --      --      --         
+HADDR[13]      out      0.150    0.000   --      --      --         
+HADDR[14]      out      0.150    0.000   --      --      --         
+HADDR[15]      out      0.150    0.000   --      --      --         
+HADDR[16]      out      0.150    0.000   --      --      --         
+HADDR[17]      out      0.150    0.000   --      --      --         
+HADDR[18]      out      0.150    0.000   --      --      --         
+HADDR[19]      out      0.150    0.000   --      --      --         
+HADDR[20]      out      0.150    0.000   --      --      --         
+HADDR[21]      out      0.150    0.000   --      --      --         
+HADDR[22]      out      0.150    0.000   --      --      --         
+HADDR[23]      out      0.150    0.000   --      --      --         
+HADDR[24]      out      0.150    0.000   --      --      --         
+HADDR[25]      out      0.150    0.000   --      --      --         
+HADDR[26]      out      0.150    0.000   --      --      --         
+HADDR[27]      out      0.150    0.000   --      --      --         
+HADDR[28]      out      0.150    0.000   --      --      --         
+HADDR[29]      out      0.150    0.000   --      --      --         
+HADDR[30]      out      0.150    0.000   --      --      --         
+HADDR[31]      out      0.150    0.000   --      --      --         
+HREADY         out      0.150    0.000   --      --      --         
+HSIZE[0]       out      0.150    0.000   --      --      --         
+HSIZE[1]       out      0.150    0.000   --      --      --         
+HSIZE[2]       out      0.150    0.000   --      --      --         
+HTRANS[0]      out      0.150    0.000   --      --      --         
+HTRANS[1]      out      0.150    0.000   --      --      --         
+HWDATA[0]      out      0.150    0.000   --      --      --         
+HWDATA[1]      out      0.150    0.000   --      --      --         
+HWDATA[2]      out      0.150    0.000   --      --      --         
+HWDATA[3]      out      0.150    0.000   --      --      --         
+HWDATA[4]      out      0.150    0.000   --      --      --         
+HWDATA[5]      out      0.150    0.000   --      --      --         
+HWDATA[6]      out      0.150    0.000   --      --      --         
+HWDATA[7]      out      0.150    0.000   --      --      --         
+HWDATA[8]      out      0.150    0.000   --      --      --         
+HWDATA[9]      out      0.150    0.000   --      --      --         
+HWDATA[10]     out      0.150    0.000   --      --      --         
+HWDATA[11]     out      0.150    0.000   --      --      --         
+HWDATA[12]     out      0.150    0.000   --      --      --         
+HWDATA[13]     out      0.150    0.000   --      --      --         
+HWDATA[14]     out      0.150    0.000   --      --      --         
+HWDATA[15]     out      0.150    0.000   --      --      --         
+HWDATA[16]     out      0.150    0.000   --      --      --         
+HWDATA[17]     out      0.150    0.000   --      --      --         
+HWDATA[18]     out      0.150    0.000   --      --      --         
+HWDATA[19]     out      0.150    0.000   --      --      --         
+HWDATA[20]     out      0.150    0.000   --      --      --         
+HWDATA[21]     out      0.150    0.000   --      --      --         
+HWDATA[22]     out      0.150    0.000   --      --      --         
+HWDATA[23]     out      0.150    0.000   --      --      --         
+HWDATA[24]     out      0.150    0.000   --      --      --         
+HWDATA[25]     out      0.150    0.000   --      --      --         
+HWDATA[26]     out      0.150    0.000   --      --      --         
+HWDATA[27]     out      0.150    0.000   --      --      --         
+HWDATA[28]     out      0.150    0.000   --      --      --         
+HWDATA[29]     out      0.150    0.000   --      --      --         
+HWDATA[30]     out      0.150    0.000   --      --      --         
+HWDATA[31]     out      0.150    0.000   --      --      --         
+HWRITE         out      0.150    0.000   --      --      --         
+LOCKUP         out      0.150    0.000   --      --      --         
+LOCKUPRESET    out      0.150    0.000   --      --      --         
+PMUENABLE      out      0.150    0.000   --      --      --         
+SLEEPDEEP      out      0.150    0.000   --      --      --         
+SLEEPING       out      0.150    0.000   --      --      --         
+SYSRESETREQ    out      0.150    0.000   --      --      --         
+WDOGRESETREQ   out      0.150    0.000   --      --      --         
+boot_hsel      out      0.150    0.000   --      --      --         
+flash_hsel     out      0.150    0.000   --      --      --         
+p0_altfunc[0]  out      0.150    0.000   --      --      --         
+p0_altfunc[1]  out      0.150    0.000   --      --      --         
+p0_altfunc[2]  out      0.150    0.000   --      --      --         
+p0_altfunc[3]  out      0.150    0.000   --      --      --         
+p0_altfunc[4]  out      0.150    0.000   --      --      --         
+p0_altfunc[5]  out      0.150    0.000   --      --      --         
+p0_altfunc[6]  out      0.150    0.000   --      --      --         
+p0_altfunc[7]  out      0.150    0.000   --      --      --         
+p0_altfunc[8]  out      0.150    0.000   --      --      --         
+p0_altfunc[9]  out      0.150    0.000   --      --      --         
+p0_altfunc[10] out      0.150    0.000   --      --      --         
+p0_altfunc[11] out      0.150    0.000   --      --      --         
+p0_altfunc[12] out      0.150    0.000   --      --      --         
+p0_altfunc[13] out      0.150    0.000   --      --      --         
+p0_altfunc[14] out      0.150    0.000   --      --      --         
+p0_altfunc[15] out      0.150    0.000   --      --      --         
+p0_out[0]      out      0.150    0.000   --      --      --         
+p0_out[1]      out      0.150    0.000   --      --      --         
+p0_out[2]      out      0.150    0.000   --      --      --         
+p0_out[3]      out      0.150    0.000   --      --      --         
+p0_out[4]      out      0.150    0.000   --      --      --         
+p0_out[5]      out      0.150    0.000   --      --      --         
+p0_out[6]      out      0.150    0.000   --      --      --         
+p0_out[7]      out      0.150    0.000   --      --      --         
+p0_out[8]      out      0.150    0.000   --      --      --         
+p0_out[9]      out      0.150    0.000   --      --      --         
+p0_out[10]     out      0.150    0.000   --      --      --         
+p0_out[11]     out      0.150    0.000   --      --      --         
+p0_out[12]     out      0.150    0.000   --      --      --         
+p0_out[13]     out      0.150    0.000   --      --      --         
+p0_out[14]     out      0.150    0.000   --      --      --         
+p0_out[15]     out      0.150    0.000   --      --      --         
+p0_outen[0]    out      0.150    0.000   --      --      --         
+p0_outen[1]    out      0.150    0.000   --      --      --         
+p0_outen[2]    out      0.150    0.000   --      --      --         
+p0_outen[3]    out      0.150    0.000   --      --      --         
+p0_outen[4]    out      0.150    0.000   --      --      --         
+p0_outen[5]    out      0.150    0.000   --      --      --         
+p0_outen[6]    out      0.150    0.000   --      --      --         
+p0_outen[7]    out      0.150    0.000   --      --      --         
+p0_outen[8]    out      0.150    0.000   --      --      --         
+p0_outen[9]    out      0.150    0.000   --      --      --         
+p0_outen[10]   out      0.150    0.000   --      --      --         
+p0_outen[11]   out      0.150    0.000   --      --      --         
+p0_outen[12]   out      0.150    0.000   --      --      --         
+p0_outen[13]   out      0.150    0.000   --      --      --         
+p0_outen[14]   out      0.150    0.000   --      --      --         
+p0_outen[15]   out      0.150    0.000   --      --      --         
+p1_altfunc[0]  out      0.150    0.000   --      --      --         
+p1_altfunc[1]  out      0.150    0.000   --      --      --         
+p1_altfunc[2]  out      0.150    0.000   --      --      --         
+p1_altfunc[3]  out      0.150    0.000   --      --      --         
+p1_altfunc[4]  out      0.150    0.000   --      --      --         
+p1_altfunc[5]  out      0.150    0.000   --      --      --         
+p1_altfunc[6]  out      0.150    0.000   --      --      --         
+p1_altfunc[7]  out      0.150    0.000   --      --      --         
+p1_altfunc[8]  out      0.150    0.000   --      --      --         
+p1_altfunc[9]  out      0.150    0.000   --      --      --         
+p1_altfunc[10] out      0.150    0.000   --      --      --         
+p1_altfunc[11] out      0.150    0.000   --      --      --         
+p1_altfunc[12] out      0.150    0.000   --      --      --         
+p1_altfunc[13] out      0.150    0.000   --      --      --         
+p1_altfunc[14] out      0.150    0.000   --      --      --         
+p1_altfunc[15] out      0.150    0.000   --      --      --         
+p1_out[0]      out      0.150    0.000   --      --      --         
+p1_out[1]      out      0.150    0.000   --      --      --         
+p1_out[2]      out      0.150    0.000   --      --      --         
+p1_out[3]      out      0.150    0.000   --      --      --         
+p1_out[4]      out      0.150    0.000   --      --      --         
+p1_out[5]      out      0.150    0.000   --      --      --         
+p1_out[6]      out      0.150    0.000   --      --      --         
+p1_out[7]      out      0.150    0.000   --      --      --         
+p1_out[8]      out      0.150    0.000   --      --      --         
+p1_out[9]      out      0.150    0.000   --      --      --         
+p1_out[10]     out      0.150    0.000   --      --      --         
+p1_out[11]     out      0.150    0.000   --      --      --         
+p1_out[12]     out      0.150    0.000   --      --      --         
+p1_out[13]     out      0.150    0.000   --      --      --         
+p1_out[14]     out      0.150    0.000   --      --      --         
+p1_out[15]     out      0.150    0.000   --      --      --         
+p1_outen[0]    out      0.150    0.000   --      --      --         
+p1_outen[1]    out      0.150    0.000   --      --      --         
+p1_outen[2]    out      0.150    0.000   --      --      --         
+p1_outen[3]    out      0.150    0.000   --      --      --         
+p1_outen[4]    out      0.150    0.000   --      --      --         
+p1_outen[5]    out      0.150    0.000   --      --      --         
+p1_outen[6]    out      0.150    0.000   --      --      --         
+p1_outen[7]    out      0.150    0.000   --      --      --         
+p1_outen[8]    out      0.150    0.000   --      --      --         
+p1_outen[9]    out      0.150    0.000   --      --      --         
+p1_outen[10]   out      0.150    0.000   --      --      --         
+p1_outen[11]   out      0.150    0.000   --      --      --         
+p1_outen[12]   out      0.150    0.000   --      --      --         
+p1_outen[13]   out      0.150    0.000   --      --      --         
+p1_outen[14]   out      0.150    0.000   --      --      --         
+p1_outen[15]   out      0.150    0.000   --      --      --         
+sram_hsel      out      0.150    0.000   --      --      --         
+uart0_txd      out      0.150    0.000   --      --      --         
+uart0_txen     out      0.150    0.000   --      --      --         
+uart1_txd      out      0.150    0.000   --      --      --         
+uart1_txen     out      0.150    0.000   --      --      --         
+uart2_txd      out      0.150    0.000   --      --      --         
+uart2_txen     out      0.150    0.000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+DFTSE              1      --              --              --        -- 
+DFTSI0             1      --              --              --        -- 
+DFTSI1             1      --              --              --        -- 
+DFTSI2             1      --              --              --        -- 
+FCLK               1      --              --              --        -- 
+HCLK               1      --              --              --        -- 
+HRESETn            1      --              --              --        -- 
+PCLK               1      --              --              --        -- 
+PCLKEN             1      --              --              --        -- 
+PCLKG              1      --              --              --        -- 
+PORESETn           1      --              --              --        -- 
+PRESETn            1      --              --              --        -- 
+SCLK               1      --              --              --        -- 
+boot_hrdata[0]      1     --              --              --        -- 
+boot_hrdata[1]      1     --              --              --        -- 
+boot_hrdata[2]      1     --              --              --        -- 
+boot_hrdata[3]      1     --              --              --        -- 
+boot_hrdata[4]      1     --              --              --        -- 
+boot_hrdata[5]      1     --              --              --        -- 
+boot_hrdata[6]      1     --              --              --        -- 
+boot_hrdata[7]      1     --              --              --        -- 
+boot_hrdata[8]      1     --              --              --        -- 
+boot_hrdata[9]      1     --              --              --        -- 
+boot_hrdata[10]      1    --              --              --        -- 
+boot_hrdata[11]      1    --              --              --        -- 
+boot_hrdata[12]      1    --              --              --        -- 
+boot_hrdata[13]      1    --              --              --        -- 
+boot_hrdata[14]      1    --              --              --        -- 
+boot_hrdata[15]      1    --              --              --        -- 
+boot_hrdata[16]      1    --              --              --        -- 
+boot_hrdata[17]      1    --              --              --        -- 
+boot_hrdata[18]      1    --              --              --        -- 
+boot_hrdata[19]      1    --              --              --        -- 
+boot_hrdata[20]      1    --              --              --        -- 
+boot_hrdata[21]      1    --              --              --        -- 
+boot_hrdata[22]      1    --              --              --        -- 
+boot_hrdata[23]      1    --              --              --        -- 
+boot_hrdata[24]      1    --              --              --        -- 
+boot_hrdata[25]      1    --              --              --        -- 
+boot_hrdata[26]      1    --              --              --        -- 
+boot_hrdata[27]      1    --              --              --        -- 
+boot_hrdata[28]      1    --              --              --        -- 
+boot_hrdata[29]      1    --              --              --        -- 
+boot_hrdata[30]      1    --              --              --        -- 
+boot_hrdata[31]      1    --              --              --        -- 
+boot_hreadyout      1     --              --              --        -- 
+boot_hresp         1      --              --              --        -- 
+flash_hrdata[0]      1    --              --              --        -- 
+flash_hrdata[1]      1    --              --              --        -- 
+flash_hrdata[2]      1    --              --              --        -- 
+flash_hrdata[3]      1    --              --              --        -- 
+flash_hrdata[4]      1    --              --              --        -- 
+flash_hrdata[5]      1    --              --              --        -- 
+flash_hrdata[6]      1    --              --              --        -- 
+flash_hrdata[7]      1    --              --              --        -- 
+flash_hrdata[8]      1    --              --              --        -- 
+flash_hrdata[9]      1    --              --              --        -- 
+flash_hrdata[10]      1   --              --              --        -- 
+flash_hrdata[11]      1   --              --              --        -- 
+flash_hrdata[12]      1   --              --              --        -- 
+flash_hrdata[13]      1   --              --              --        -- 
+flash_hrdata[14]      1   --              --              --        -- 
+flash_hrdata[15]      1   --              --              --        -- 
+flash_hrdata[16]      1   --              --              --        -- 
+flash_hrdata[17]      1   --              --              --        -- 
+flash_hrdata[18]      1   --              --              --        -- 
+flash_hrdata[19]      1   --              --              --        -- 
+flash_hrdata[20]      1   --              --              --        -- 
+flash_hrdata[21]      1   --              --              --        -- 
+flash_hrdata[22]      1   --              --              --        -- 
+flash_hrdata[23]      1   --              --              --        -- 
+flash_hrdata[24]      1   --              --              --        -- 
+flash_hrdata[25]      1   --              --              --        -- 
+flash_hrdata[26]      1   --              --              --        -- 
+flash_hrdata[27]      1   --              --              --        -- 
+flash_hrdata[28]      1   --              --              --        -- 
+flash_hrdata[29]      1   --              --              --        -- 
+flash_hrdata[30]      1   --              --              --        -- 
+flash_hrdata[31]      1   --              --              --        -- 
+flash_hreadyout      1    --              --              --        -- 
+flash_hresp        1      --              --              --        -- 
+p0_in[0]           1      --              --              --        -- 
+p0_in[1]           1      --              --              --        -- 
+p0_in[2]           1      --              --              --        -- 
+p0_in[3]           1      --              --              --        -- 
+p0_in[4]           1      --              --              --        -- 
+p0_in[5]           1      --              --              --        -- 
+p0_in[6]           1      --              --              --        -- 
+p0_in[7]           1      --              --              --        -- 
+p0_in[8]           1      --              --              --        -- 
+p0_in[9]           1      --              --              --        -- 
+p0_in[10]          1      --              --              --        -- 
+p0_in[11]          1      --              --              --        -- 
+p0_in[12]          1      --              --              --        -- 
+p0_in[13]          1      --              --              --        -- 
+p0_in[14]          1      --              --              --        -- 
+p0_in[15]          1      --              --              --        -- 
+p1_in[0]           1      --              --              --        -- 
+p1_in[1]           1      --              --              --        -- 
+p1_in[2]           1      --              --              --        -- 
+p1_in[3]           1      --              --              --        -- 
+p1_in[4]           1      --              --              --        -- 
+p1_in[5]           1      --              --              --        -- 
+p1_in[6]           1      --              --              --        -- 
+p1_in[7]           1      --              --              --        -- 
+p1_in[8]           1      --              --              --        -- 
+p1_in[9]           1      --              --              --        -- 
+p1_in[10]          1      --              --              --        -- 
+p1_in[11]          1      --              --              --        -- 
+p1_in[12]          1      --              --              --        -- 
+p1_in[13]          1      --              --              --        -- 
+p1_in[14]          1      --              --              --        -- 
+p1_in[15]          1      --              --              --        -- 
+sram_hrdata[0]      1     --              --              --        -- 
+sram_hrdata[1]      1     --              --              --        -- 
+sram_hrdata[2]      1     --              --              --        -- 
+sram_hrdata[3]      1     --              --              --        -- 
+sram_hrdata[4]      1     --              --              --        -- 
+sram_hrdata[5]      1     --              --              --        -- 
+sram_hrdata[6]      1     --              --              --        -- 
+sram_hrdata[7]      1     --              --              --        -- 
+sram_hrdata[8]      1     --              --              --        -- 
+sram_hrdata[9]      1     --              --              --        -- 
+sram_hrdata[10]      1    --              --              --        -- 
+sram_hrdata[11]      1    --              --              --        -- 
+sram_hrdata[12]      1    --              --              --        -- 
+sram_hrdata[13]      1    --              --              --        -- 
+sram_hrdata[14]      1    --              --              --        -- 
+sram_hrdata[15]      1    --              --              --        -- 
+sram_hrdata[16]      1    --              --              --        -- 
+sram_hrdata[17]      1    --              --              --        -- 
+sram_hrdata[18]      1    --              --              --        -- 
+sram_hrdata[19]      1    --              --              --        -- 
+sram_hrdata[20]      1    --              --              --        -- 
+sram_hrdata[21]      1    --              --              --        -- 
+sram_hrdata[22]      1    --              --              --        -- 
+sram_hrdata[23]      1    --              --              --        -- 
+sram_hrdata[24]      1    --              --              --        -- 
+sram_hrdata[25]      1    --              --              --        -- 
+sram_hrdata[26]      1    --              --              --        -- 
+sram_hrdata[27]      1    --              --              --        -- 
+sram_hrdata[28]      1    --              --              --        -- 
+sram_hrdata[29]      1    --              --              --        -- 
+sram_hrdata[30]      1    --              --              --        -- 
+sram_hrdata[31]      1    --              --              --        -- 
+sram_hreadyout      1     --              --              --        -- 
+sram_hresp         1      --              --              --        -- 
+timer0_extin       1      --              --              --        -- 
+timer1_extin       1      --              --              --        -- 
+uart0_rxd          1      --              --              --        -- 
+uart1_rxd          1      --              --              --        -- 
+uart2_rxd          1      --              --              --        -- 
+APBACTIVE          1      --              --              --        -- 
+DFTSO0             1      --              --              --        -- 
+DFTSO1             1      --              --              --        -- 
+DFTSO2             1      --              --              --        -- 
+HADDR[0]           1      --              --              --        -- 
+HADDR[1]           1      --              --              --        -- 
+HADDR[2]           1      --              --              --        -- 
+HADDR[3]           1      --              --              --        -- 
+HADDR[4]           1      --              --              --        -- 
+HADDR[5]           1      --              --              --        -- 
+HADDR[6]           1      --              --              --        -- 
+HADDR[7]           1      --              --              --        -- 
+HADDR[8]           1      --              --              --        -- 
+HADDR[9]           1      --              --              --        -- 
+HADDR[10]          1      --              --              --        -- 
+HADDR[11]          1      --              --              --        -- 
+HADDR[12]          1      --              --              --        -- 
+HADDR[13]          1      --              --              --        -- 
+HADDR[14]          1      --              --              --        -- 
+HADDR[15]          1      --              --              --        -- 
+HADDR[16]          1      --              --              --        -- 
+HADDR[17]          1      --              --              --        -- 
+HADDR[18]          1      --              --              --        -- 
+HADDR[19]          1      --              --              --        -- 
+HADDR[20]          1      --              --              --        -- 
+HADDR[21]          1      --              --              --        -- 
+HADDR[22]          1      --              --              --        -- 
+HADDR[23]          1      --              --              --        -- 
+HADDR[24]          1      --              --              --        -- 
+HADDR[25]          1      --              --              --        -- 
+HADDR[26]          1      --              --              --        -- 
+HADDR[27]          1      --              --              --        -- 
+HADDR[28]          1      --              --              --        -- 
+HADDR[29]          1      --              --              --        -- 
+HADDR[30]          1      --              --              --        -- 
+HADDR[31]          1      --              --              --        -- 
+HREADY             1      --              --              --        -- 
+HSIZE[0]           1      --              --              --        -- 
+HSIZE[1]           1      --              --              --        -- 
+HSIZE[2]           1      --              --              --        -- 
+HTRANS[0]          1      --              --              --        -- 
+HTRANS[1]          1      --              --              --        -- 
+HWDATA[0]          1      --              --              --        -- 
+HWDATA[1]          1      --              --              --        -- 
+HWDATA[2]          1      --              --              --        -- 
+HWDATA[3]          1      --              --              --        -- 
+HWDATA[4]          1      --              --              --        -- 
+HWDATA[5]          1      --              --              --        -- 
+HWDATA[6]          1      --              --              --        -- 
+HWDATA[7]          1      --              --              --        -- 
+HWDATA[8]          1      --              --              --        -- 
+HWDATA[9]          1      --              --              --        -- 
+HWDATA[10]         1      --              --              --        -- 
+HWDATA[11]         1      --              --              --        -- 
+HWDATA[12]         1      --              --              --        -- 
+HWDATA[13]         1      --              --              --        -- 
+HWDATA[14]         1      --              --              --        -- 
+HWDATA[15]         1      --              --              --        -- 
+HWDATA[16]         1      --              --              --        -- 
+HWDATA[17]         1      --              --              --        -- 
+HWDATA[18]         1      --              --              --        -- 
+HWDATA[19]         1      --              --              --        -- 
+HWDATA[20]         1      --              --              --        -- 
+HWDATA[21]         1      --              --              --        -- 
+HWDATA[22]         1      --              --              --        -- 
+HWDATA[23]         1      --              --              --        -- 
+HWDATA[24]         1      --              --              --        -- 
+HWDATA[25]         1      --              --              --        -- 
+HWDATA[26]         1      --              --              --        -- 
+HWDATA[27]         1      --              --              --        -- 
+HWDATA[28]         1      --              --              --        -- 
+HWDATA[29]         1      --              --              --        -- 
+HWDATA[30]         1      --              --              --        -- 
+HWDATA[31]         1      --              --              --        -- 
+HWRITE             1      --              --              --        -- 
+LOCKUP             1      --              --              --        -- 
+LOCKUPRESET        1      --              --              --        -- 
+PMUENABLE          1      --              --              --        -- 
+SLEEPDEEP          1      --              --              --        -- 
+SLEEPING           1      --              --              --        -- 
+SYSRESETREQ        1      --              --              --        -- 
+WDOGRESETREQ       1      --              --              --        -- 
+boot_hsel          1      --              --              --        -- 
+flash_hsel         1      --              --              --        -- 
+p0_altfunc[0]      1      --              --              --        -- 
+p0_altfunc[1]      1      --              --              --        -- 
+p0_altfunc[2]      1      --              --              --        -- 
+p0_altfunc[3]      1      --              --              --        -- 
+p0_altfunc[4]      1      --              --              --        -- 
+p0_altfunc[5]      1      --              --              --        -- 
+p0_altfunc[6]      1      --              --              --        -- 
+p0_altfunc[7]      1      --              --              --        -- 
+p0_altfunc[8]      1      --              --              --        -- 
+p0_altfunc[9]      1      --              --              --        -- 
+p0_altfunc[10]      1     --              --              --        -- 
+p0_altfunc[11]      1     --              --              --        -- 
+p0_altfunc[12]      1     --              --              --        -- 
+p0_altfunc[13]      1     --              --              --        -- 
+p0_altfunc[14]      1     --              --              --        -- 
+p0_altfunc[15]      1     --              --              --        -- 
+p0_out[0]          1      --              --              --        -- 
+p0_out[1]          1      --              --              --        -- 
+p0_out[2]          1      --              --              --        -- 
+p0_out[3]          1      --              --              --        -- 
+p0_out[4]          1      --              --              --        -- 
+p0_out[5]          1      --              --              --        -- 
+p0_out[6]          1      --              --              --        -- 
+p0_out[7]          1      --              --              --        -- 
+p0_out[8]          1      --              --              --        -- 
+p0_out[9]          1      --              --              --        -- 
+p0_out[10]         1      --              --              --        -- 
+p0_out[11]         1      --              --              --        -- 
+p0_out[12]         1      --              --              --        -- 
+p0_out[13]         1      --              --              --        -- 
+p0_out[14]         1      --              --              --        -- 
+p0_out[15]         1      --              --              --        -- 
+p0_outen[0]        1      --              --              --        -- 
+p0_outen[1]        1      --              --              --        -- 
+p0_outen[2]        1      --              --              --        -- 
+p0_outen[3]        1      --              --              --        -- 
+p0_outen[4]        1      --              --              --        -- 
+p0_outen[5]        1      --              --              --        -- 
+p0_outen[6]        1      --              --              --        -- 
+p0_outen[7]        1      --              --              --        -- 
+p0_outen[8]        1      --              --              --        -- 
+p0_outen[9]        1      --              --              --        -- 
+p0_outen[10]       1      --              --              --        -- 
+p0_outen[11]       1      --              --              --        -- 
+p0_outen[12]       1      --              --              --        -- 
+p0_outen[13]       1      --              --              --        -- 
+p0_outen[14]       1      --              --              --        -- 
+p0_outen[15]       1      --              --              --        -- 
+p1_altfunc[0]      1      --              --              --        -- 
+p1_altfunc[1]      1      --              --              --        -- 
+p1_altfunc[2]      1      --              --              --        -- 
+p1_altfunc[3]      1      --              --              --        -- 
+p1_altfunc[4]      1      --              --              --        -- 
+p1_altfunc[5]      1      --              --              --        -- 
+p1_altfunc[6]      1      --              --              --        -- 
+p1_altfunc[7]      1      --              --              --        -- 
+p1_altfunc[8]      1      --              --              --        -- 
+p1_altfunc[9]      1      --              --              --        -- 
+p1_altfunc[10]      1     --              --              --        -- 
+p1_altfunc[11]      1     --              --              --        -- 
+p1_altfunc[12]      1     --              --              --        -- 
+p1_altfunc[13]      1     --              --              --        -- 
+p1_altfunc[14]      1     --              --              --        -- 
+p1_altfunc[15]      1     --              --              --        -- 
+p1_out[0]          1      --              --              --        -- 
+p1_out[1]          1      --              --              --        -- 
+p1_out[2]          1      --              --              --        -- 
+p1_out[3]          1      --              --              --        -- 
+p1_out[4]          1      --              --              --        -- 
+p1_out[5]          1      --              --              --        -- 
+p1_out[6]          1      --              --              --        -- 
+p1_out[7]          1      --              --              --        -- 
+p1_out[8]          1      --              --              --        -- 
+p1_out[9]          1      --              --              --        -- 
+p1_out[10]         1      --              --              --        -- 
+p1_out[11]         1      --              --              --        -- 
+p1_out[12]         1      --              --              --        -- 
+p1_out[13]         1      --              --              --        -- 
+p1_out[14]         1      --              --              --        -- 
+p1_out[15]         1      --              --              --        -- 
+p1_outen[0]        1      --              --              --        -- 
+p1_outen[1]        1      --              --              --        -- 
+p1_outen[2]        1      --              --              --        -- 
+p1_outen[3]        1      --              --              --        -- 
+p1_outen[4]        1      --              --              --        -- 
+p1_outen[5]        1      --              --              --        -- 
+p1_outen[6]        1      --              --              --        -- 
+p1_outen[7]        1      --              --              --        -- 
+p1_outen[8]        1      --              --              --        -- 
+p1_outen[9]        1      --              --              --        -- 
+p1_outen[10]       1      --              --              --        -- 
+p1_outen[11]       1      --              --              --        -- 
+p1_outen[12]       1      --              --              --        -- 
+p1_outen[13]       1      --              --              --        -- 
+p1_outen[14]       1      --              --              --        -- 
+p1_outen[15]       1      --              --              --        -- 
+sram_hsel          1      --              --              --        -- 
+uart0_txd          1      --              --              --        -- 
+uart0_txen         1      --              --              --        -- 
+uart1_txd          1      --              --              --        -- 
+uart1_txen         1      --              --              --        -- 
+uart2_txd          1      --              --              --        -- 
+uart2_txen         1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+DFTSE        0.000   0.000  10.000  10.000  VCLK      --    
+DFTSI0       0.000   0.000   4.000   4.000  VCLK      --    
+DFTSI1       0.000   0.000   4.000   4.000  VCLK      --    
+DFTSI2       0.000   0.000   4.000   4.000  VCLK      --    
+FCLK          --      --      --      --      --      -- 
+HCLK          --      --      --      --      --      -- 
+HRESETn      0.000   0.000  12.000  12.000  VCLK      --    
+PCLK          --      --      --      --      --      -- 
+PCLKEN       0.000   0.000  10.000  10.000  VCLK      --    
+PCLKG         --      --      --      --      --      -- 
+PORESETn     0.000   0.000  12.000  12.000  VCLK      --    
+PRESETn      0.000   0.000  12.000  12.000  VCLK      --    
+SCLK          --      --      --      --      --      -- 
+boot_hrdata[0]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[1]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[2]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[3]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[4]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[5]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[6]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[7]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[8]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[9]  0.000  0.000 12.000 12.000  VCLK      --    
+boot_hrdata[10]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[11]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[12]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[13]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[14]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[15]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[16]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[17]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[18]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[19]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[20]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[21]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[22]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[23]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[24]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[25]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[26]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[27]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[28]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[29]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[30]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hrdata[31]  0.000  0.000 12.000 12.000 VCLK      --    
+boot_hreadyout  0.000  0.000  8.000  8.000  VCLK      --    
+boot_hresp   0.000   0.000  12.000  12.000  VCLK      --    
+flash_hrdata[0]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[1]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[2]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[3]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[4]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[5]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[6]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[7]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[8]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[9]  0.000  0.000 12.000 12.000 VCLK      --    
+flash_hrdata[10]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[11]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[12]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[13]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[14]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[15]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[16]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[17]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[18]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[19]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[20]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[21]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[22]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[23]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[24]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[25]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[26]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[27]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[28]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[29]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[30]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hrdata[31]  0.000  0.000 12.000 12.000 VCLK     --    
+flash_hreadyout  0.000  0.000  8.000  8.000 VCLK      --    
+flash_hresp  0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[0]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[1]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[2]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[3]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[4]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[5]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[6]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[7]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[8]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[9]     0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[10]    0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[11]    0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[12]    0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[13]    0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[14]    0.000   0.000  12.000  12.000  VCLK      --    
+p0_in[15]    0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[0]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[1]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[2]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[3]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[4]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[5]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[6]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[7]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[8]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[9]     0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[10]    0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[11]    0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[12]    0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[13]    0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[14]    0.000   0.000  12.000  12.000  VCLK      --    
+p1_in[15]    0.000   0.000  12.000  12.000  VCLK      --    
+sram_hrdata[0]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[1]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[2]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[3]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[4]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[5]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[6]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[7]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[8]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[9]  0.000  0.000 12.000 12.000  VCLK      --    
+sram_hrdata[10]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[11]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[12]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[13]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[14]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[15]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[16]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[17]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[18]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[19]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[20]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[21]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[22]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[23]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[24]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[25]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[26]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[27]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[28]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[29]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[30]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hrdata[31]  0.000  0.000 12.000 12.000 VCLK      --    
+sram_hreadyout  0.000  0.000  8.000  8.000  VCLK      --    
+sram_hresp   0.000   0.000  12.000  12.000  VCLK      --    
+timer0_extin  0.000  0.000  12.000  12.000  VCLK      --    
+timer1_extin  0.000  0.000  12.000  12.000  VCLK      --    
+uart0_rxd    0.000   0.000  12.000  12.000  VCLK      --    
+uart1_rxd    0.000   0.000  12.000  12.000  VCLK      --    
+uart2_rxd    0.000   0.000  12.000  12.000  VCLK      --    
+
+
+                    Driving Cell
+Input Port   Rise(min/max)      Fall(min/max)      Mult(min/max)  Attrs(min/max)
+--------------------------------------------------------------------------------
+DFTSE        sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+DFTSI0       sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+DFTSI1       sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+DFTSI2       sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+FCLK         sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A)   -- /  -- 
+HCLK         sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A)   -- /  -- 
+HRESETn      sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+PCLK         sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A)   -- /  -- 
+PCLKEN       sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+PCLKG        sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A)   -- /  -- 
+PORESETn     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+PRESETn      sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+SCLK         sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/CLKBUF_X8_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[0] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[1] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[2] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[3] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[4] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[5] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[6] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[7] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[8] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[9] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[10] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[11] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[12] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[13] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[14] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[15] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[16] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[17] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[18] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[19] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[20] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[21] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[22] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[23] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[24] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[25] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[26] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[27] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[28] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[29] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[30] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hrdata[31] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hreadyout sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+boot_hresp   sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[0] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[1] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[2] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[3] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[4] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[5] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[6] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[7] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[8] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[9] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[10] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[11] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[12] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[13] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[14] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[15] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[16] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[17] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[18] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[19] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[20] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[21] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[22] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[23] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[24] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[25] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[26] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[27] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[28] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[29] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[30] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hrdata[31] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hreadyout sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+flash_hresp  sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[0]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[1]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[2]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[3]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[4]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[5]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[6]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[7]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[8]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[9]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[10]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[11]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[12]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[13]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[14]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p0_in[15]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[0]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[1]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[2]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[3]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[4]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[5]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[6]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[7]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[8]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[9]     sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[10]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[11]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[12]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[13]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[14]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+p1_in[15]    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[0] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[1] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[2] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[3] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[4] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[5] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[6] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[7] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[8] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[9] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[10] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[11] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[12] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[13] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[14] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[15] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[16] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[17] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[18] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[19] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[20] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[21] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[22] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[23] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[24] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[25] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[26] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[27] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[28] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[29] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[30] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hrdata[31] sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hreadyout sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+sram_hresp   sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+timer0_extin sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+timer1_extin sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+uart0_rxd    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+uart1_rxd    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+uart2_rxd    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A) sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c/BUF_X4_A7TULL/Y (A)   -- /  -- 
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+DFTSE         --      --     --      --     --      --     --     --        -- 
+DFTSI0        --      --     --      --     --      --     --     --        -- 
+DFTSI1        --      --     --      --     --      --     --     --        -- 
+DFTSI2        --      --     --      --     --      --     --     --        -- 
+FCLK          --      --     --      --     --      --     --     --        -- 
+HCLK          --      --     --      --     --      --     --     --        -- 
+HRESETn       --      --     --      --     --      --     --     --        -- 
+PCLK          --      --     --      --     --      --     --     --        -- 
+PCLKEN        --      --     --      --     --      --     --     --        -- 
+PCLKG         --      --     --      --     --      --     --     --        -- 
+PORESETn      --      --     --      --     --      --     --     --        -- 
+PRESETn       --      --     --      --     --      --     --     --        -- 
+SCLK          --      --     --      --     --      --     --     --        -- 
+boot_hrdata[0]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[1]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[2]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[3]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[4]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[5]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[6]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[7]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[8]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[9]   --    --    --      --     --      --     --     --        -- 
+boot_hrdata[10]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[11]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[12]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[13]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[14]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[15]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[16]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[17]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[18]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[19]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[20]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[21]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[22]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[23]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[24]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[25]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[26]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[27]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[28]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[29]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[30]   --    --    --     --     --      --     --     --        -- 
+boot_hrdata[31]   --    --    --     --     --      --     --     --        -- 
+boot_hreadyout   --    --    --      --     --      --     --     --        -- 
+boot_hresp    --      --     --      --     --      --     --     --        -- 
+flash_hrdata[0]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[1]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[2]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[3]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[4]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[5]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[6]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[7]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[8]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[9]   --    --    --     --     --      --     --     --        -- 
+flash_hrdata[10]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[11]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[12]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[13]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[14]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[15]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[16]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[17]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[18]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[19]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[20]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[21]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[22]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[23]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[24]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[25]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[26]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[27]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[28]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[29]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[30]   --    --    --    --     --      --     --     --        -- 
+flash_hrdata[31]   --    --    --    --     --      --     --     --        -- 
+flash_hreadyout   --    --    --     --     --      --     --     --        -- 
+flash_hresp   --      --     --      --     --      --     --     --        -- 
+p0_in[0]      --      --     --      --     --      --     --     --        -- 
+p0_in[1]      --      --     --      --     --      --     --     --        -- 
+p0_in[2]      --      --     --      --     --      --     --     --        -- 
+p0_in[3]      --      --     --      --     --      --     --     --        -- 
+p0_in[4]      --      --     --      --     --      --     --     --        -- 
+p0_in[5]      --      --     --      --     --      --     --     --        -- 
+p0_in[6]      --      --     --      --     --      --     --     --        -- 
+p0_in[7]      --      --     --      --     --      --     --     --        -- 
+p0_in[8]      --      --     --      --     --      --     --     --        -- 
+p0_in[9]      --      --     --      --     --      --     --     --        -- 
+p0_in[10]     --      --     --      --     --      --     --     --        -- 
+p0_in[11]     --      --     --      --     --      --     --     --        -- 
+p0_in[12]     --      --     --      --     --      --     --     --        -- 
+p0_in[13]     --      --     --      --     --      --     --     --        -- 
+p0_in[14]     --      --     --      --     --      --     --     --        -- 
+p0_in[15]     --      --     --      --     --      --     --     --        -- 
+p1_in[0]      --      --     --      --     --      --     --     --        -- 
+p1_in[1]      --      --     --      --     --      --     --     --        -- 
+p1_in[2]      --      --     --      --     --      --     --     --        -- 
+p1_in[3]      --      --     --      --     --      --     --     --        -- 
+p1_in[4]      --      --     --      --     --      --     --     --        -- 
+p1_in[5]      --      --     --      --     --      --     --     --        -- 
+p1_in[6]      --      --     --      --     --      --     --     --        -- 
+p1_in[7]      --      --     --      --     --      --     --     --        -- 
+p1_in[8]      --      --     --      --     --      --     --     --        -- 
+p1_in[9]      --      --     --      --     --      --     --     --        -- 
+p1_in[10]     --      --     --      --     --      --     --     --        -- 
+p1_in[11]     --      --     --      --     --      --     --     --        -- 
+p1_in[12]     --      --     --      --     --      --     --     --        -- 
+p1_in[13]     --      --     --      --     --      --     --     --        -- 
+p1_in[14]     --      --     --      --     --      --     --     --        -- 
+p1_in[15]     --      --     --      --     --      --     --     --        -- 
+sram_hrdata[0]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[1]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[2]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[3]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[4]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[5]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[6]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[7]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[8]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[9]   --    --    --      --     --      --     --     --        -- 
+sram_hrdata[10]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[11]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[12]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[13]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[14]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[15]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[16]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[17]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[18]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[19]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[20]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[21]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[22]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[23]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[24]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[25]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[26]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[27]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[28]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[29]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[30]   --    --    --     --     --      --     --     --        -- 
+sram_hrdata[31]   --    --    --     --     --      --     --     --        -- 
+sram_hreadyout   --    --    --      --     --      --     --     --        -- 
+sram_hresp    --      --     --      --     --      --     --     --        -- 
+timer0_extin   --     --     --      --     --      --     --     --        -- 
+timer1_extin   --     --     --      --     --      --     --     --        -- 
+uart0_rxd     --      --     --      --     --      --     --     --        -- 
+uart1_rxd     --      --     --      --     --      --     --     --        -- 
+uart2_rxd     --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+DFTSE         --      --      --      -- 
+DFTSI0        --      --      --      -- 
+DFTSI1        --      --      --      -- 
+DFTSI2        --      --      --      -- 
+FCLK          --      --      --      -- 
+HCLK          --      --      --      -- 
+HRESETn       --      --      --      -- 
+PCLK          --      --      --      -- 
+PCLKEN        --      --      --      -- 
+PCLKG         --      --      --      -- 
+PORESETn      --      --      --      -- 
+PRESETn       --      --      --      -- 
+SCLK          --      --      --      -- 
+boot_hrdata[0]   --    --     --      -- 
+boot_hrdata[1]   --    --     --      -- 
+boot_hrdata[2]   --    --     --      -- 
+boot_hrdata[3]   --    --     --      -- 
+boot_hrdata[4]   --    --     --      -- 
+boot_hrdata[5]   --    --     --      -- 
+boot_hrdata[6]   --    --     --      -- 
+boot_hrdata[7]   --    --     --      -- 
+boot_hrdata[8]   --    --     --      -- 
+boot_hrdata[9]   --    --     --      -- 
+boot_hrdata[10]   --    --    --      -- 
+boot_hrdata[11]   --    --    --      -- 
+boot_hrdata[12]   --    --    --      -- 
+boot_hrdata[13]   --    --    --      -- 
+boot_hrdata[14]   --    --    --      -- 
+boot_hrdata[15]   --    --    --      -- 
+boot_hrdata[16]   --    --    --      -- 
+boot_hrdata[17]   --    --    --      -- 
+boot_hrdata[18]   --    --    --      -- 
+boot_hrdata[19]   --    --    --      -- 
+boot_hrdata[20]   --    --    --      -- 
+boot_hrdata[21]   --    --    --      -- 
+boot_hrdata[22]   --    --    --      -- 
+boot_hrdata[23]   --    --    --      -- 
+boot_hrdata[24]   --    --    --      -- 
+boot_hrdata[25]   --    --    --      -- 
+boot_hrdata[26]   --    --    --      -- 
+boot_hrdata[27]   --    --    --      -- 
+boot_hrdata[28]   --    --    --      -- 
+boot_hrdata[29]   --    --    --      -- 
+boot_hrdata[30]   --    --    --      -- 
+boot_hrdata[31]   --    --    --      -- 
+boot_hreadyout   --    --     --      -- 
+boot_hresp    --      --      --      -- 
+flash_hrdata[0]   --    --    --      -- 
+flash_hrdata[1]   --    --    --      -- 
+flash_hrdata[2]   --    --    --      -- 
+flash_hrdata[3]   --    --    --      -- 
+flash_hrdata[4]   --    --    --      -- 
+flash_hrdata[5]   --    --    --      -- 
+flash_hrdata[6]   --    --    --      -- 
+flash_hrdata[7]   --    --    --      -- 
+flash_hrdata[8]   --    --    --      -- 
+flash_hrdata[9]   --    --    --      -- 
+flash_hrdata[10]   --    --    --     -- 
+flash_hrdata[11]   --    --    --     -- 
+flash_hrdata[12]   --    --    --     -- 
+flash_hrdata[13]   --    --    --     -- 
+flash_hrdata[14]   --    --    --     -- 
+flash_hrdata[15]   --    --    --     -- 
+flash_hrdata[16]   --    --    --     -- 
+flash_hrdata[17]   --    --    --     -- 
+flash_hrdata[18]   --    --    --     -- 
+flash_hrdata[19]   --    --    --     -- 
+flash_hrdata[20]   --    --    --     -- 
+flash_hrdata[21]   --    --    --     -- 
+flash_hrdata[22]   --    --    --     -- 
+flash_hrdata[23]   --    --    --     -- 
+flash_hrdata[24]   --    --    --     -- 
+flash_hrdata[25]   --    --    --     -- 
+flash_hrdata[26]   --    --    --     -- 
+flash_hrdata[27]   --    --    --     -- 
+flash_hrdata[28]   --    --    --     -- 
+flash_hrdata[29]   --    --    --     -- 
+flash_hrdata[30]   --    --    --     -- 
+flash_hrdata[31]   --    --    --     -- 
+flash_hreadyout   --    --    --      -- 
+flash_hresp   --      --      --      -- 
+p0_in[0]      --      --      --      -- 
+p0_in[1]      --      --      --      -- 
+p0_in[2]      --      --      --      -- 
+p0_in[3]      --      --      --      -- 
+p0_in[4]      --      --      --      -- 
+p0_in[5]      --      --      --      -- 
+p0_in[6]      --      --      --      -- 
+p0_in[7]      --      --      --      -- 
+p0_in[8]      --      --      --      -- 
+p0_in[9]      --      --      --      -- 
+p0_in[10]     --      --      --      -- 
+p0_in[11]     --      --      --      -- 
+p0_in[12]     --      --      --      -- 
+p0_in[13]     --      --      --      -- 
+p0_in[14]     --      --      --      -- 
+p0_in[15]     --      --      --      -- 
+p1_in[0]      --      --      --      -- 
+p1_in[1]      --      --      --      -- 
+p1_in[2]      --      --      --      -- 
+p1_in[3]      --      --      --      -- 
+p1_in[4]      --      --      --      -- 
+p1_in[5]      --      --      --      -- 
+p1_in[6]      --      --      --      -- 
+p1_in[7]      --      --      --      -- 
+p1_in[8]      --      --      --      -- 
+p1_in[9]      --      --      --      -- 
+p1_in[10]     --      --      --      -- 
+p1_in[11]     --      --      --      -- 
+p1_in[12]     --      --      --      -- 
+p1_in[13]     --      --      --      -- 
+p1_in[14]     --      --      --      -- 
+p1_in[15]     --      --      --      -- 
+sram_hrdata[0]   --    --     --      -- 
+sram_hrdata[1]   --    --     --      -- 
+sram_hrdata[2]   --    --     --      -- 
+sram_hrdata[3]   --    --     --      -- 
+sram_hrdata[4]   --    --     --      -- 
+sram_hrdata[5]   --    --     --      -- 
+sram_hrdata[6]   --    --     --      -- 
+sram_hrdata[7]   --    --     --      -- 
+sram_hrdata[8]   --    --     --      -- 
+sram_hrdata[9]   --    --     --      -- 
+sram_hrdata[10]   --    --    --      -- 
+sram_hrdata[11]   --    --    --      -- 
+sram_hrdata[12]   --    --    --      -- 
+sram_hrdata[13]   --    --    --      -- 
+sram_hrdata[14]   --    --    --      -- 
+sram_hrdata[15]   --    --    --      -- 
+sram_hrdata[16]   --    --    --      -- 
+sram_hrdata[17]   --    --    --      -- 
+sram_hrdata[18]   --    --    --      -- 
+sram_hrdata[19]   --    --    --      -- 
+sram_hrdata[20]   --    --    --      -- 
+sram_hrdata[21]   --    --    --      -- 
+sram_hrdata[22]   --    --    --      -- 
+sram_hrdata[23]   --    --    --      -- 
+sram_hrdata[24]   --    --    --      -- 
+sram_hrdata[25]   --    --    --      -- 
+sram_hrdata[26]   --    --    --      -- 
+sram_hrdata[27]   --    --    --      -- 
+sram_hrdata[28]   --    --    --      -- 
+sram_hrdata[29]   --    --    --      -- 
+sram_hrdata[30]   --    --    --      -- 
+sram_hrdata[31]   --    --    --      -- 
+sram_hreadyout   --    --     --      -- 
+sram_hresp    --      --      --      -- 
+timer0_extin   --     --      --      -- 
+timer1_extin   --     --      --      -- 
+uart0_rxd     --      --      --      -- 
+uart1_rxd     --      --      --      -- 
+uart2_rxd     --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+APBACTIVE    0.000   0.000   8.000   8.000  VCLK     0.000  
+DFTSO0       0.000   0.000   4.000   4.000  VCLK     0.000  
+DFTSO1       0.000   0.000   4.000   4.000  VCLK     0.000  
+DFTSO2       0.000   0.000   4.000   4.000  VCLK     0.000  
+HADDR[0]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[1]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[2]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[3]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[4]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[5]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[6]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[7]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[8]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[9]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[10]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[11]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[12]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[13]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[14]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[15]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[16]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[17]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[18]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[19]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[20]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[21]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[22]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[23]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[24]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[25]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[26]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[27]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[28]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[29]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[30]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HADDR[31]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HREADY       0.000   0.000   6.000   6.000  VCLK     0.000  
+HSIZE[0]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HSIZE[1]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HSIZE[2]     0.000   0.000  10.000  10.000  VCLK     0.000  
+HTRANS[0]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HTRANS[1]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[0]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[1]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[2]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[3]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[4]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[5]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[6]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[7]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[8]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[9]    0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[10]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[11]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[12]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[13]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[14]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[15]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[16]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[17]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[18]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[19]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[20]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[21]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[22]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[23]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[24]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[25]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[26]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[27]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[28]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[29]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[30]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWDATA[31]   0.000   0.000  10.000  10.000  VCLK     0.000  
+HWRITE       0.000   0.000  10.000  10.000  VCLK     0.000  
+LOCKUP       0.000   0.000  10.000  10.000  VCLK     0.000  
+LOCKUPRESET  0.000   0.000  10.000  10.000  VCLK     0.000  
+PMUENABLE    0.000   0.000  10.000  10.000  VCLK     0.000  
+SLEEPDEEP    0.000   0.000  10.000  10.000  VCLK     0.000  
+SLEEPING     0.000   0.000  10.000  10.000  VCLK     0.000  
+SYSRESETREQ  0.000   0.000  10.000  10.000  VCLK     0.000  
+WDOGRESETREQ  0.000  0.000  10.000  10.000  VCLK     0.000  
+boot_hsel    0.000   0.000  10.000  10.000  VCLK     0.000  
+flash_hsel   0.000   0.000  10.000  10.000  VCLK     0.000  
+p0_altfunc[0]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[1]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[2]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[3]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[4]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[5]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[6]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[7]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[8]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[9]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p0_altfunc[10]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p0_altfunc[11]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p0_altfunc[12]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p0_altfunc[13]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p0_altfunc[14]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p0_altfunc[15]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p0_out[0]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[1]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[2]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[3]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[4]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[5]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[6]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[7]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[8]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[9]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[10]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[11]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[12]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[13]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[14]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_out[15]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[0]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[1]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[2]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[3]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[4]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[5]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[6]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[7]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[8]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[9]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p0_outen[10]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p0_outen[11]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p0_outen[12]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p0_outen[13]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p0_outen[14]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p0_outen[15]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p1_altfunc[0]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[1]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[2]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[3]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[4]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[5]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[6]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[7]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[8]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[9]  0.000  0.000 12.000  12.000  VCLK     0.000  
+p1_altfunc[10]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p1_altfunc[11]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p1_altfunc[12]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p1_altfunc[13]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p1_altfunc[14]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p1_altfunc[15]  0.000  0.000 12.000 12.000  VCLK     0.000  
+p1_out[0]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[1]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[2]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[3]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[4]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[5]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[6]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[7]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[8]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[9]    0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[10]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[11]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[12]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[13]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[14]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_out[15]   0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[0]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[1]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[2]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[3]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[4]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[5]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[6]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[7]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[8]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[9]  0.000   0.000  12.000  12.000  VCLK     0.000  
+p1_outen[10]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p1_outen[11]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p1_outen[12]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p1_outen[13]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p1_outen[14]  0.000  0.000  12.000  12.000  VCLK     0.000  
+p1_outen[15]  0.000  0.000  12.000  12.000  VCLK     0.000  
+sram_hsel    0.000   0.000  10.000  10.000  VCLK     0.000  
+uart0_txd    0.000   0.000  12.000  12.000  VCLK     0.000  
+uart0_txen   0.000   0.000  12.000  12.000  VCLK     0.000  
+uart1_txd    0.000   0.000  12.000  12.000  VCLK     0.000  
+uart1_txen   0.000   0.000  12.000  12.000  VCLK     0.000  
+uart2_txd    0.000   0.000  12.000  12.000  VCLK     0.000  
+uart2_txen   0.000   0.000  12.000  12.000  VCLK     0.000  
+
+1

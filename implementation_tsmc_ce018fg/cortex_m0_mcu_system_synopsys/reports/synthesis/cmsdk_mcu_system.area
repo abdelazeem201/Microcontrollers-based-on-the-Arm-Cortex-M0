@@ -1,0 +1,199 @@
+Information: Base Cell (com): cell XNOR2_XL_A7TULL, w=5040, h=3920 (npin=3)
+Information: Base Cell (seq): cell SDFFR_X2_A7TULL, w=16800, h=3920 (npin=6)
+ 
+****************************************
+Report : area
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:33 2023
+****************************************
+
+Library(s) Used:
+
+    sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c (File: /home/IC/Desktop/Abdelazeem/ARM/arm/scratch/arm/tsmc/ce018fg/sc7_base_rvt/r9p0-01eac0/db/sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c.db)
+
+Number of ports:                         6240
+Number of nets:                         19224
+Number of cells:                        15520
+Number of combinational cells:          12176
+Number of sequential cells:              3202
+Number of macros/black boxes:               0
+Number of buf/inv:                       2207
+Number of references:                      22
+
+Combinational area:             151850.762749
+Buf/Inv area:                    16883.282942
+Noncombinational area:          153161.294727
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                305012.057476
+Total area:                 undefined
+
+Core Area:                    541046
+Aspect Ratio:                 1.0038
+Utilization Ratio:            0.5638
+
+
+The above information was reported from the logical library. The following are from the physical library:
+
+  Total moveable cell area: 305012.1
+  Total fixed cell area: 0.0
+  Total physical cell area: 305012.1
+ Core area: 0.000, 0.000, 734.160, 736.960
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  -------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-    Black-
+                                  Total        Total    national     national     boxes   Design
+--------------------------------  -----------  -------  -----------  -----------  ------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cmsdk_mcu_system                  305012.0575    100.0    4089.6575       0.0000  0.0000  cmsdk_mcu_system
+clk_gate_reg_byte_strobe_reg          68.0512      0.0       0.0000      68.0512  0.0000  cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_32
+clk_gate_reg_byte_strobe_reg_0        68.0512      0.0       0.0000      68.0512  0.0000  cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_44
+u_addr_decode                        454.4064      0.1     454.4064       0.0000  0.0000  cmsdk_mcu_system_cmsdk_mcu_addr_decode_40010000_40011000_0_f0000000_0
+u_ahb_default_slave_1                155.8592      0.1      26.3424     129.5168  0.0000  cmsdk_mcu_system_cmsdk_ahb_default_slave_0
+u_ahb_gpio_0                       16659.3726      5.5       0.0000       0.0000  0.0000  cmsdk_mcu_system_cmsdk_ahb_gpio_0000_0000_0_0
+u_ahb_gpio_0/u_ahb_to_gpio          1271.0208      0.4     219.5200    1051.5008  0.0000  cmsdk_mcu_system_cmsdk_ahb_to_iop_0
+u_ahb_gpio_0/u_iop_gpio            15388.3518      5.0    6038.9951    9009.1007  0.0000  cmsdk_mcu_system_cmsdk_iop_gpio_0000_0000_0_0
+u_ahb_gpio_0/u_iop_gpio/clk_gate_ml_clk_gate_reg_dout_padded_reg_5     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_36
+u_ahb_gpio_0/u_iop_gpio/clk_gate_ml_clk_gate_reg_dout_padded_reg_6     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_37
+u_ahb_gpio_0/u_iop_gpio/clk_gate_ml_clk_gate_reg_inten_padded_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_38
+u_ahb_gpio_0/u_iop_gpio/clk_gate_ml_clk_gate_reg_inttype_padded_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_39
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_last_datain_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_iop_gpio_0000_0000_0_0
+u_ahb_gpio_1                       17166.4638      5.6       0.0000       0.0000  0.0000  cmsdk_mcu_system_cmsdk_ahb_gpio_002a_0000_0_0
+u_ahb_gpio_1/u_ahb_to_gpio          1273.2160      0.4     228.3008    1044.9152  0.0000  cmsdk_mcu_system_cmsdk_ahb_to_iop_1
+u_ahb_gpio_1/u_iop_gpio            15893.2478      5.2    6350.7135    9202.2783  0.0000  cmsdk_mcu_system_cmsdk_iop_gpio_002a_0000_0_0
+u_ahb_gpio_1/u_iop_gpio/clk_gate_ml_clk_gate_reg_dout_padded_reg_5     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_40
+u_ahb_gpio_1/u_iop_gpio/clk_gate_ml_clk_gate_reg_dout_padded_reg_6     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_41
+u_ahb_gpio_1/u_iop_gpio/clk_gate_ml_clk_gate_reg_inten_padded_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_43
+u_ahb_gpio_1/u_iop_gpio/clk_gate_ml_clk_gate_reg_inttype_padded_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_42
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_last_datain_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_iop_gpio_002a_0000_0_0
+u_ahb_slave_mux_sys_bus             1986.6560      0.7    1494.9312     491.7248  0.0000  cmsdk_mcu_system_cmsdk_ahb_slave_mux_PORT0_ENABLE1_PORT1_ENABLE1_PORT2_ENABLE0_PORT3_ENABLE1_PORT4_ENABLE1_PORT5_ENABLE1_PORT6_ENABLE1_PORT7_ENABLE1_PORT8_ENABLE1_PORT9_ENABLE0_DW32_0
+u_apb_subsystem                    99306.4561     32.6     439.0400       0.0000  0.0000  cmsdk_mcu_system_cmsdk_apb_subsystem_APB_EXT_PORT12_ENABLE0_APB_EXT_PORT13_ENABLE0_APB_EXT_PORT14_ENABLE0_APB_EXT_PORT15_ENABLE0_INCLUDE_IRQ_SYNCHRONIZER0_INCLUDE_APB_TEST_SLAVE1_INCLUDE_APB_TIMER01_INCLUDE_APB_TIMER11_INCLUDE_APB_DUALTIMER01_INCLUDE_APB_UART01_INCLUDE_APB_UART11_INCLUDE_APB_UART21_INCLUDE_APB_WATCHDOG1_BE0_0
+u_apb_subsystem/clk_gate_ml           68.0512      0.0       0.0000      68.0512  0.0000  cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_0
+u_apb_subsystem/clk_gate_ml_0         68.0512      0.0       0.0000      68.0512  0.0000  cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_25
+u_apb_subsystem/clk_gate_wdog_itop_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_subsystem_APB_EXT_PORT12_ENABLE0_APB_EXT_PORT13_ENABLE0_APB_EXT_PORT14_ENABLE0_APB_EXT_PORT15_ENABLE0_INCLUDE_IRQ_SYNCHRONIZER0_INCLUDE_APB_TEST_SLAVE1_INCLUDE_APB_TIMER01_INCLUDE_APB_TIMER11_INCLUDE_APB_DUALTIMER01_INCLUDE_APB_UART01_INCLUDE_APB_UART11_INCLUDE_APB_UART21_INCLUDE_APB_WATCHDOG1_BE0_0
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2  27257.7980     8.9   1117.3568   2195.2000 0.0000 cmsdk_mcu_system_cmsdk_apb_dualtimers_0
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1  12073.5998     4.0   3808.6719   7924.6719 0.0000 cmsdk_mcu_system_cmsdk_apb_dualtimers_frc_0
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_ctrl_75_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_20
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_load_period_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_18
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_load_val_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_19
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_0
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_1
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2  11871.6414     3.9   3824.0383   7707.3471 0.0000 cmsdk_mcu_system_cmsdk_apb_dualtimers_frc_1
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_ctrl_75_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_17
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_period_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_15
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_val_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_16
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_2
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_3
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave   3141.3312     1.0    772.7104   2096.4160 0.0000 cmsdk_mcu_system_cmsdk_apb_test_slave_0
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_4     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_1
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_5     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_2
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_6     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_3
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_7     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_4
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0   8508.5951     2.8   3044.7424   5123.5968 0.0000 cmsdk_mcu_system_cmsdk_apb_timer_0
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_ext_in_sync1_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_timer_2
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_read_mux_byte0_reg_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_30
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_ctrl_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_24
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_curr_val_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_timer_3
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_reload_val_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_23
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1   8504.2047     2.8   3062.3040   5101.6448 0.0000 cmsdk_mcu_system_cmsdk_apb_timer_1
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_ext_in_sync1_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_timer_0
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_read_mux_byte0_reg_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_29
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_ctrl_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_22
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_curr_val_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_timer_1
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_reload_val_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_21
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0  11226.2527     3.7   3286.2143   7327.5776 0.0000 cmsdk_mcu_system_cmsdk_apb_uart_1
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_read_mux_byte0_reg_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_28
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_cntr_f_reg_3     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_5
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_div_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_11
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_ctrl_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_12
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_tx_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_13
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_6
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_7
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_shift_buf_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_4
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_tick_cnt_reg_4     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_0_0_4_0
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1  11250.3999     3.7   3308.1663   7329.7727 0.0000 cmsdk_mcu_system_cmsdk_apb_uart_0
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_read_mux_byte0_reg_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_27
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_cntr_f_reg_3     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_3
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_div_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_8
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_ctrl_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_9
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_tx_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_10
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_8
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_9
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_shift_buf_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_2
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_tick_cnt_reg_4     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_2_0_4_0
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2  11169.1775     3.7   3294.9951   7261.7215 0.0000 cmsdk_mcu_system_cmsdk_apb_uart_2
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_read_mux_byte0_reg_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_26
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_cntr_f_reg_3     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_1
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_div_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_5
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_ctrl_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_6
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_tx_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_7
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_rx_shift_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_10
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_11
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_shift_buf_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_0
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_tick_cnt_reg_4     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_1_0_4_0
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog  11366.7451     3.7   1093.2096   2280.8128 0.0000 cmsdk_mcu_system_cmsdk_apb_watchdog_0
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc   7992.7227     2.6   2855.9552   4932.6139 0.0000 cmsdk_mcu_system_cmsdk_apb_watchdog_frc_0
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_reg_carry_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_4
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_reg_carry_reg_1_clk_gate_reg_count_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_5
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_wdog_load_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_14
+u_apb_subsystem/u_ahb_to_apb        3894.2847      1.3     432.4544    3325.7280  0.0000  cmsdk_mcu_system_cmsdk_ahb_to_apb_ADDRWIDTH16_REGISTER_RDATA1_REGISTER_WDATA0_0
+u_apb_subsystem/u_ahb_to_apb/clk_gate_rwdata_reg_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_ahb_to_apb_ADDRWIDTH16_REGISTER_RDATA1_REGISTER_WDATA0_1
+u_apb_subsystem/u_ahb_to_apb/clk_gate_wr_reg_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_ahb_to_apb_ADDRWIDTH16_REGISTER_RDATA1_REGISTER_WDATA0_0
+u_apb_subsystem/u_apb_slave_mux     2344.4736      0.8    2344.4736       0.0000  0.0000  cmsdk_mcu_system_cmsdk_apb_slave_mux_PORT0_ENABLE1_PORT1_ENABLE1_PORT2_ENABLE1_PORT3_ENABLE0_PORT4_ENABLE1_PORT5_ENABLE1_PORT6_ENABLE1_PORT7_ENABLE0_PORT8_ENABLE1_PORT9_ENABLE0_PORT10_ENABLE0_PORT11_ENABLE1_PORT12_ENABLE0_PORT13_ENABLE0_PORT14_ENABLE0_PORT15_ENABLE0_0
+u_cmsdk_mcu_stclkctrl               2015.1936      0.7     706.8544    1308.3392  0.0000  cmsdk_mcu_system_cmsdk_mcu_stclkctrl_003e8_0
+u_cmsdk_mcu_sysctrl                 1815.4304      0.6     583.9232    1163.4560  0.0000  cmsdk_mcu_system_cmsdk_mcu_sysctrl_BE0_0
+u_cmsdk_mcu_sysctrl/clk_gate_reg_addr_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_33
+u_cortexm0integration             160407.6499     52.6       0.0000       0.0000  0.0000  cmsdk_mcu_system_CORTEXM0INTEGRATION_0
+u_cortexm0integration/u_cortexm0  160407.6499     52.6       8.7808       0.0000  0.0000  cmsdk_mcu_system_CORTEXM0DS_0
+u_cortexm0integration/u_cortexm0/u_logic 160398.8691    52.6  98722.5331  58954.2879 0.0000 cmsdk_mcu_system_cortexm0ds_logic_0
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dqcl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_10_27_0
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dunl85_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_0
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ml6l85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_3_20_0
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Pe4l85_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_2
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Q95l85_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_1
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Rn0m85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_1_18_0
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Xedl85_reg_0     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_4_21_0
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Y17m85_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_35
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_H0ql85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_12
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_I88l85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_18
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_J07m85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_16
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_Rb7m85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_14
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_Ryrl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_17
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_T68l85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_15
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_0_clk_gate_Znll85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_13
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Ayzl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_19
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Gx9l85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_23
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Izwl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_21
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Mgel85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_24
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Ocxl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_20
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Veel85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_25
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_1_clk_gate_Y9el85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_22
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_Dmwl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_29
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_E9wl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_30
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_F9ul85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_31
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_Tuzl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_27
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_Upxl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_28
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_2_clk_gate_Zcvl85_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_26
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Afgl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_11
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Bktl85_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_1
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Ca7m85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_5
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Fxol85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_3
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_J3rl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_2
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Mdgl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_9
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_N3nl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_4
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_N87m85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_6
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Ps5l85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_10
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Qugl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_8
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_Sxhl85_reg     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_7
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_ml_clk_gate_X98l85_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_0
+u_system_rom_table                   818.8096      0.3     241.4720     509.2864  0.0000  cmsdk_mcu_system_cmsdk_ahb_cs_rom_table_f0000000_e00ff000_1_f0200000_0_0
+u_system_rom_table/clk_gate_haddr_reg_reg_1     68.0512     0.0      0.0000     68.0512 0.0000 cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_34
+--------------------------------  -----------  -------  -----------  -----------  ------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                   151850.7627  153161.2947  0.0000
+
+1

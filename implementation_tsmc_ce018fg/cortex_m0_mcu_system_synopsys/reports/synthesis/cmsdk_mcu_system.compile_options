@@ -1,0 +1,848 @@
+ 
+****************************************
+Report : compile_options
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:37 2023
+****************************************
+
+Design                                   Compile Option         Value
+--------------------------------------------------------------------------------
+cmsdk_mcu_system                         flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+                                         isolate_port           enabled
+                                         design_ideal_nets      constant_off
+
+cmsdk_mcu_system_CORTEXM0INTEGRATION_0   flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_CORTEXM0DS_0            flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cortexm0ds_logic_0      flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_2 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_1 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_1_18_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_3_20_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_4_21_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_10_27_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_1 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_2 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_3 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_4 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_5 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_6 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_7 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_8 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_9 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_10 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_11 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_12 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_13 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_14 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_15 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_16 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_17 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_18 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_19 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_20 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_21 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_22 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_23 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_24 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_25 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_26 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_27 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_28 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_29 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_30 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_31 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_35 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_mcu_addr_decode_40010000_40011000_0_f0000000_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_ahb_slave_mux_PORT0_ENABLE1_PORT1_ENABLE1_PORT2_ENABLE0_PORT3_ENABLE1_PORT4_ENABLE1_PORT5_ENABLE1_PORT6_ENABLE1_PORT7_ENABLE1_PORT8_ENABLE1_PORT9_ENABLE0_DW32_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_ahb_default_slave_0 flatten              false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_ahb_cs_rom_table_f0000000_e00ff000_1_f0200000_0_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_34 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_mcu_sysctrl_BE0_0 flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_33 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_ahb_gpio_0000_0000_0_0 flatten           false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_ahb_to_iop_0      flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_iop_gpio_0000_0000_0_0 flatten           false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_iop_gpio_0000_0000_0_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_36 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_37 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_38 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_39 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_ahb_gpio_002a_0000_0_0 flatten           false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_ahb_to_iop_1      flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_iop_gpio_002a_0000_0_0 flatten           false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_iop_gpio_002a_0000_0_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_40 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_41 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_42 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_43 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_subsystem_APB_EXT_PORT12_ENABLE0_APB_EXT_PORT13_ENABLE0_APB_EXT_PORT14_ENABLE0_APB_EXT_PORT15_ENABLE0_INCLUDE_IRQ_SYNCHRONIZER0_INCLUDE_APB_TEST_SLAVE1_INCLUDE_APB_TIMER01_INCLUDE_APB_TIMER11_INCLUDE_APB_DUALTIMER01_INCLUDE_APB_UART01_INCLUDE_APB_UART11_INCLUDE_APB_UART21_INCLUDE_APB_WATCHDOG1_BE0_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_ahb_to_apb_ADDRWIDTH16_REGISTER_RDATA1_REGISTER_WDATA0_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_ahb_to_apb_ADDRWIDTH16_REGISTER_RDATA1_REGISTER_WDATA0_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_ahb_to_apb_ADDRWIDTH16_REGISTER_RDATA1_REGISTER_WDATA0_1 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_slave_mux_PORT0_ENABLE1_PORT1_ENABLE1_PORT2_ENABLE1_PORT3_ENABLE0_PORT4_ENABLE1_PORT5_ENABLE1_PORT6_ENABLE1_PORT7_ENABLE0_PORT8_ENABLE1_PORT9_ENABLE0_PORT10_ENABLE0_PORT11_ENABLE1_PORT12_ENABLE0_PORT13_ENABLE0_PORT14_ENABLE0_PORT15_ENABLE0_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_apb_timer_0       flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_timer_3 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_timer_2 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_23 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_24 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_30 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_timer_1       flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_timer_1 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_timer_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_21 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_22 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_29 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_dualtimers_0  flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_apb_dualtimers_frc_0 flatten             false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_18 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_19 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_20 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_1 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_dualtimers_frc_1 flatten             false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_15 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_16 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_17 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_2 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_3 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_watchdog_0    flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_cmsdk_apb_watchdog_frc_0 flatten               false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_14 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_4 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_5 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_uart_1        flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_5 flatten  false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_4 flatten  false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_0_0_4_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_11 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_12 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_13 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_28 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_6 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_7 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_uart_0        flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_3 flatten  false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_2 flatten  false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_2_0_4_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_8 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_9 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_10 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_27 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_8 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_9 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_uart_2        flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_1 flatten  false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_0 flatten  false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_uart_1_0_4_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_5 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_6 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_7 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_26 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_10 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_dualtimers_frc_11 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_apb_test_slave_0  flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_1 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_2 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_3 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_4 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_test_slave_25 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cmsdk_apb_subsystem_APB_EXT_PORT12_ENABLE0_APB_EXT_PORT13_ENABLE0_APB_EXT_PORT14_ENABLE0_APB_EXT_PORT15_ENABLE0_INCLUDE_IRQ_SYNCHRONIZER0_INCLUDE_APB_TEST_SLAVE1_INCLUDE_APB_TIMER01_INCLUDE_APB_TIMER11_INCLUDE_APB_DUALTIMER01_INCLUDE_APB_UART01_INCLUDE_APB_UART11_INCLUDE_APB_UART21_INCLUDE_APB_WATCHDOG1_BE0_0 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_cmsdk_mcu_stclkctrl_003e8_0 flatten            false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_32 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+
+cmsdk_mcu_system_SNPS_CLOCK_GATE_HIGH_cortexm0ds_logic_5_22_44 flatten false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+--------------------------------------------------------------------------------
+1

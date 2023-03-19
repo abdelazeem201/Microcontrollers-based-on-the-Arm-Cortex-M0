@@ -1,0 +1,497 @@
+ 
+****************************************
+Report : clocks
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:37 2023
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+FCLK           20.000   {0 10}                        {FCLK}
+HCLK           20.000   {0 10}                        {HCLK}
+PCLK           20.000   {0 10}                        {PCLK}
+PCLKG          20.000   {0 10}                        {PCLKG}
+SCLK           20.000   {0 10}                        {SCLK}
+VCLK           20.000   {0 10}                        {}
+--------------------------------------------------------------------------------
+ 
+****************************************
+Report : clock_skew
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:37 2023
+****************************************
+
+                 Rise      Fall  Min Rise  Min fall        Uncertainty
+Object          Delay     Delay     Delay     Delay     Plus      Minus   Clock
+--------------------------------------------------------------------------------
+FCLK            2.000     2.000     2.000     2.000     0.200     0.200
+HCLK            2.000     2.000     2.000     2.000     0.200     0.200
+SCLK            2.000     2.000     2.000     2.000     0.200     0.200
+PCLKG           2.000     2.000     2.000     2.000     0.200     0.200
+PCLK            2.000     2.000     2.000     2.000     0.200     0.200
+VCLK            2.000     2.000     2.000     2.000     0.200     0.200
+clk_gate_reg_byte_strobe_reg/latch/CK
+                0.800     0.800     0.800     0.800         -         -   HCLK
+clk_gate_reg_byte_strobe_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_apb_subsystem/clk_gate_ml/latch/CK
+                0.800     0.800     0.800     0.800         -         -   PCLKG
+u_apb_subsystem/clk_gate_ml_0/latch/CK
+                0.800     0.800     0.800     0.800         -         -   PCLKG
+u_apb_subsystem/clk_gate_wdog_itop_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/clk_gate_wdog_itop_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_system_rom_table/clk_gate_haddr_reg_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_system_rom_table/clk_gate_haddr_reg_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cmsdk_mcu_sysctrl/clk_gate_reg_addr_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cmsdk_mcu_sysctrl/clk_gate_reg_addr_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_last_datain_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   FCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_last_datain_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   FCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_dout_padded_reg_5/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_dout_padded_reg_5/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_dout_padded_reg_6/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_dout_padded_reg_6/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_inten_padded_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_inten_padded_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_inttype_padded_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_ahb_gpio_0/u_iop_gpio/clk_gate_reg_inttype_padded_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_last_datain_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   FCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_last_datain_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   FCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_dout_padded_reg_5/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_dout_padded_reg_5/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_dout_padded_reg_6/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_dout_padded_reg_6/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_inttype_padded_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_inttype_padded_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_inten_padded_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_inten_padded_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_apb_subsystem/u_ahb_to_apb/clk_gate_wr_reg_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_apb_subsystem/u_ahb_to_apb/clk_gate_wr_reg_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_apb_subsystem/u_ahb_to_apb/clk_gate_rwdata_reg_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_apb_subsystem/u_ahb_to_apb/clk_gate_rwdata_reg_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_curr_val_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_curr_val_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_ext_in_sync1_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_ext_in_sync1_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_reload_val_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_reload_val_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_ctrl_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_reg_ctrl_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_read_mux_byte0_reg_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_0_u_apb_timer_0/clk_gate_read_mux_byte0_reg_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_curr_val_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_curr_val_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_ext_in_sync1_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_ext_in_sync1_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_reload_val_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_reload_val_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_ctrl_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_reg_ctrl_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_read_mux_byte0_reg_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_timer_1_u_apb_timer_1/clk_gate_read_mux_byte0_reg_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_cntr_f_reg_3/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_cntr_f_reg_3/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_shift_buf_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_shift_buf_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_tick_cnt_reg_4/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_tx_tick_cnt_reg_4/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_div_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_baud_div_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_ctrl_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_ctrl_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_tx_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_reg_tx_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_read_mux_byte0_reg_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_read_mux_byte0_reg_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_0_u_apb_uart_0/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_cntr_f_reg_3/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_cntr_f_reg_3/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_shift_buf_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_shift_buf_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_tick_cnt_reg_4/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_tx_tick_cnt_reg_4/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_div_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_baud_div_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_ctrl_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_ctrl_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_tx_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_reg_tx_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_read_mux_byte0_reg_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_read_mux_byte0_reg_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_1_u_apb_uart_1/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_cntr_f_reg_3/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_cntr_f_reg_3/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_shift_buf_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_shift_buf_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_tick_cnt_reg_4/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_tx_tick_cnt_reg_4/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_div_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_baud_div_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_ctrl_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_ctrl_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_tx_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_reg_tx_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_read_mux_byte0_reg_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_read_mux_byte0_reg_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_rx_shift_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_rx_shift_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_uart_2_u_apb_uart_2/clk_gate_rx_shift_buf_reg_1_clk_gate_reg_rx_buf_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_4/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_4/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_5/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_5/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_6/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_6/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_7/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_test_slave_u_apb_test_slave/clk_gate_reg_data0_reg_7/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Pe4l85_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Pe4l85_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Q95l85_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Q95l85_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dunl85_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dunl85_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Rn0m85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Rn0m85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ml6l85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ml6l85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Xedl85_reg_0/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Xedl85_reg_0/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dqcl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dqcl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_X98l85_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_X98l85_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Bktl85_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Bktl85_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_J3rl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_J3rl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Fxol85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Fxol85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_N3nl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_N3nl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ca7m85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ca7m85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_N87m85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_N87m85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Sxhl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Sxhl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Qugl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Qugl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Mdgl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Mdgl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ps5l85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ps5l85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Afgl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Afgl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_H0ql85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_H0ql85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Znll85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Znll85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Rb7m85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Rb7m85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_T68l85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_T68l85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_J07m85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_J07m85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ryrl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ryrl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_I88l85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_I88l85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ayzl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ayzl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ocxl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Ocxl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Izwl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Izwl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Y9el85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Y9el85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Gx9l85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Gx9l85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Mgel85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Mgel85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Veel85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Veel85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Zcvl85_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Zcvl85_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Tuzl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Tuzl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Upxl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Upxl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dmwl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Dmwl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_E9wl85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_E9wl85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_F9ul85_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_F9ul85_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Y17m85_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   HCLK
+u_cortexm0integration/u_cortexm0/u_logic/clk_gate_Y17m85_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   HCLK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_load_period_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_load_period_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_load_val_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_load_val_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_ctrl_75_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_ctrl_75_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_period_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_period_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_val_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_load_val_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_ctrl_75_reg/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_ctrl_75_reg/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_wdog_load_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLKG
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_wdog_load_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLKG
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_reg_carry_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_reg_carry_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_reg_carry_reg_1_clk_gate_reg_count_reg_1/latch/CK
+                1.400     1.400     1.400     1.400         -         -   PCLK
+u_apb_subsystem/gen_apb_watchdog_u_apb_watchdog/u_apb_watchdog_frc/clk_gate_reg_carry_reg_1_clk_gate_reg_count_reg_1/latch/ECK
+                2.000     2.000     2.000     2.000         -         -   PCLK
+
+                 Max Source Latency                  Min Source Latency
+            Early    Early    Late    Late      Early    Early    Late    Late
+Object      Rise     Fall     Rise    Fall      Rise     Fall     Rise    Fall
+--------------------------------------------------------------------------------
+FCLK           -   -1.000        -   1.000         -   -1.000        -   1.000
+HCLK           -   -1.000        -   1.000         -   -1.000        -   1.000
+SCLK           -   -1.000        -   1.000         -   -1.000        -   1.000
+PCLKG          -   -1.000        -   1.000         -   -1.000        -   1.000
+PCLK           -   -1.000        -   1.000         -   -1.000        -   1.000
+VCLK           -   -1.000        -   1.000         -   -1.000        -   1.000
+1

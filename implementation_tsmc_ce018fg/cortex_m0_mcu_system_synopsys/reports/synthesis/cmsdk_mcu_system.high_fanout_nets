@@ -1,0 +1,40 @@
+ 
+****************************************
+Report : net fanout
+        -threshold 32
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:37 2023
+****************************************
+
+
+Operating Conditions: ss_typical_max_1p62v_125c   Library: sc7_ce018fg_base_rvt_ss_typical_max_1p62v_125c
+Wire Load Model Mode: Inactive.
+
+
+Attributes:
+   dr - drc disabled
+    c - annotated capacitance
+    d - dont_touch
+    i - ideal_net
+    I - ideal_network
+    p - includes pin load
+    r - annotated resistance
+    h - high fanout
+
+Net                 Fanout   Attributes   Capacitance   Driver
+--------------------------------------------------------------------------------
+FCLK                   120   dr, c            0.84      FCLK
+HCLK                   183   dr, c            1.53      HCLK
+PCLK                   107   dr, c            1.04      PCLK
+PCLKG                   75   dr, c            0.54      PCLKG
+n327                    36   dr, c            0.31      clk_gate_reg_byte_strobe_reg/latch/ECK
+u_ahb_gpio_1/u_iop_gpio/n600     34 dr, c     0.20      u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_inten_padded_reg_1/latch/ECK
+u_ahb_gpio_1/u_iop_gpio/n601     33 dr, c     0.16      u_ahb_gpio_1/u_iop_gpio/clk_gate_reg_inttype_padded_reg_1/latch/ECK
+u_cortexm0integration/u_cortexm0/u_logic/n132     33 c     0.14 u_cortexm0integration/u_cortexm0/u_logic/U797/Y
+u_cortexm0integration/u_cortexm0/u_logic/n283     33 c     0.13 u_cortexm0integration/u_cortexm0/u_logic/U783/Y
+u_cortexm0integration/u_cortexm0/u_logic/n1489     33 c     0.15 u_cortexm0integration/u_cortexm0/u_logic/U573/Y
+u_cortexm0integration/u_cortexm0/u_logic/n2236     35 c     0.16 u_cortexm0integration/u_cortexm0/u_logic/U767/Y
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/n417     34 dr, c     0.19 u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_1/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch/ECK
+u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/n417     34 dr, c     0.17 u_apb_subsystem/gen_apb_dualtimers_2_u_apb_dualtimers_2/u_apb_timer_frc_2/clk_gate_prescale_cnt_reg_1_clk_gate_carry_reg_reg_1/latch/ECK
+1

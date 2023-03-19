@@ -1,0 +1,457 @@
+ 
+****************************************
+Report : resources
+Design : cmsdk_mcu_system
+Version: K-2015.06
+Date   : Sun Mar 19 18:21:37 2023
+****************************************
+
+
+No resource sharing information to report.
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_mcu_stclkctrl_003e8_0
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../systems/cortex_m0_mcu/verilog/cmsdk_mcu_stclkctrl.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_1        | DW01_dec       | width=18   | sub_51 (cmsdk_mcu_stclkctrl.v:51) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_1            | DW01_dec         | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_mcu_sysctrl_BE0_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_ahb_cs_rom_table_f0000000_e00ff000_1_f0200000_0_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_ahb_default_slave_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_ahb_slave_mux_PORT0_ENABLE1_PORT1_ENABLE1_PORT2_ENABLE0_PORT3_ENABLE1_PORT4_ENABLE1_PORT5_ENABLE1_PORT6_ENABLE1_PORT7_ENABLE1_PORT8_ENABLE1_PORT9_ENABLE0_DW32_0
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_subsystem_APB_EXT_PORT12_ENABLE0_APB_EXT_PORT13_ENABLE0_APB_EXT_PORT14_ENABLE0_APB_EXT_PORT15_ENABLE0_INCLUDE_IRQ_SYNCHRONIZER0_INCLUDE_APB_TEST_SLAVE1_INCLUDE_APB_TIMER01_INCLUDE_APB_TIMER11_INCLUDE_APB_DUALTIMER01_INCLUDE_APB_UART01_INCLUDE_APB_UART11_INCLUDE_APB_UART21_INCLUDE_APB_WATCHDOG1_BE0_0
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_test_slave_0
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_subsystem/verilog/cmsdk_apb_test_slave.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_2        | DW01_dec       | width=2    | sub_116 (cmsdk_apb_test_slave.v:116) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_2            | DW01_dec         | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_uart_2
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_uart/verilog/cmsdk_apb_uart.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| gte_x_6        | DW_cmp         | width=4    | gte_327 (cmsdk_apb_uart.v:327) |
+| sub_x_7        | DW01_dec       | width=16   | sub_333 (cmsdk_apb_uart.v:333) |
+| sub_x_9        | DW01_dec       | width=4    | sub_348 (cmsdk_apb_uart.v:348) |
+| add_x_11       | DW01_add       | width=4    | add_396 (cmsdk_apb_uart.v:396) |
+| add_x_13       | DW01_add       | width=4    | add_427 (cmsdk_apb_uart.v:427) |
+| gt_x_14        | DW_cmp         | width=4    | gt_437 (cmsdk_apb_uart.v:437) |
+| add_x_18       | DW01_add       | width=4    | add_524 (cmsdk_apb_uart.v:524) |
+| add_x_20       | DW01_add       | width=4    | add_565 (cmsdk_apb_uart.v:565) |
+| gt_x_24        | DW_cmp         | width=4    | gt_451 (cmsdk_apb_uart.v:451) |
+              |                |            | gt_465 (cmsdk_apb_uart.v:465) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| gte_x_6            | DW_cmp           | apparch (area)     |                |
+| sub_x_7            | DW01_dec         | apparch (area)     |                |
+| sub_x_9            | DW01_dec         | apparch (area)     |                |
+| add_x_11           | DW01_add         | apparch (area)     |                |
+| add_x_13           | DW01_add         | apparch (area)     |                |
+| gt_x_14            | DW_cmp           | apparch (area)     |                |
+| add_x_18           | DW01_add         | apparch (area)     |                |
+| add_x_20           | DW01_add         | apparch (area)     |                |
+| gt_x_24            | DW_cmp           | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_uart_0
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_uart/verilog/cmsdk_apb_uart.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| gte_x_6        | DW_cmp         | width=4    | gte_327 (cmsdk_apb_uart.v:327) |
+| sub_x_7        | DW01_dec       | width=16   | sub_333 (cmsdk_apb_uart.v:333) |
+| sub_x_9        | DW01_dec       | width=4    | sub_348 (cmsdk_apb_uart.v:348) |
+| add_x_11       | DW01_add       | width=4    | add_396 (cmsdk_apb_uart.v:396) |
+| add_x_13       | DW01_add       | width=4    | add_427 (cmsdk_apb_uart.v:427) |
+| gt_x_14        | DW_cmp         | width=4    | gt_437 (cmsdk_apb_uart.v:437) |
+| add_x_18       | DW01_add       | width=4    | add_524 (cmsdk_apb_uart.v:524) |
+| add_x_20       | DW01_add       | width=4    | add_565 (cmsdk_apb_uart.v:565) |
+| gt_x_24        | DW_cmp         | width=4    | gt_451 (cmsdk_apb_uart.v:451) |
+              |                |            | gt_465 (cmsdk_apb_uart.v:465) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| gte_x_6            | DW_cmp           | apparch (area)     |                |
+| sub_x_7            | DW01_dec         | apparch (area)     |                |
+| sub_x_9            | DW01_dec         | apparch (area)     |                |
+| add_x_11           | DW01_add         | apparch (area)     |                |
+| add_x_13           | DW01_add         | apparch (area)     |                |
+| gt_x_14            | DW_cmp           | apparch (area)     |                |
+| add_x_18           | DW01_add         | apparch (area)     |                |
+| add_x_20           | DW01_add         | apparch (area)     |                |
+| gt_x_24            | DW_cmp           | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_uart_1
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_uart/verilog/cmsdk_apb_uart.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| gte_x_6        | DW_cmp         | width=4    | gte_327 (cmsdk_apb_uart.v:327) |
+| sub_x_7        | DW01_dec       | width=16   | sub_333 (cmsdk_apb_uart.v:333) |
+| sub_x_9        | DW01_dec       | width=4    | sub_348 (cmsdk_apb_uart.v:348) |
+| add_x_11       | DW01_add       | width=4    | add_396 (cmsdk_apb_uart.v:396) |
+| add_x_13       | DW01_add       | width=4    | add_427 (cmsdk_apb_uart.v:427) |
+| gt_x_14        | DW_cmp         | width=4    | gt_437 (cmsdk_apb_uart.v:437) |
+| add_x_18       | DW01_add       | width=4    | add_524 (cmsdk_apb_uart.v:524) |
+| add_x_20       | DW01_add       | width=4    | add_565 (cmsdk_apb_uart.v:565) |
+| gt_x_24        | DW_cmp         | width=4    | gt_451 (cmsdk_apb_uart.v:451) |
+              |                |            | gt_465 (cmsdk_apb_uart.v:465) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| gte_x_6            | DW_cmp           | apparch (area)     |                |
+| sub_x_7            | DW01_dec         | apparch (area)     |                |
+| sub_x_9            | DW01_dec         | apparch (area)     |                |
+| add_x_11           | DW01_add         | apparch (area)     |                |
+| add_x_13           | DW01_add         | apparch (area)     |                |
+| gt_x_14            | DW_cmp           | apparch (area)     |                |
+| add_x_18           | DW01_add         | apparch (area)     |                |
+| add_x_20           | DW01_add         | apparch (area)     |                |
+| gt_x_24            | DW_cmp           | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_watchdog_0
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_watchdog_frc_0
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_watchdog/verilog/cmsdk_apb_watchdog_frc.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_5        | DW01_dec       | width=16   | sub_257 (cmsdk_apb_watchdog_frc.v:257) |
+| sub_x_7        | DW01_dec       | width=16   | sub_279 (cmsdk_apb_watchdog_frc.v:279) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_5            | DW01_dec         | apparch (area)     |                |
+| sub_x_7            | DW01_dec         | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_dualtimers_0
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_dualtimers_frc_1
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_dualtimers/verilog/cmsdk_apb_dualtimers_frc.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_4        | DW01_dec       | width=8    | sub_262 (cmsdk_apb_dualtimers_frc.v:262) |
+| sub_x_8        | DW01_dec       | width=16   | sub_371 (cmsdk_apb_dualtimers_frc.v:371) |
+| sub_x_10       | DW01_sub       | width=16   | sub_391_aco (cmsdk_apb_dualtimers_frc.v:391) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_4            | DW01_dec         | apparch (area)     |                |
+| sub_x_8            | DW01_dec         | apparch (area)     |                |
+| sub_x_10           | DW01_sub         | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_dualtimers_frc_0
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_dualtimers/verilog/cmsdk_apb_dualtimers_frc.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_4        | DW01_dec       | width=8    | sub_262 (cmsdk_apb_dualtimers_frc.v:262) |
+| sub_x_8        | DW01_dec       | width=16   | sub_371 (cmsdk_apb_dualtimers_frc.v:371) |
+| sub_x_10       | DW01_sub       | width=16   | sub_391_aco (cmsdk_apb_dualtimers_frc.v:391) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_4            | DW01_dec         | apparch (area)     |                |
+| sub_x_8            | DW01_dec         | apparch (area)     |                |
+| sub_x_10           | DW01_sub         | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_timer_1
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_timer/verilog/cmsdk_apb_timer.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_9        | DW01_dec       | width=32   | sub_261 (cmsdk_apb_timer.v:261) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_9            | DW01_dec         | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_timer_0
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../logical/cmsdk_apb_timer/verilog/cmsdk_apb_timer.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_9        | DW01_dec       | width=32   | sub_261 (cmsdk_apb_timer.v:261) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_9            | DW01_dec         | apparch (area)     |                |
+===============================================================================
+
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_ahb_to_apb_ADDRWIDTH16_REGISTER_RDATA1_REGISTER_WDATA0_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_apb_slave_mux_PORT0_ENABLE1_PORT1_ENABLE1_PORT2_ENABLE1_PORT3_ENABLE0_PORT4_ENABLE1_PORT5_ENABLE1_PORT6_ENABLE1_PORT7_ENABLE0_PORT8_ENABLE1_PORT9_ENABLE0_PORT10_ENABLE0_PORT11_ENABLE1_PORT12_ENABLE0_PORT13_ENABLE0_PORT14_ENABLE0_PORT15_ENABLE0_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_ahb_gpio_002a_0000_0_0
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_iop_gpio_002a_0000_0_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_ahb_to_iop_1
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_ahb_gpio_0000_0000_0_0
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_iop_gpio_0000_0000_0_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_ahb_to_iop_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_cmsdk_mcu_addr_decode_40010000_40011000_0_f0000000_0
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_CORTEXM0INTEGRATION_0
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : cmsdk_mcu_system_CORTEXM0DS_0
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : cmsdk_mcu_system_cortexm0ds_logic_0
+****************************************
+
+Resource Report for this hierarchy in file
+        ../../../cores/cortexm0_designstart_r1p0/logical/cortexm0ds/verilog/cortexm0ds_logic.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_1        | DW01_dec       | width=24   | sub_2243 (cortexm0ds_logic.v:2243) |
+| sub_x_2        | DW01_dec       | width=9    | sub_2244 (cortexm0ds_logic.v:2244) |
+| add_x_3        | DW01_inc       | width=31   | add_2246 (cortexm0ds_logic.v:2246) |
+| add_x_4        | DW01_inc       | width=30   | add_2247 (cortexm0ds_logic.v:2247) |
+| mult_x_5       | DW_mult_uns    | a_width=32 | mult_2252 (cortexm0ds_logic.v:2252) |
+        |                | b_width=32 |                            |
+| add_x_6        | DW01_add       | width=34   | add_2253 (cortexm0ds_logic.v:2253) |
+| add_x_7        | DW01_add       | width=34   | add_2262 (cortexm0ds_logic.v:2262) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_1            | DW01_dec         | apparch (area)     |                |
+| sub_x_2            | DW01_dec         | apparch (area)     |                |
+| add_x_3            | DW01_inc         | apparch (area)     |                |
+| add_x_4            | DW01_inc         | pparch (area,speed)                 |
+| mult_x_5           | DW_mult_uns      | pparch (area,speed)                 |
+| add_x_6            | DW01_add         | pparch (area,speed)                 |
+| add_x_7            | DW01_add         | pparch (area,speed)                 |
+===============================================================================
+
+1
